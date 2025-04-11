@@ -3,7 +3,7 @@ mission "Tell Wanderers about the Wanderer in the Pleiades Galaxy"
 	source "Vara K'chrai"
 	to offer
 		has "Wanderers Conversation: offered"
-		has "Wanderer in Pug Galaxy: offered"
+		has "Wanderer in Pug Galaxy: failed"
 	on offer
 		log "Factions" "Stranded" "The Stranded are Wanderers, althought less friendly, who decided to stay behind when the rest of their kin traveled through the Eye to come to the Milky Ways."
 		conversation
@@ -23,7 +23,7 @@ mission "Wanderer in Pug Galaxy"
 		has "Discovered Wanderer Space: offered"
 	to complete
 		never
-	on enter "Drek'ch'koro"
+	on enter "Jik'tha'ru"
 		log `You encountered a people in the Pleiades Galaxy which strongly resemble the Wanderer, who live in the Milky Ways north of Hai space.`
 		dialog `The Ships in this system strongly resemble those of the Wanderer in the Milky Way. Maybe they can tell you more about these people.`
 		fail

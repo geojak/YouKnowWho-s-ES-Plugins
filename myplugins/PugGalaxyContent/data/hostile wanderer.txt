@@ -32,7 +32,7 @@ fleet "Stranded Defense"
 		"Cool Breeze"
 	variant 1
 		"Winter Gale (Missile)" 2
-	variant 2
+	variant 5
 		"Squall"
 		"Hailstone" 4
 		"Flycatcher" 4
