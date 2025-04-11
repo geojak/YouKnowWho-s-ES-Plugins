@@ -10,8 +10,8 @@ def check_local():
 	# for local testing
 	if os.getcwd() == '/storage/emulated/0/Download/mgit/endless-sky-plugins/res/src':
 		os.chdir('../../')
-		current_repo = 'zuckung/endless-sky-plugins'
-		pluginurl = 'https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/'
+		current_repo = 'geojak/YouKnowWho-s-ES-Plugins'
+		pluginurl = 'https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/'
 	else:
 		current_repo = os.environ['CUR_REPO']
 		pluginurl = 'https://github.com/' + current_repo + '/tree/main/myplugins/'
@@ -64,14 +64,14 @@ def make_imagemd(name):
 					width, height = im.size
 				if width > 200 or height > 200:
 					if width > height:
-						pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
-						+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="200"></a><br>\n'
+						pic = '		<td><a href="https://github.com/geojak/YouKnowWho-s-ES-Plugins/blob/main/' + file \
+						+ '"><img src="https://raw.githubusercontent.com/geojak/YouKnowWho-s-ES-Plugins/refs/heads/main/' + file + '" width="200"></a><br>\n'
 					else:
-						pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
-						+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" height="200"></a><br>\n'
+						pic = '		<td><a href="https://github.com/geojak/YouKnowWho-s-ES-Plugins/blob/main/' + file \
+						+ '"><img src="https://raw.githubusercontent.com/geojak/YouKnowWho-s-ES-Plugins/refs/heads/main/' + file + '" height="200"></a><br>\n'
 				else:
-					pic = '		<td><a href="https://github.com/zuckung/endless-sky-plugins/blob/main/' + file \
-					+ '"><img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/refs/heads/main/' + file + '" width="' + str(width) \
+					pic = '		<td><a href="https://github.com/geojak/YouKnowWho-s-ES-Plugins/blob/main/' + file \
+					+ '"><img src="https://raw.githubusercontent.com/geojak/YouKnowWho-s-ES-Plugins/refs/heads/main/' + file + '" width="' + str(width) \
 					+ '" height="' + str(height) + '"></a><br>\n'	
 				pic2 = '		' + last + ' [' + str (width) + 'x' + str(height) + ']</td>\n'
 				pos += 1
@@ -165,15 +165,15 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 				screenpos += 1
 				if screenpos%3 == 1%3:
 					screenshotcode += '\t<tr>\n\t\t<td>'
-					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/geojak/YouKnowWho-s-ES-Plugins/master/screenshots/' + screenshot + '" width="200">'
 					screenshotcode += '</td>\n'
 				elif screenpos%3 == 2%3:
 					screenshotcode += '\t\t<td>'
-					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/geojak/YouKnowWho-s-ES-Plugins/master/screenshots/' + screenshot + '" width="200">'
 					screenshotcode += '</td>\n'
 				elif screenpos%3 == 3%3:
 					screenshotcode += '\t\t<td>'
-					screenshotcode += '<img src="https://raw.githubusercontent.com/zuckung/endless-sky-plugins/master/screenshots/' + screenshot + '" width="200">'
+					screenshotcode += '<img src="https://raw.githubusercontent.com/geojak/YouKnowWho-s-ES-Plugins/master/screenshots/' + screenshot + '" width="200">'
 					screenshotcode += '</td>\n\t</tr>\n'
 			if not len(screenshotlist)%3 == 3%3:
 				screenshotcode = screenshotcode + '\t</tr>\n'
@@ -190,7 +190,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 				break
 		if found == 0:
 			version_number = '1.0.0'
-		assetfiles = 'https://github.com/zuckung/endless-sky-plugins/releases/download/v' + version_number + '-' + withdots + '/'
+		assetfiles = 'https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v' + version_number + '-' + withdots + '/'
 		# get description out of about.txt
 		with open(pathtoplugins + entry + '/about.txt' , 'r') as file1:
 			description_list = file1.readlines()
@@ -230,7 +230,7 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 		imagemdlink = make_imagemd(entry)
 		# create downloadcount badge
 		downloadcountbadge = '<a href="https://img.shields.io/">' \
-			+ '<img src="https://img.shields.io/github/downloads/zuckung/endless-sky-plugins/' + withdots + '.zip?color=blue"></a>'
+			+ '<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/' + withdots + '.zip?color=blue"></a>'
 		# replace template with contents
 		pa_template = pa_template.replace('%name%', entry)
 		pa_template = pa_template.replace('%assetfullpath%', assetfiles)
