@@ -1,3 +1,4 @@
 Pirate.Start|1.0.0
 PirateStart|1.0.0
+ReloadableNukes|1.0.0
 example.plugin|1.0.0
