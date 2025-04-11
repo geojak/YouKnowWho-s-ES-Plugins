@@ -137,9 +137,9 @@ Adds some more systems in the Pug Galaxy, a stranded wanderer faction and anothe
 
 <img src="myplugins/QuargPortals/icon.png" height="100">
 
-[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-QuargPortals/QuargPortals.zip) | 36.99 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [1]<br>
+[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-QuargPortals/QuargPortals.zip) | 28.84 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
->Links fully connects the Quarg Links world through a portal, as described in MZ's lore document.
+>Connects the fully completed Quarg Ringworlds via a portal, as described in MZ's lore document.
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>This plugin adds a portal between the completed Quarg Ringworlds Hevru Hai and Giaru Gegno.

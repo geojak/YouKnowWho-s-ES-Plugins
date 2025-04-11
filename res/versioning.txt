@@ -1,5 +1,5 @@
 Pirate.Start|1.0.0
 PredecessorGasGiant|1.0.0
-QuargPortals|1.0.0
+QuargPortals|1.0.1
 UnusedVanillaContent|1.0.0
 example.plugin|1.0.0
