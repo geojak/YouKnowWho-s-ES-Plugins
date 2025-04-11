@@ -1,0 +1,66 @@
+system Aleit
+	add object "Quarg Portal"
+		sprite planet/wisp
+		distance 412
+		period 12
+		
+planet "Giaru Gegno"
+	outfitter "Quarg"
+		
+system "Hevru Hai"
+	add object "Quarg Portal"
+		sprite planet/wisp
+		distance 412
+		period 12
+		
+planet "Alta Hai"
+	outfitter "Quarg"
+	
+planet "Quarg Portal"
+	attributes "requires: quarg jumpkey"
+	spaceport ``
+	wormhole "Quarg Portal"
+
+wormhole "Quarg Portal"
+	mappable
+	link "Hevru Hai" Aleit
+	link Aleit "Hevru Hai"
+	color "governments: Quarg"
+
+outfitter "Quarg"
+	"Quarg Gatesyncher"
+	
+outfit "Quarg Gatesyncher"
+	category "Systems"
+	series "Drives"
+	index 61
+	cost 100000000
+	thumbnail "outfit/keystone"
+	"mass" 0.1
+	"outfit space" -1
+	"quarg jumpkey" 1
+	description "This Quarg device precisely calibrates a ship's spatial resonance, enabling it to access the advanced portal network that links all completed Quarg Ringworlds. Integrated among Quarg vessels but rarely seen elsewhere, the Gatesyncher is essential for navigating their high-speed transit system technology far beyond the reach of most other species."
+	
+ship "Quarg Lindwyrm"
+	attributes
+		"quarg jumpkey" 1
+		
+ship "Quarg Guivre"
+	attributes
+		"quarg jumpkey" 1
+
+ship "Quarg Drake"
+	attributes
+		"quarg jumpkey" 1
+
+ship "Quarg Wardragon"
+	attributes
+		"quarg jumpkey" 1
+
+ship "Quarg Wyvern"
+	attributes
+		"quarg jumpkey" 1
+
+ship "Quarg Hydra"
+	attributes
+		"quarg jumpkey" 1
