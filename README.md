@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: UnusedVanillaContent<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: QuargPortals<br>
+2025-04-11 | update: UnusedVanillaContent<br>
 2025-04-11 | update: PredecessorGasGiant<br>
 2025-04-11 | update: Pirate Start<br>
 2025-04-10 | initial repository setup<br>
@@ -16,6 +17,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="README.md#PredecessorGasGiant">PredecessorGasGiant</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#PugGalaxyContent">PugGalaxyContent</a><br>
+<a href="README.md#QuargPortals">QuargPortals</a><br>
 <a href="README.md#ReloadableNukes">ReloadableNukes</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#RemantSwan">RemantSwan</a><br>
@@ -123,6 +125,28 @@ An ancient hidden station in the clouds of a gas giant - Will you open pandoras 
 
 Adds some more systems in the Pug Galaxy, a stranded wanderer faction and another pug planet to farm.
 
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
+### QuargPortals
+
+<img src="myplugins/QuargPortals/icon.png" height="100">
+
+[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-QuargPortals/QuargPortals.zip) | 36.99 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [1]<br>
+<br>
+>Links fully connects the Quarg Links world through a portal, as described in MZ's lore document.
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>This plugin adds a portal between the completed Quarg Ringworlds Hevru Hai and Giaru Gegno.
+
+A Quarg Gatesyncher is required to use the portal and is sold by the Quarg for 90 million credits.
+
+All vanilla Quarg ships come with a built-in Gatesyncher integrated into their hulls.
 </blockquote>
 </details>
 
