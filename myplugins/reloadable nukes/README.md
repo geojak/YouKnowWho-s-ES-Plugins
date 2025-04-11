@@ -1,0 +1,3 @@
+Reloadable Nukes
+
+Adds a normal functioning human nuke launcher and nuclear missile ammunition. The vanilla one time use nuke is unchanged.
