@@ -57,7 +57,7 @@ mission "Get a Fake ID"
 				`	"I am not interested."`
 					goto "decline"
 			label offer
-			`	He must have anticipated this moment for a long time as it blurbs out of him, "It seems to me, that you have gotten into trouble with the law enforcement, I offer you a second chance. A clean name, completelty untraceable top notch forgery."`
+			`	He must have anticipated this moment for a long time as it blurbs out of him, "It seems to me, that you have gotten into trouble with the law enforcement, I offer you a second chance. A clean name, completely untraceable top notch forgery."`
 			`	After a brief moment he continues, "During the Pug invasion a few Alien wreckages salvaged, since you were actively participating in the battle, do you happen to have gotten hands onto a Jump Drive?"`
 			choice
 				`	"Fine, I'll hand you a Jump Drive over."`

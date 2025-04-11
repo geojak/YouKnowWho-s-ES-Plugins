@@ -495,7 +495,7 @@ mission "Successors: Gas Station 6"
 	destination "Yoqqa-Vasa-Vasa"
 	passengers 2
 	cargo "Predecessor Isotopes" 190
-	blocked "You will need atleast 190t of free cargo space and two free bunks to continue."
+	blocked "You will need at least 190t of free cargo space and two free bunks to continue."
 	to offer
 		has "Successors: Gas Station 5: done"
 	on offer
