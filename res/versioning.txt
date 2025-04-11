@@ -1,2 +1,3 @@
 Pirate.Start|1.0.0
+PredecessorGasGiant|1.0.0
 example.plugin|1.0.0
