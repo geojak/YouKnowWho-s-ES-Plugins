@@ -1,0 +1,3 @@
+Bunrodea Rebellion
+
+The Megasa had enough of the Tyrant Queen. It is time for war. Which side will you support?
