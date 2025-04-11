@@ -1,0 +1,90 @@
+mission "Pirate Rehab Programm 1"
+	landing
+	name "Join the Pirate Rehab Programm"
+	description "Go to <destination> to join the Pirate Rehab Programm to find a way out of crime."
+	source
+		government "Pirate"
+		attributes "south pirate"
+	destination Cornucopia
+	clearance
+	on complete
+		"reputation: Free Worlds" = 0
+		"reputation: Militia" = 0
+		"reputation: Merchant" = 0
+		"reputation: Neutral" = 0
+		"reputation: Independent" = 0
+	to offer
+		has "event: war begins"
+		random > 35
+		or
+			"reputation: Free Worlds" < -1
+			"reputation: Merchant" < -1
+	on offer
+		log "Got an offer to join the Free World sponsored Pirate Rehab Programm. Could I really find a way out of crime?"	
+		conversation
+			`As you set your battered starship down on the rust-streaked landing pad of the outlaw spaceport, your comms crackle to life with an unexpected message. "Attention, Captain, this is a message from the newly formed Free Worlds government. We know who you are, and we’re offering you a way out. Join our pirate rehabilitation program at Cornucopia, wipe your record clean, and earn a future beyond the shadows.`
+				accept
+				
+mission "Pirate Rehab Programm 2"
+	landing
+	name "Mining for rehabilitation"
+	description "Mine and collect 20 tons of lead by <date>, then bring the minerals to <destination> to continue your rehabilitation. Lead is available in the asteroid field of Beta Lupi."
+	source Cornucopia
+	destination Cornucopia
+	clearance
+	deadline 30
+	on complete
+		outfit "Lead" -20
+		log "Mined lead for the Free World Pirate Rehab Programm. Is this really for rehabilitation?"	
+	to offer
+		has "Pirate Rehab Programm 1: done"
+	on offer	
+		outfit "Asteroid Scanner"
+		"reputation: Pirates" = -1
+		conversation
+			`The spaceport is more crowded than you expected. All around you stand the kind of people you wouldn't want to meet in a remote system. Hardened pirates, some scarred, some missing limbs, all shifting uncomfortably as they wait. The air is thick with suspicion and a silent wariness, like a pack of wolves forced into a cage together. The low hum of quiet conversations dies the moment the doors to the hall slide open with a hiss. A uniformed man steps through, his boots clicking against the metal floor. He isn’t some fresh-faced bureaucrat. His stance is rigid, his gaze sharp. Military, through and through. He looks us over, scanning the crowd like he is sizing up livestock before a sale.`
+			`	"I see you all decided to take the offer," he says, his voice carrying through the hall. "Congratulations. You’ve taken your first step out of crime."`
+			`	A few scoffs and murmurs ripple through the crowd, but no one dares speak up.`
+			`	"Let’s be clear," he continues. "Normal life isn’t easy. It’s hard labor. No looting, no raiding, no stealing from others just to survive. The Free Worlds believe in second chances, but you have to earn them. You’re used to taking what you want. Now you’re going to learn how to work for it."`
+			`	He lets those words sink in before stepping aside, revealing a screen behind him that flickers to life with a display of asteroid fields.`
+			`	"To prepare you for a lawful existence, we’re starting you with honest work. You will mine lead asteroids. You will be given equipment and assigned quotas. You will be monitored. You will be expected to follow orders. Anyone who refuses to cooperate can leave—but don’t expect to be welcomed back into civilized space if you do. You got 30 days to finish the job."`
+			`	You were assigned an asteroid scanner, you should probably go to an outfitter and install it.`
+				accept
+		
+mission "Pirate Rehab Programm 3"
+	landing
+	name "Cargo Rush for rehabilitation"
+	description "Transpors 20 tons of lead to <destination> by <date> to conclude your rehabilitation."
+	source Cornucopia
+	destination Rust
+	clearance
+	deadline
+	cargo "Lead" 20
+	on complete
+		"reputation: Republic" = 2
+		"reputation: Syndicate" = 2
+		"reputation: Militia" = 0
+		"reputation: Merchant" = 10
+		"reputation: Navy (Oathkeeper)" = 100
+		"reputation: Neutral" = 1
+		"reputation: Independent" = 10
+		"reputation: Pirates" = -10
+		"reputation: Deep Security" = 1
+		log "Completed the Pirate Rehab Programm. A new life begins now!"
+		conversation
+			`You guide your ship down toward the designated landing pad. The moment your landing gear touches down, workers in Kraz Cybernetics uniforms swarm the vessel. The cargo bay hisses open, and they begin unloading the lead with practiced efficiency, barely acknowledging your presence. You watch as crate after crate is carted off, disappearing into the facility’s depths. Just like that, the job is done.`
+			`	A uniformed man steps forward, this one older, his face lined with experience. He holds a datapad in one hand, studying it before giving you a firm nod.`
+			`	"Delivery confirmed," he says, tapping a few keys. Then, without ceremony, he pulls a small case from his belt and holds it out to you. "And this is yours."`
+			`	You take it, flipping it open. Inside, a sleek metallic certificate gleams under the hangar lights. "Free Worlds Pirate Rehabilitation Program – Completion of Reformation" is etched across the surface. Your name is printed below, as official as anything you’ve ever seen.`
+			`	"Congratulations," the man says. "You’ve graduated. You’re a free citizen now."`
+	to offer
+		has "Pirate Rehab Programm 2: done"
+	on offer	
+		"reputation: Free Worlds" = 1
+		conversation
+			`You return to the station, in time with your lead quota. The uniformed man is waiting, arms crossed as he checks his tablet. He barely glances up as you step out of the ship.`
+			`	You made your quota," he says, nodding in reluctant approval. "Not bad. But don’t think you’re done yet. Real work doesn’t end when you fill a cargo hold."`
+			`	He taps a few buttons, and another set of coordinates appears on the screen behind him. A planet blinks into view: Rust. You know the name. An industrial world on the far end of Free Worlds space, known for the factories and labs of Kraz Cybernetics.`
+			`	"Your final assignment is simple," he continues. "Deliver that lead to Rust. On time. No detours, no funny business. You prove you can handle an honest haul, and maybe, just maybe, you’ve got a shot at making this life work."`
+			`	You glance at the coordinates, then back at your ship. You’ve hauled cargo before—stolen, mostly. But this time, the challenge isn’t outrunning the law. It’s following it.`
+				accept

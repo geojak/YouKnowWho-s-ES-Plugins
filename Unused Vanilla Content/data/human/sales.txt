@@ -1,9 +1,0 @@
-shipyard "Modified Pirate Ships"
-	"Nighthawk"
-	"Valkyrie"
-	"Waverider "
-	
-planet "Smuggler's Den"
-	add shipyard "Modified Pirate Ships"
-planet Haven
-	add shipyard "Modified Pirate Ships"

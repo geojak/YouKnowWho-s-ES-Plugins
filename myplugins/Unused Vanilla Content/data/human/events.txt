@@ -1,0 +1,99 @@
+event "sentinel add event"
+	fleet "Large Syndicate"	
+		add variant 1
+			"Manta (Proton)"
+			"Sentinel"
+		add variant 1
+			"Sentinel (Particle)"
+		add variant 1
+			"Manta" 
+			"Sentinel (Plasma)"	
+					
+	fleet "Large Core Pirates"
+		add variant 1
+			"Sentinel (Particle)"
+		add variant 1
+			"Sentinel (Plasma)"
+		add variant 1
+			"Sentinel"
+	
+	fleet "Small Northern Pirates"
+		add variant 1
+			"Waverider(Flame)"
+	
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Bactrian (Plasma Blaster Anti-Missile)"
+			"Dagger" 3
+		add variant 1
+			"Corvette (Flamethrower Electron Anti-Missile)"	2
+		add variant 1
+			"Mammoth (Moonless)"
+		add variant 1
+			"Mammoth"		
+		add variant 1
+			"Osprey (Particle Anti-Missile)"
+			
+	fleet "Large Southern Pirates"	
+		add variant 1
+			"Bulwark (Heavy)"
+		add variant 1
+			"Bulwark"
+		add variant 1
+			"Modified Osprey "
+		add variant 1
+			"Modified Osprey (GatlinPlasma)"
+
+	fleet "Small Core Pirates"
+		add variant 1
+			"Fury (Flamethrower)"
+			"Hawk (Plasma)"
+				
+	fleet "Large Core Pirates"
+		add variant 1
+			"Behemoth (Heavy)"
+			"Fury (Flamethrower)" 2
+		add variant 1
+			"Falcon (Plasma)"
+			"Fury (Flamethrower)"
+		add variant 1
+			"Splinter (Flamethrower Blaster)"
+			"Hawk (Plasma)"
+			"Wasp (Plasma)"
+			
+	shipyard "Modified Pirate Ships"
+		"Modified Osprey "
+		"Bulwark"
+		"Mammoth"
+		
+mission "sentinel add mission"
+	landing
+	invisible
+	source
+		government "Republic" "Syndicate" "Free Worlds"
+		attributes "spaceport"
+	to offer
+		has "FW Dreadnoughts Ready: offered"
+	on offer
+		event "sentinel add event" 20 
+		log "Watched a Syndicate Shipyards commercial about their new Heavy Warship called Sentinel."
+		conversation	
+			scene "scene/sentinel"
+			`As you walk through the Spaceport you notice an uncommonly high interest in an advertisement about the newest development from Syndicate Shipyards. You stop at a local bar with a large video screen, which just so happens to be playing the advertisement. You start watching.`
+			`	On screen a large Pirate Fleet has blown multiple ships to shreds until two large Syndicate Security ships appear. At first you wrongly mistake them both as Vanguards, but as the camera moves closer you notice that one is much larger. The Syndicate ships open fire on the Pirates and just a few seconds later there is nothing left but space debris.`
+			`	"The new Sentinel, a true Syndicate masterpiece, pre-order now!"`
+				
+		fail
+	
+mission "sentinel unlock mission"
+	landing
+	invisible
+	to offer
+		has "event: syndicate tech available"
+	on offer
+		event "sentinel unlock event"
+		fail
+		
+event "sentinel unlock event"
+	shipyard "Syndicate Advanced"
+		"Sentinel"

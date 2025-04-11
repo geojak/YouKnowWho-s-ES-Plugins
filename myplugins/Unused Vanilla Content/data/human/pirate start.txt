@@ -1,0 +1,38 @@
+start "pirate start"
+	name "CCOR Start"
+	description `You grew up on Gagarin, once part of the mighty Confederated Councils of the Outer Rim - now collapsed into warlord rule.`
+	description `With no banks left, only pirate kings and criminal overlords offer high-interest loans. Desperate to escape Gagarin's crumbling infrastructure, you made a perilous deal, pledging yourself to a debt that may cost you dearly but grants you the chance to forge your own future among the stars.`
+	thumbnail "scene/piratelobby"
+	date 16 11 3013
+	system "Belenos"
+	planet "Gagarin"
+	conversation "ccor intro"
+	account
+		credits 3000000
+		score 400
+		mortgage Mortgage
+			principal 3057750
+			interest 0.005
+			term 265
+	set "license: Pilot's"
+	set "species: human"
+	set "human space start"
+
+conversation "ccor intro"
+	scene "scene/piratelobby"
+	action
+		give ship "Scrapper" "Old Bucket"
+		event "not from boston" 0
+		"reputation: Merchant" <?= -1
+		"reputation: Republic" <?= -1		
+		"reputation: Free Worlds" <?= -1	
+		"reputation: Militia" <?= -1
+		"reputation: Deep Security	" <?= -1	
+		"reputation: Pirate" >?= 1	
+	`You step into the grim lobby of the pirate warlord's makeshift finance center - a far cry from the faded glory of old banks. The walls, scarred by decades of neglect and bursts of violence, bear the defunct insignias of the Confederated Councils of the Outer Rim now smeared with the rebellious marks of rogue factions fighting for a foothold.`
+	`Inside, a burly loan broker clad in patchwork armor pores over tattered loan documents on a salvaged console. The buzz of clanking machinery and hushed, desperate negotiations fills the air-an unyielding reminder that in these dark times, power is seized by force rather than earned by credit.`
+	`At a creased desk under flickering neon, the broker slides a fresh contract toward you. He leans forward and grunts, "Sign your name here," his gravelly voice echoing as he points to a line that glows faintly under the dim light-a signature that will seal your fate and bind you to a debt so steep it might drown your future.`
+	name
+	`With every stroke of ink on the legal papers, you commit to a grim fate - a crippling daily repayment that underscores the peril and promise of your new life as a pirate captain. Once your signature is complete, a rickety, timeworn elevator shuttles you back to the lobby, where the pulsing chaos of the spaceport calls you to leave Gagarin's decay behind and embrace the uncertain freedom of the stars.`
+	
+

@@ -1,0 +1,11 @@
+planet "New Tibet"
+	tribute 400
+		threshold 2500
+		fleet "Large Militia" 4
+		fleet "Small Militia" 15
+			
+planet Harmony
+	tribute 200
+		threshold 2000
+		fleet "Small Militia" 9
+		fleet "Large Militia" 2
