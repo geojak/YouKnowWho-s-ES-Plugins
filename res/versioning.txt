@@ -1,2 +1,3 @@
+BunrodeaRebellion|1.0.0
 Pirate.Start|1.0.0
 example.plugin|1.0.0
