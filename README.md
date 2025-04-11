@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: PredecessorGasGiant<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: UnusedVanillaContent<br>
+2025-04-11 | update: PredecessorGasGiant<br>
 2025-04-11 | update: Pirate Start<br>
 2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
@@ -108,7 +109,7 @@ An ancient hidden station in the clouds of a gas giant - Will you open pandoras 
 
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
 
-[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-PugGalaxyContent/PugGalaxyContent.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
+[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PugGalaxyContent/PugGalaxyContent.zip) | 594.7 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >PugGalaxyContent
 >
@@ -134,7 +135,7 @@ Adds some more systems in the Pug Galaxy, a stranded wanderer faction and anothe
 
 <img src="myplugins/ReloadableNukes/icon.png" height="100">
 
-[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-ReloadableNukes/ReloadableNukes.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
+[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-ReloadableNukes/ReloadableNukes.zip) | 106.31 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
 >Reloadable Nukes
 >
@@ -158,7 +159,7 @@ Adds a normal functioning human nuke launcher and nuclear missile ammunition. Th
 
 <img src="myplugins/RemantSwan/icon.png" height="100">
 
-[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-RemantSwan/RemantSwan.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
+[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.85 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
 >Remnant Swan
 >
@@ -182,7 +183,7 @@ Adds the Swan to the remants and the Inhibitor Turret, reusing assets from vanil
 
 <img src="myplugins/UnusedVanillaContent/icon.png" height="100">
 
-[UnusedVanillaContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-UnusedVanillaContent/UnusedVanillaContent.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/UnusedVanillaContent/) | <a href="res/imagemd/UnusedVanillaContent.md">view images</a> [6]<br>
+[UnusedVanillaContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-UnusedVanillaContent/UnusedVanillaContent.zip) | 421.95 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/UnusedVanillaContent/) | <a href="res/imagemd/UnusedVanillaContent.md">view images</a> [6]<br>
 <br>
 >Unused Vanilla Content
 >
