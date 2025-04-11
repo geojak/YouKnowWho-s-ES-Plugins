@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: BunrodeaRebellion<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: PugGalaxyContent<br>
+2025-04-11 | update: BunrodeaRebellion<br>
 2025-04-11 | update: Pirate Start<br>
 2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
@@ -57,7 +58,7 @@ The Megasa had enough of the Tyrant Queen. It is time for war. Which side will y
 
 <img src="myplugins/PirateStart/icon.png" height="100">
 
-[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-PirateStart/PirateStart.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
+[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PirateStart/PirateStart.zip) | 573.0 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
 >Pirate Start
 >
@@ -84,7 +85,7 @@ The Megasa had enough of the Tyrant Queen. It is time for war. Which side will y
 
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-PredecessorGasGiant/PredecessorGasGiant.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [1]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PredecessorGasGiant/PredecessorGasGiant.zip) | 320.19 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [1]<br>
 <br>
 >Predeceesor Gas Giant
 >
@@ -108,7 +109,7 @@ An ancient hidden station in the clouds of a gas giant - Will you open pandoras 
 
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
 
-[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-PugGalaxyContent/PugGalaxyContent.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
+[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PugGalaxyContent/PugGalaxyContent.zip) | 594.7 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >PugGalaxyContent
 >

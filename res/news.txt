@@ -1,3 +1,4 @@
+2025-04-11 | update: PugGalaxyContent
 2025-04-11 | update: BunrodeaRebellion
 2025-04-11 | update: Pirate Start
 2025-04-10 | initial repository setup
