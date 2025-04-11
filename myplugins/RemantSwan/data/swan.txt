@@ -18,8 +18,9 @@ outfit "Inhibitor Turret"
 	description `While cannons that can interfere with a ship's engines are useful in any situation, the Remnant decided that it would be even more useful as a turret that their ships could use to impede those chasing after them.`
 
 ship "Heron"
-	"outfit space" 2199
-	"weapon capacity" 551
+	attributes
+		"outfit space" 2199
+		"weapon capacity" 551
 	
 event "remnant: swan appearance"
 	fleet "Large Remnant"
