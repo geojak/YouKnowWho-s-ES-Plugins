@@ -1,0 +1,284 @@
+# The following three missions check if the player has finished the Kestrel missions and if so,
+# runs an event to add several new variants of the particular Kestrel model chosen to various fleets.
+# The addition to Marauder fleet XX keeps overall fleet strength very similar, by removing either a falcon or leviathan for the Kestrel
+
+
+mission "Add KestrelWep"
+	invisible
+	landing
+	to offer
+			has "kestrel: more weapons"
+	on offer
+			event "Add Kestrels (Wep)"
+
+mission "Add KestrelTank"
+	invisible
+	landing
+	to offer
+			has "kestrel: more shields"
+	on offer
+			event "Add Kestrels (Tank)"
+
+mission "Add KestrelEng"
+	invisible
+	landing
+	to offer
+			has "kestrel: more engines"
+	on offer
+			event "Add Kestrels (Eng)"
+	
+	
+event "Add Kestrels (Wep)"		
+	fleet "Large Northern Pirates"
+		add variant 1
+			"KestrelWep (Particle)"
+			"Lance" 2
+		add variant 1
+			"KestrelWep (Laser)"
+			"Lance (Gatling)" 2
+		add variant 1
+			"KestrelWep (Torp)"
+			"Lance" 2
+	
+	fleet "Large Southern Pirates"
+		add variant 1
+			"KestrelWep (Plasma)"
+			"Finch" 2
+		add variant 1
+			"KestrelWep (Torp)"
+			"Finch" 2
+	
+	fleet "Large Core Pirates"
+		add variant 1
+			"KestrelWep (Proton)"
+			"Barb (Proton)" 2
+	
+	fleet "Large Northern Merchants"
+		add variant 1
+			"Star Queen"
+			"KestrelWep (Laser)"
+			"Lance" 2
+		add variant 1
+			"Behemoth"
+			"KestrelWep (Plasma)"
+			"Lance" 2
+		add variant 1
+			"Freighter" 4
+			"KestrelWep (Torp)"
+			"Lance" 2
+		add variant 1
+			"Bulk Freighter (Heavy)"
+			"KestrelWep (Particle)"
+			"Lance" 2
+			
+	fleet "Large Southern Merchants"
+		add variant 1
+			"Freighter (Fancy)" 3
+			"KestrelWep (Laser)"
+			"Finch" 2
+		add variant 1
+			"Hauler III"
+			"Hauler II"
+			"Hauler"
+			"KestrelWep (Plasma)"
+			"Finch" 2
+		add variant 1
+			"Bastion"
+			"Freighter" 3
+			"Star Barge" 4
+			"Fury"
+			"KestrelWep (Torp)"
+			"Finch" 2
+
+	fleet "Large Core Merchants"
+		add variant 1
+			"Bulk Freighter (Heavy)" 2
+			"KestrelWep (Proton)"
+			"Barb (Proton)" 2	
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"KestrelWep (Laser)"
+			"Dagger" 2
+			"Bactrian"
+			"Dagger" 3
+		add variant 1
+			"Star Queen"
+			"KestrelWep (Electron)"
+			"Dagger" 2
+
+
+	fleet "Large Human Merchants (Hai)"
+		add variant 1
+			"Star Queen (Hai)"
+			"KestrelWep (Hai)"
+			"Finch" 2
+	
+	
+event "Add Kestrels (Tank)"
+	fleet "Large Northern Pirates"
+		add variant 1
+			"KestrelDef (Particle)"
+			"Lance (Gatling)" 2
+		add variant 1
+			"KestrelDef (Laser)"
+			"Lance" 2
+		add variant 1
+			"KestrelDef (Torp)"
+			"Lance" 2
+	
+	fleet "Large Southern Pirates"
+		add variant 1
+			"KestrelDef (Plasma)"
+			"Finch" 2
+		add variant 1
+			"KestrelDef (Torp)"
+			"Finch" 2
+	
+	fleet "Large Core Pirates"
+		add variant 1
+			"KestrelDef (Proton)"
+			"Barb (Gatling)" 2
+	
+	fleet "Large Northern Merchants"
+		add variant 1
+			"Hogshead"
+			"KestrelDef (Laser)"
+			"Lance" 2
+		add variant 1
+			"Hauler"
+			"Hauler II"
+			"KestrelDef (Plasma)"
+			"Lance" 2
+		add variant 1
+			"Freighter (Proton)" 3
+			"KestrelDef (Torp)"
+			"Lance" 2
+		add variant 1
+			"Container Transport (Heavy)"
+			"KestrelDef (Particle)"
+			"Lance" 2
+			
+	fleet "Large Southern Merchants"
+		add variant 1
+			"Argosy (Laser)"
+			"KestrelDef (Laser)"
+			"Finch" 2
+		add variant 1
+			"Bulk Freighter (Long Haul)"
+			"KestrelDef (Plasma)"
+			"Finch" 2
+		add variant 1
+			"Bastion (Heavy)"
+			"Freighter" 2
+			"Star Barge (Armed)" 3
+			"Fury (Missile)"
+			"KestrelDef (Torp)"
+			"Finch" 2
+
+	fleet "Large Core Merchants"
+		add variant 1
+			"Container Transport (Short Haul)" 3
+			"KestrelDef (Proton)"
+			"Barb" 2
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"KestrelDef (Electron)"
+			"Dagger" 2
+			"Mule" 2
+			"Dagger" 2
+		add variant 1
+			"Aerie"
+			"Dagger" 4
+			"KestrelDef (Laser)"
+			"Dagger" 2
+
+
+	fleet "Large Human Merchants (Hai)"
+		add variant 1
+			"Behemoth (Hai)"
+			"KestrelDef (Hai)"
+			"Finch" 2
+
+
+event "Add Kestrels (Eng)"	
+	fleet "Large Northern Pirates"
+		add variant 1
+			"KestrelEng (Particle)"
+			"Lance" 2
+		add variant 1
+			"KestrelEng (Laser)"
+			"Lance" 2
+		add variant 1
+			"KestrelEng (Torp)"
+			"Lance (Gatling)" 2
+	
+	fleet "Large Southern Pirates"
+		add variant 1
+			"KestrelEng (Plasma)"
+			"Finch" 2
+		add variant 1
+			"KestrelEng (Torp)"
+			"Finch" 2
+	
+	fleet "Large Core Pirates"
+		add variant 1
+			"KestrelEng (Proton)"
+			"Barb" 2
+	
+	fleet "Large Northern Merchants"
+		add variant 1
+			"Blackbird"
+			"KestrelEng (Laser)"
+			"Lance" 2
+		add variant 1
+			"Behemoth (Speedy)"
+			"KestrelEng (Plasma)"
+			"Lance" 2
+		add variant 1
+			"Scout (Speedy)" 2
+			"KestrelEng (Particle)"
+			"Lance" 2
+		add variant 1
+			"Freighter (Fancy)" 3
+			"KestrelEng (Torp)"
+			"Lance" 2
+			
+	fleet "Large Southern Merchants"
+		add variant 1
+			"Blackbird"
+			"KestrelEng (Laser)"
+			"Finch" 2
+		add variant 1
+			"Hauler III"
+			"Hauler"
+			"KestrelEng (Plasma)"
+			"Finch" 2
+		add variant 1
+			"Argosy (Missile)"
+			"KestrelEng (Torp)"
+			"Finch" 2
+
+	fleet "Large Core Merchants"
+		add variant 1
+			"Freighter" 4
+			"Protector (Tractor Beam)"
+			"KestrelEng (Proton)"
+			"Barb (Proton)" 2
+			
+	fleet "Large Deep Merchants"
+		add variant 1
+			"KestrelEng (Laser)"
+			"Dagger" 2
+			"Headhunter"
+		add variant 1
+			"Corvette"
+			"KestrelEng (Electron)"
+			"Dagger" 2
+
+	fleet "Large Human Merchants (Hai)"
+		add variant 1
+			"Freighter (Hai)" 2
+			"KestrelEng (Hai)"
+			"Finch" 2

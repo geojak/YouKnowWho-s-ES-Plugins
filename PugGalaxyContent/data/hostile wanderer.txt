@@ -1,0 +1,77 @@
+government "Stranded"
+	swizzle 2
+	"crew attack" 1.4
+	"crew defense" 1.8
+	color .70 .91 .12
+	"player reputation" -1
+	"attitude toward"
+		"Wanderer" .01
+		"Pug (Rainbow)" -.01
+		"Forest (Prey)" -.01
+	language "Wanderer"
+	"send untranslated hails"
+	"friendly hail" "wanderer untranslated"
+	"friendly disabled hail" "wanderer untranslated"
+	"hostile hail" "wanderer untranslated"
+	"hostile disabled hail" "wanderer untranslated"
+
+fleet "Stranded Defense"
+	government "Stranded"
+	names "wanderer"
+	personality
+		heroic opportunistic
+	variant 1
+		"Winter Gale"
+		"Cool Breeze (Sunbeam)"
+	variant 1
+		"Cool Breeze" 3
+	variant 1
+		"Winter Gale (Heavy)" 2
+	variant 1
+		"Winter Gale (Missile)"
+		"Cool Breeze"
+	variant 1
+		"Winter Gale (Missile)" 2
+	variant 2
+		"Squall"
+		"Hailstone" 4
+		"Flycatcher" 4
+		
+
+fleet "Stranded Freight"
+	government "Stranded"
+	names "wanderer"
+	cargo 3
+	personality
+		appeasing timid
+	variant 1
+		"Heavy Gust"
+		"Cool Breeze (Sunbeam)"
+	variant 1
+		"Heavy Gust"
+	variant 1
+		"Heavy Gust"
+		"Cool Breeze" 2
+	variant 4
+		"Earth Shaper"
+	variant 2
+		"Earth Shaper" 2
+	variant 1
+		"Earth Shaper" 3
+		
+fleet "Stranded Miners"
+	government "Stranded"
+	names "wanderer"
+	cargo 0
+	personality
+		confusion 20
+		timid frugal mining harvests
+	variant
+		"Heavy Gust"
+		"Earth Shaper" 2
+	variant
+		"Cool Breeze" 2
+		"Earth Shaper" 2
+	variant
+		"Winter Gale"
+		"Earth Shaper"

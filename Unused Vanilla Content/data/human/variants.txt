@@ -1,0 +1,79 @@
+ship "Modified Osprey " "Modified Osprey (GatlinPlasma)"
+	outfits
+		"Anti-Missile Turret" 2
+		"Breeder Reactor"
+		"Bullet Boxes"
+		"D67-TM Shield Generator"
+		"Gatling Gun Ammo" 19500
+		"Gatling Turret" 3
+		Hyperdrive
+		"Impala Plasma Thruster"
+		"LP144a Battery Pack"
+		"Laser Rifle" 40
+		"Liquid Nitrogen Cooler"
+		"Modified Blaster" 9
+		"Orca Plasma Steering"
+		"Plasma Cannon" 2
+		"Small Radar Jammer" 2
+		"Volcano Afterburner"
+		"Water Coolant System"
+		
+ship "Sentinel" "Sentinel (Plasma)"
+	outfits
+		"Anti-Missile Turret"
+		"Fission Reactor" 2
+		"Fuel Pod"
+		Hyperdrive
+		"Ionic Afterburner"
+		"LP144a Battery Pack"
+		"Laser Rifle" 45
+		"Liquid Helium Cooler"
+		"Plasma Cannon" 11
+		"S-970 Regenerator"
+		"Water Coolant System" 2
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		
+ship "Sentinel" "Sentinel (Particle)"
+	outfits
+		"A125 Atomic Steering"
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		"Anti-Missile Turret"
+		"Armageddon Core"
+		Hyperdrive
+		"LP144a Battery Pack"
+		"Laser Rifle" 45
+		"Liquid Helium Cooler"
+		"Meteor Missile" 120
+		"Meteor Missile Launcher" 4
+		"Particle Cannon" 7
+		"S-970 Regenerator"
+		"Small Radar Jammer"
+		"Water Coolant System"
+	gun 0 -132 "Particle Cannon"
+	gun 0 -132 "Particle Cannon"
+	gun 0 -132 "Particle Cannon"
+	gun -22 -122 "Particle Cannon"
+	gun -22 -122 "Particle Cannon"
+	gun 22 -122 "Particle Cannon"
+	gun 22 -122 "Particle Cannon"
+	gun -21 -45 "Meteor Missile Launcher"
+	gun 21 -45 "Meteor Missile Launcher"
+	gun -31 -45 "Meteor Missile Launcher"
+	gun 31 -45 "Meteor Missile Launcher"
+	turret 0 40 "Anti-Missile Turret"
+	
+ship "Waverider " "Waverider(Flame)"
+	outfits
+		"A120 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Catalytic Ramscoop"
+		"D41-HY Shield Generator"
+		"Dwarf Core"
+		Flamethrower 2
+		Hyperdrive
+		"LP072a Battery Pack"
+		"Liquid Nitrogen Cooler"
+		"Plasma Repeater" 2
+		"Small Radar Jammer" 2

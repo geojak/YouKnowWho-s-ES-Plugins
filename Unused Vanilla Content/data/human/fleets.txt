@@ -1,0 +1,35 @@
+fleet "CCOR Logistics"
+		add variant 1
+			"Nighthawk (Slaver)"
+			"Enforcer (CCOR)"	
+		add variant 1
+			"Nighthawk (Slaver)"
+	
+fleet "Small Core Pirates"
+		add variant 1
+			"Nighthawk (Raider)"
+			
+fleet "Large Core Pirates"
+		add variant 1
+			"Nighthawk (Raider)" 3	
+		add variant 1
+			"Falcon (Tractor Beam)"
+
+
+fleet "Small Northern Pirates"
+		add variant 1
+			"Waverider "
+			
+fleet "Large Northern Pirates"	
+		add variant 1
+			"Valkyrie"
+			"Dagger" 2
+			"Fury (Bomber)" 2
+				
+fleet "Marauder fleet X"
+			add variant 1
+				"Clipper (Nuclear)" 2
+				"Manta (Nuclear)" 2
+			
+			
+			

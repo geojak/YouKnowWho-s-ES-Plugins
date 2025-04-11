@@ -1,0 +1,220 @@
+#unused unfettered stuff make available
+
+mission "deploy unfettered ladybug"
+	invisible
+	landing
+	to offer
+			has "event: hai ladybug available"
+	on offer
+			event "unfettered ladybug deployment"
+
+event "unfettered ladybug deployment"
+	fleet "Large Unfettered"
+		add variant 1
+			"Shield Beetle (Pulse Tracker)"
+			"Modified Ladybug "
+		add variant 1
+			"Shield Beetle (Durable Pulse)"
+			"Modified Ladybug "
+		add variant 1
+			"Modified Ladybug " 3
+			
+	fleet "Small Unfettered"
+		add variant 1
+			"Modified Ladybug "
+
+mission "deploy unfettered prototypes ladybug"
+	invisible
+	landing
+	to offer
+		and
+			has "event: unfettered prototype deployment"
+			has "event: unfettered ladybug deployment"
+	on offer
+			event "unfettered ladybug prototype deployment"
+	
+event "unfettered ladybug prototype deployment"
+	fleet "Large Unfettered"
+		add variant 1
+			"Shield Beetle (Six Ion)"
+			"Modified Ladybug (Ionic)"
+		add variant 1
+			"Modified Ladybug (Ionic)" 3
+	fleet "Small Unfettered"
+		add variant 1
+			"Modified Ladybug (Ionic)"
+	
+mission "Unfettered Jump Drive X"
+	minor
+	landing
+	repeat
+	name "Jump Drives for safety"
+	description "The Unfettered Hai have promised to leave you alive if you bring them more jump drives."
+	to offer
+		random < 20
+		has "event: wanderers: derecho mass production"
+		or
+			has "outfit (cargo): Jump Drive"
+			has "outfit (installed): Jump Drive"
+	source
+		attributes "unfettered"
+	on offer
+		conversation
+			`The Unfettered have clearly noticed that you have a jump drive; a large crowd of them has gathered around your ship. Do you want to talk with them, and arrange a sale of your jump drive?`
+			choice
+				`	(No.)`
+					defer
+				`	(Yes.)`
+			`	As soon as you approach the crowd, one of them steps forward and says, "Give us your Jumpd Drive for one million credits and we will keep you alive."`
+			choice
+				`	"Sure, I will accept that deal."`
+					goto end
+				`	"I am not giving you that."`
+					goto more
+			label more
+			`	"Do not misunderstand your situation," they say. "If you want to leave here alive, then you better agree while we are still asking nicely."`
+			choice
+				`	"Okay, as long as you give me a hyperdrive to take its place..."`
+					to display
+						not "outfit (cargo): Jump Drive"
+					goto end
+				`	"Looks like I don't have a choice here. Take the jump drive from my cargo..."`
+					to display
+						has "outfit (cargo): Jump Drive"
+					goto cargo
+				`	(Try to refuse again.)`
+				
+			`	The Unfettered warriors glare at you in disbelief. Murmurs ripple through the crowd, quickly turning to shouts of anger. Before you can react, the first shot rings out—then another. The world erupts in searing pain as pulse rifles rip through you. You collapse to the ground, your vision fading as the mob swarms forward. The last thing you hear is a triumphant cheer as darkness takes you.`
+				die
+				
+			label end
+			action
+				outfit "Hyperdrive" 1
+			`	The Unfettered engineers quickly and carefully remove your jump drive and replace it with an ordinary hyperdrive. You hope that your betrayal of the Wanderes will not be noticed."`
+				accept
+			label cargo
+			`	The Unfettered engineers quickly retrieve the jump drive from your cargo. You hope that your betrayal of the Wanderes will not be noticed."`
+				accept
+	
+	on accept
+		outfit "Jump Drive" -1
+		payment 1000000
+		"reputation: Hai (Unfettered)" += 5
+		"reputation: Hai (Unfettered)" >?= 1
+		
+
+mission "Boarding Unfettered (License)"
+	boarding
+	minor
+	destination "Earth"
+	to offer
+		random > 95
+		has "event: wanderers: derecho mass production"
+	source
+		government "Hai (Unfettered)"
+	on offer
+		set "license: Unfettered Militia"
+		conversation
+			scene "outfit/gegno.license"
+			`When you search the ship <origin> for valueables, you find a small metal plate engraved with hai signs and ship types. This must be a Unfettered Militia License.`
+				decline
+
+
+outfit "Ionic Turret Prototype"
+	licenses
+		"Unfettered Militia"
+outfit "Tripulse Shredder"
+	licenses
+		"Unfettered Militia"
+outfit "Ionic Blaster Prototype"
+	licenses
+		"Unfettered Militia"
+
+mission "deploy unfettered prototypes"
+	invisible
+	landing
+	to offer
+			has "event: wanderers: derecho mass production"
+	on offer
+			event "unfettered prototype deployment"
+
+event "unfettered prototype deployment"
+	outfitter "Unfettered Basics"
+		add "Ionic Turret Prototype"
+		add "Tripulse Shredder"
+		add "Ionic Blaster Prototype"
+
+	fleet "Large Unfettered"
+		add variant 1
+			"Emperor Beetle"
+		add variant 1
+			"Sea Scorpion (Ionic Blasters)" 2
+			"Sea Scorpion (Shredder)" 2
+		add variant 1
+			"Sea Scorpion (Shredder)" 3
+		add variant 1
+			"Sea Scorpion (Ionic Blasters)" 3
+		add variant 1
+			"Shield Beetle (Tripulse Ionic Turret)"
+			"Sea Scorpion (Ionic Blasters)" 2
+		add variant 1
+			"Shield Beetle (Prototype)" 2
+		add variant 1
+			"Solifuge (Prototype)" 2
+			"Violin Spider (Prototype)" 12
+			
+
+ship "Shield Beetle" "Shield Beetle (Prototype)"
+	crew 80
+	outfits
+		`"Basrem" Atomic Steering`
+		`"Biroo" Atomic Steering`
+		`"Bufaer" Atomic Thruster`
+		"Boulder Reactor" 2
+		"Bullfrog Anti-Missile" 2
+		"Hai Chasm Batteries" 2
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Octopus Jammer"
+		"Hai Tracker" 112
+		"Hai Tracker Pod" 2
+		"Hai Williwaw Cooling" 3
+		Hyperdrive
+		"Ionic Blaster Prototype" 2
+		"Ionic Turret Prototype" 2
+		"Pulse Cannon" 2
+		"Pulse Rifle" 85
+		"Quantum Keystone"
+		"Tripulse Shredder" 2
+		"Value Detector"
+		
+ship "Violin Spider" "Violin Spider (Prototype)"
+	outfits
+		"Ionic Blaster Prototype"
+		"Pebble Core"
+		Supercapacitor
+		"Hai Williwaw Cooling"
+		"Pulse Rifle"
+		`"Basrem" Atomic Steering`
+		`"Basrem" Atomic Thruster`
+		
+ship "Solifuge" "Solifuge (Prototype)"	
+	outfits	
+		`"Benga" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Boulder Reactor" 2
+		"Bullfrog Anti-Missile" 2
+		"Chameleon Anti-Missile"
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Tracker" 112
+		"Hai Tracker Pod" 2
+		"Hai Williwaw Cooling" 6
+		Hyperdrive
+		"Ionic Blaster Prototype" 2
+		"Ionic Turret Prototype" 3
+		"Pulse Cannon"
+		"Pulse Rifle" 62
+		"Pulse Turret"
+		"Quantum Keystone"
