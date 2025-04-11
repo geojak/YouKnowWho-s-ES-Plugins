@@ -1,0 +1,99 @@
+planet Angko
+	tribute 100
+		threshold 7000
+		fleet "Bunrodea Royal Guard" 6
+		fleet "Bunrodea Royal Guard" 1
+
+planet Bosunothro
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 4
+
+planet Bunthro
+	tribute 300
+		threshold 10000
+		fleet "Bunrodea Royalty" 8
+		fleet "Bunrodea Royal Guard" 8
+
+planet "Deli Kasi"
+	tribute 100
+		threshold 6000
+		fleet "Bunrodea Royal Guard" 4
+
+planet "Deli Kat"
+	tribute 100
+		threshold 6000
+		fleet "Bunrodea Royal Guard" 4
+
+planet Disara
+	tribute 100
+		threshold 7000
+		fleet "Bunrodea Royal Guard" 6
+		fleet "Bunrodea Royal Guard" 1
+
+planet Erabuthro
+	tribute 1000
+		threshold 10000
+		fleet "Bunrodea Royalty" 8
+		fleet "Bunrodea Royal Guard" 12
+
+planet Eragarthro
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 4
+
+planet "Illbo Avo"
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 2
+	
+planet "Illbo Elo"
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 2
+	
+planet Jentuthro
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 4
+
+planet Kisarra
+	tribute 100
+		threshold 7000
+		fleet "Bunrodea Royal Guard" 6
+		fleet "Bunrodea Royal Guard" 1
+	
+planet Melenci
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 2
+
+planet Okoity
+	tribute 100
+		threshold 8000
+		fleet "Bunrodea Royal Guard" 8
+		fleet "Bunrodea Royal Guard" 2
+
+planet Sardva
+	tribute 200
+				threshold 9000
+				fleet "Bunrodea Royalty" 4
+				fleet "Bunrodea Royal Guard" 8
+
+planet Sopoyra
+	tribute 100
+		threshold 7000
+		fleet "Bunrodea Royal Guard" 6
+		fleet "Bunrodea Royal Guard" 1
+	
+planet Thshybothro
+	tribute 100
+		threshold 7000
+		fleet "Bunrodea Royal Guard" 6
+		fleet "Bunrodea Royal Guard" 1

@@ -1,0 +1,201 @@
+mission "bunrodea uprising 1"
+	landing
+	name "Liberate the Megasa"
+	description "Eliminate the Erabu tyrant fleet at Angko and liberate the remaining Megasa systems (Dominate the Planets to Land)."
+	source
+		government "Bunrodea"
+	destination "Angko"
+		
+	stopover "Kisarra"
+	stopover "Sopoyra"
+	stopover "Melenci"
+	stopover "Disara"
+	stopover "Okoity"
+	
+	npc kill
+		government "Bunrodea"
+		personality staying heroic
+		system "Mego Inito"
+		fleet
+			names "bunrodea"
+			variant
+				"Chigiriki"
+				"Tekkan" 3
+				"Sasumata"
+				"Kunai" 2
+				"Ararebo" 1
+				"Kaiken" 12		
+				"Kama" 2
+	
+	npc
+		government "Bunrodea (Rebels)"
+		personality heroic
+		fleet
+			names "bunrodea"
+			variant
+				"Chigiriki" 3
+				"Tekkan" 5			
+				"Kunai" 4
+				"Kama" 3
+	to offer
+		has "First Contact: Bunrodea (Hostile): done"
+		random < 50
+	on offer
+		event "rebellion starts"
+		set "language: Bunrodea"
+		conversation
+			`You're walking through one of the quieter streets of a Bunrodea city when you hear a faint clicking behind you. You turn around to see a small Megasa, nervously glancing around before approaching you. It extends a small, palm-sized object toward you.`
+			`You take the device, and it hums to life. A moment later, a calm, synthetic voice begins speaking in your language.`
+			`"Please. Do not be alarmed. I have come to speak with you in secret."`
+			choice
+				`	"...Go on."`
+				`	"Who are you?"`
+					goto who
+				`	"This feels like a trap."`
+					goto trap
+			`"I am one of the Megasa. The Queen calls us the lowest of our kind... but we are many. And we are not as weak or obedient as she believes."`
+			`The Megasa glances over its shoulder again before continuing.`
+			`"We live under her rule in silence and fear. But no more. Many of us are ready. We are organizing, preparing. There will be war. A war for liberation. And we need allies."`
+			choice
+				`	"You want my help?"`
+					goto help
+				`	"You're planning to overthrow the Queen?"`
+					goto coup
+				`	"This is none of my business."`
+					goto none
+			label who
+			`"My name is not important. Names are tracked. What matters is the cause. We are the Megasa. The workers. The expendables. The ones the Queen deems unworthy of voice or power. And yet, we are the foundation of her empire."`
+				goto continue
+			label trap
+			`"Then I have risked everything for nothing." The Megasa turns to leave, but pauses. "But I believe you are not like her. Not like them."`
+				goto continue
+			label continue
+			`"We have waited for a sign, for an opening. The Queen's attention is divided now. And with your strength, your ship, your influence—" it lowers its voice, "we might stand a chance."`
+			choice
+				`	"What exactly are you asking me to do?"`
+					goto ask
+				`	"I'm listening."`
+					goto ask
+				`	"This sounds suicidal."`
+					goto risk
+			label help
+			`"Yes. The Queen watches us, controls where we go, what we say. But she cannot yet control what you do. If you aid us, even in small ways—moving supplies, relaying messages, sabotaging key defenses—it could shift the balance."`
+				goto ask
+			label coup
+			`"Not just the Queen. The entire caste system. We want to build a new order—one where all Bunrodea are free, equal. No more Erabu palaces. No more Guards with unchecked power. Just a people rebuilding themselves from the ashes of tyranny."`
+				goto ask
+			label none
+			`The Megasa's shoulders slump. "Then you are like the others. You see injustice and turn away. I will not stop fighting, even if I must die alone."`
+				goto end
+			label ask
+			`"We are still small in number, but growing. What we need now is a symbol. A spark. Someone who is not afraid of the Queen. Someone who has already faced her and lived."`
+			`The Megasa looks up at you with fierce determination.`
+			`"Will you help us, Human? Will you stand with us in this war for freedom?"`
+			choice
+				`	"Yes. I'll help you."`
+					goto yes
+				`	"No. This is not my fight."`
+					goto no
+			label yes
+			`"Then you are a friend of the Megasa. I will send word. Expect contact soon." The Megasa bows slightly, then vanishes down a narrow alley. The translation device remains in your hand, quietly blinking—a symbol of what's to come.`
+				accept
+			label no
+			`"Then leave, outsider. Our blood will water the roots of freedom without you." The Megasa turns and vanishes without another word.`
+				decline
+			label risk
+			`"Perhaps. But so is living like this. At least if we fall, it will be while standing."`
+				goto ask
+			label end
+				decline
+	
+	on accept
+		"reputation: Bunrodea (Erabu)" <?= -1
+		"reputation: Bunrodea (Guard)" <?= -1
+		"reputation: Bunrodea" <?= -1		
+		"reputation: Bunrodea (Rebels)" >?= 10	
+		
+	on complete
+		event "rebellion complete"
+		payment 900000
+		
+	on decline
+		"reputation: Bunrodea (Rebels)" <?= 0	
+		
+	on visit
+		dialog `You land on <planet> after defeating its defensive fleet. The planet is in a state of civil with Megasa on streets cheering for you.`
+		
+mission "bunrodea uprising 2"
+	landing
+	name "Restore Order"
+	description "A rebellion has broken out in the Megasa systems. The Queen's Guard is mobilizing to restore order, and they've contacted you to assist in the operation. Eliminate the insurgent fleet at Angko and reestablish control over the Systems Mego Seo and Mego Inito (Dominate the Planets to Land)."
+	source
+		government "Bunrodea" "Bunrodea (Guard)"
+	destination "Angko"
+
+	stopover "Deli Kasi"
+
+	to offer
+		has "bunrodea uprising 1: declined"
+
+	on offer
+		conversation
+			`A message pings your ship's comms. It's encoded with Bunrodea military protocol. When you accept it, the face of a stern-looking Guard officer fills the screen.`
+			`"We are aware of your recent contact with the traitorous Megasa faction. That you chose not to aid them speaks well of your judgment."`
+			`"A rebellion has broken out in Angko. The insurgents have seized several outlying stations and are threatening major trade corridors. The Queen has authorized limited operations to reestablish control—swiftly and efficiently."`
+			`The officer leans forward slightly. "You have proven capable. We would see that capability put to use. Help us restore order, and you will be rewarded accordingly."`
+			choice
+				`"I accept. Let's put an end to this."`
+					goto accept
+				`"I'm not a mercenary for your regime."`
+					goto decline
+			label accept
+			`"Excellent. A detachment of our forces will meet you in Orbit. Together, you will sweep the Angko system and crush the rebellion at its root."`
+				accept
+			label decline
+			`"A shame. We hoped you were more than just an idle wanderer. But the Queen does not beg."`
+				decline
+
+	on accept
+		"reputation: Bunrodea (Rebels)" <?= -1	
+		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Erabu)" += 10
+		"reputation: Bunrodea (Guard)" += 10
+		"reputation: Bunrodea (Megasa)" += 10
+
+	npc kill
+		government "Bunrodea"
+		personality heroic
+		fleet
+			names "bunrodea"
+			variant
+				"Chigiriki"
+				"Tekkan" 3
+				"Sasumata"
+				"Kunai" 2
+				"Ararebo" 1
+				"Kaiken" 12		
+				"Kama" 2
+	
+	npc kill
+		government "Bunrodea (Rebels)"
+		personality staying heroic
+		system "Mego Inito"
+		fleet
+			names "bunrodea"
+			variant
+				"Chigiriki" 3
+				"Tekkan" 5			
+				"Kunai" 4
+				"Kama" 3
+
+	on complete
+		dialog `"With the last rebel ship disabled, silence falls over Angko. A transmission crackles through: "Excellent work, Captain. The Queen's will is upheld. Order is restored."`
+		event "rebellion crushed"
+		payment 900000
+		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Erabu)" += 10
+		"reputation: Bunrodea (Guard)" += 10
+		"reputation: Bunrodea (Megasa)" += 10
+
+	on visit
+		dialog `You arrive at <planet>. Local authorities, loyal to the Queen, greet you with cautious approval as Guard troops march through the streets to secure the area.`

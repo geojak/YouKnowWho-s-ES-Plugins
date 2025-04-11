@@ -1,0 +1,97 @@
+event "rebellion starts"
+	fleet "Bunrodea Erabu Freight"
+		government "Bunrodea (Erabu)"
+
+	system "Mego Faro"
+		government "Bunrodea (Rebels)"
+		add fleet "Bunrodea Rebels" 1000
+		
+	system "Mego Inito"
+		government "Bunrodea (Rebels)"
+		add fleet "Bunrodea Rebels" 1500
+		
+	system "Mego Seo"
+		government "Bunrodea (Rebels)"
+		add fleet "Bunrodea Rebels" 1500
+		
+	system "Jentu Centi"
+		add fleet "Bunrodea Rebels" 1500
+
+	system Piadenli
+		add fleet "Bunrodea Rebels" 1500
+
+	system "Gento Ah"
+		add fleet "Bunrodea Rebels" 2250
+
+	system "Xutluno Rees"
+		add fleet "Bunrodea Rebels" 3500
+	
+	system "Paru Paru"
+		add fleet "Bunrodea Rebels" 3500
+	
+	system "Ravu Kon"
+		add fleet "Bunrodea Rebels" 1200
+	
+	system "Kifrana Terberah"
+		add fleet "Bunrodea Rebels" 2250
+	
+	system "Urba Pest"
+		add fleet "Bunrodea Rebels" 1500
+		
+	system "Sera Natta"
+		add fleet "Bunrodea Rebels" 3500
+	
+	planet Sopoyra
+		"required reputation" 10
+	
+event "rebellion complete"	
+	system "Jentu Centi"
+		government "Bunrodea (Rebels)"
+
+	system Piadenli
+		government "Bunrodea (Rebels)"
+
+	system "Gento Ah"
+		government "Bunrodea (Rebels)"
+
+	system "Xutluno Rees"
+		government "Bunrodea (Rebels)"
+	
+	system "Ravu Kon"
+		government "Bunrodea (Rebels)"
+	
+	system "Kifrana Terberah"
+		government "Bunrodea (Rebels)"
+	
+	system "Urba Pest"
+		government "Bunrodea (Rebels)"
+		
+	system "Sera Natta"
+		government "Bunrodea (Rebels)"
+		
+event "rebellion crushed"	
+	system "Mego Inito"
+		government "Bunrodea"
+		
+	system "Mego Seo"
+		government "Bunrodea"
+		
+	system "Jentu Centi"
+		government "Bunrodea (Rebels)"
+
+	system Piadenli
+		government "Bunrodea (Rebels)"
+
+	system "Gento Ah"
+		government "Bunrodea (Rebels)"
+
+	system "Xutluno Rees"
+		government "Bunrodea (Rebels)"
+	
+	system "Urba Pest"
+		government "Bunrodea (Rebels)"
+		
+	system "Sera Natta"
+		government "Bunrodea (Rebels)"
+	
+	

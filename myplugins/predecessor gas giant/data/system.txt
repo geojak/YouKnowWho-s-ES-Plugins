@@ -1,9 +1,0 @@
-system Avasaa-Novaa
-	remove object
-		sprite planet/gas2
-		distance 3502
-		period 3502
-	add object "Avasaa-Aa-Tej"
-		sprite planet/gas2
-		distance 3502
-		period 3502
