@@ -1,0 +1,11 @@
+government "Unknown House"
+	"attitude toward"
+		Successor 1
+	"bribe" 0
+	swizzle 4
+	color 0 .8 0.653
+	language "Successor"
+	"friendly hail" "successor friendly hail"
+	"friendly disabled hail" "successor friendly disabled hail"
+	"hostile hail" "successor hostile hail"
+	"hostile disabled hail" "successor hostile disabled hail"
