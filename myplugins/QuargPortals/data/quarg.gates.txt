@@ -34,8 +34,8 @@ outfit "Quarg Gatesyncher"
 	category "Systems"
 	series "Drives"
 	index 61
-	cost 100000000
-	thumbnail "outfit/keystone"
+	cost 90000000
+	thumbnail "outfit/gatesyncher"
 	"mass" 0.1
 	"outfit space" -1
 	"quarg jumpkey" 1
