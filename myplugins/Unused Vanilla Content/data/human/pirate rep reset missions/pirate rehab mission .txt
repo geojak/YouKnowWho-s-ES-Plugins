@@ -1,7 +1,7 @@
-mission "Pirate Rehab Programm 1"
+mission "Pirate Rehab Program 1"
 	landing
-	name "Join the Pirate Rehab Programm"
-	description "Go to <destination> to join the Pirate Rehab Programm to find a way out of crime."
+	name "Join the Pirate Rehab Program"
+	description "Go to <destination> to join the Pirate Rehab Program to find a way out of crime."
 	source
 		government "Pirate"
 		attributes "south pirate"
@@ -20,12 +20,12 @@ mission "Pirate Rehab Programm 1"
 			"reputation: Free Worlds" < -1
 			"reputation: Merchant" < -1
 	on offer
-		log "Got an offer to join the Free World sponsored Pirate Rehab Programm. Could I really find a way out of crime?"	
+		log "Got an offer to join the Free World sponsored Pirate Rehab Program. Could I really find a way out of crime?"	
 		conversation
 			`As you set your battered starship down on the rust-streaked landing pad of the outlaw spaceport, your comms crackle to life with an unexpected message. "Attention, Captain, this is a message from the newly formed Free Worlds government. We know who you are, and we’re offering you a way out. Join our pirate rehabilitation program at Cornucopia, wipe your record clean, and earn a future beyond the shadows.`
 				accept
 				
-mission "Pirate Rehab Programm 2"
+mission "Pirate Rehab Program 2"
 	landing
 	name "Mining for rehabilitation"
 	description "Mine and collect 20 tons of lead by <date>, then bring the minerals to <destination> to continue your rehabilitation. Lead is available in the asteroid field of Beta Lupi."
@@ -35,9 +35,9 @@ mission "Pirate Rehab Programm 2"
 	deadline 30
 	on complete
 		outfit "Lead" -20
-		log "Mined lead for the Free World Pirate Rehab Programm. Is this really for rehabilitation?"	
+		log "Mined lead for the Free World Pirate Rehab Program. Is this really for rehabilitation?"	
 	to offer
-		has "Pirate Rehab Programm 1: done"
+		has "Pirate Rehab Program 1: done"
 	on offer	
 		outfit "Asteroid Scanner"
 		"reputation: Pirates" = -1
@@ -51,7 +51,7 @@ mission "Pirate Rehab Programm 2"
 			`	You were assigned an asteroid scanner, you should probably go to an outfitter and install it.`
 				accept
 		
-mission "Pirate Rehab Programm 3"
+mission "Pirate Rehab Program 3"
 	landing
 	name "Cargo Rush for rehabilitation"
 	description "Transpors 20 tons of lead to <destination> by <date> to conclude your rehabilitation."
@@ -70,7 +70,7 @@ mission "Pirate Rehab Programm 3"
 		"reputation: Independent" = 10
 		"reputation: Pirates" = -10
 		"reputation: Deep Security" = 1
-		log "Completed the Pirate Rehab Programm. A new life begins now!"
+		log "Completed the Pirate Rehab Program. A new life begins now!"
 		conversation
 			`You guide your ship down toward the designated landing pad. The moment your landing gear touches down, workers in Kraz Cybernetics uniforms swarm the vessel. The cargo bay hisses open, and they begin unloading the lead with practiced efficiency, barely acknowledging your presence. You watch as crate after crate is carted off, disappearing into the facility’s depths. Just like that, the job is done.`
 			`	A uniformed man steps forward, this one older, his face lined with experience. He holds a datapad in one hand, studying it before giving you a firm nod.`
@@ -78,7 +78,7 @@ mission "Pirate Rehab Programm 3"
 			`	You take it, flipping it open. Inside, a sleek metallic certificate gleams under the hangar lights. "Free Worlds Pirate Rehabilitation Program – Completion of Reformation" is etched across the surface. Your name is printed below, as official as anything you’ve ever seen.`
 			`	"Congratulations," the man says. "You’ve graduated. You’re a free citizen now."`
 	to offer
-		has "Pirate Rehab Programm 2: done"
+		has "Pirate Rehab Program 2: done"
 	on offer	
 		"reputation: Free Worlds" = 1
 		conversation

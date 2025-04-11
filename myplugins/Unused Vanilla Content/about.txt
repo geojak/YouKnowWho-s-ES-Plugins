@@ -3,11 +3,11 @@ Unused Vanilla Content
 This plugin adds a ton of things:
 1. New Pirate Game Start
 2. Pirate Rehab Mission chain and Fake Id, 2 ways out of crime
-3. Added unused vanilla ships to the game, you will see alot more pirate fleet variants: Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
+3. Added unused vanilla ships to the game, you will see a lot more pirate fleet variants: Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
 4. This plugin contains Kestrel.Unlocks from zuckung
 5. Made New Tibet and Girtarb Tributable
 6. The unfettered hai start using their protye weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion
 7. This Plugin reenables Hai Reveal
 8. Unfettered start using the modified Ladybug during Hai Reveal
-9. You can steal a Unfettered ID by boarding them, which allos you to buy the new protoype weapons
+9. You can steal a Unfettered ID by boarding them, which allows you to buy the new prototype weapons
 10. You can continue to trade jump drives to the Unfettered even after you helped the Wanderers

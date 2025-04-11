@@ -44,7 +44,7 @@ outfit "Nuclear Warhead Launcher"
 		"hit force" 6000
 		"missile strength" 200
 	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
-	description "	[This is a reusable Nuclear Warhead launcher, unlike the one-shot Nuclear Missile, but otherwise idetical]"
+	description "	[This is a reusable Nuclear Warhead launcher, unlike the one-shot Nuclear Missile, but otherwise identical]"
 
 outfit "Nuclear Warhead"
 	plural "Nuclear Warheads"

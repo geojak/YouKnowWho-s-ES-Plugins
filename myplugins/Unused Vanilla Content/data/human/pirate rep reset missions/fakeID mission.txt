@@ -49,7 +49,7 @@ mission "Get a Fake ID"
 				`	"Sorry Black, you got the wrong guy."`
 					goto "decline"
 			label "offer2"
-			`	"It seems to me, that you have gotten into trouble with the law enforcement recently, I offer you a second chance. A clean name, completelty untraceable top notch forgery."`
+			`	"It seems to me, that you have gotten into trouble with the law enforcement recently, I offer you a second chance. A clean name, completely untraceable top notch forgery."`
 			`	"So, do we have a deal"?`
 			choice
 				`	"Alright Black, I will get you a Jump Drive."`
@@ -90,7 +90,7 @@ mission "Get a Fake ID"
 				"Rainmaker (Mark II)" 2
 				"Gunboat (Mark II)" 1
 
-		dialog "The intercepting Fleet has been destroyed. You should land on <destination> to compelte your transaction with Black."
+		dialog "The intercepting Fleet has been destroyed. You should land on <destination> to complete your transaction with Black."
 		
 event "joined the civilians"
 	government "Escort"

@@ -19,7 +19,7 @@ mission "Unwanted Cargo Trigger plus"
 
 mission "Hai Leaks Response 2A"
 	landing
-	name "Reenable HR / replacement for HR Leaks Response 2"
+	name "Re-enable HR / replacement for HR Leaks Response 2"
 	description "Head to <destination> to meet Sayari because of increased pirate activity"
 	source
 		government "Hai"
