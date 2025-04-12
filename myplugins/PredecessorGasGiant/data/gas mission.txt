@@ -269,7 +269,7 @@ mission "Successors: Gas Station 2 House Seineq"
 			label trusted
 			`	You are escorted to a grand hall within House Seineq's estate, where a scion of the house stands surrounded by advisors.`
 			`	The scion of House Seineq regards you carefully, their arms folding in contemplation. Their skin shimmers with a mix of orange and blue, signaling curiosity and caution as they regard you.`
-			`	"The station thou speak'st of, it is of House Seineq's domain. It is a valuable relic of our past, and House Seineq wouldst see it reclaimed."`
+			`	"I am Seineq Veythiq", they announce, their voice echoing slightly in the vaulted space. "Keeper of Avasaa-Aa-Tej's legacy. The station thou speak'st of, it is of House Seineq's domain. It is a valuable relic of our past, and House Seineq wouldst see it reclaimed."`
 			choice
 				`	"Can you tell me the purpose that the station once served?"`
 					goto purpose
@@ -306,9 +306,9 @@ mission "Successors: Gas Station 2 House Seineq"
 			label purpose
 			action
 				set "Successors: purpose"
-			`	"The station was once a refinery for rare isotopes," the scion says, their tone measured but their skin flickering with faint streaks of yellow - unease. "These isotopes were used in the construction of... hyperdrives and other advanced technologies. A noble endeavor, to be sure, but one that has long since passed into history."`
+			`	"The station was once a refinery for rare isotopes," Seineq Veythiq explains, their tone measured but their skin flickering with faint streaks of yellow - unease. "These isotopes were used in the construction of... hyperdrives and other advanced technologies. A noble endeavor, to be sure, but one that has long since passed into history."`
 			`	They pause, their skin darkening to a deep, contemplative violet as if weighing their words. "Yet... there are those who believe such knowledge is best left undisturbed. House Aqrabe, for instance, wouldst see the past remain buried, while House Chydiyi fears the disruption its recovery might bring."`
-			`	The scion's gaze lingers on you, their skin rippling with faint, almost imperceptible flashes of red-a sign of tension or frustration. "But thou need'st not concern thyself with such matters. The station's purpose is clear: it was a place of industry, nothing more."`
+			`	Seineq Veythiq's gaze lingers on you, their skin rippling with faint, almost imperceptible flashes of red-a sign of tension or frustration. "But thou need'st not concern thyself with such matters. The station's purpose is clear: it was a place of industry, nothing more."`
 				goto morechoices
 				
 			label fate
@@ -438,7 +438,7 @@ mission "Successors: Gas Station 4"
 				
 	on complete
 		conversation
-			`You request for an audience with the Scion of House Seineq - the very one who first spoke to you of the refinery at Avasaa-Aa-Tej, which remains under their House's claim.`
+			`You request for an audience with Seineq Veythiq, the very Scion of House Seineq who first spoke to you of the refinery at Avasaa-Aa-Tej, which remains under their House's claim.`
 			`	He stands waiting as you arrive, esides them, towers an armored guard, who watches you with careful scrutiny.`
 			`	"Thou return'st with an offering, I presume? Speak then, and swiftly."`
 			choice
@@ -447,7 +447,7 @@ mission "Successors: Gas Station 4"
 
 			`Taaquvaleq steps forward, bows low, their voice even. "House Seineq holds claim over the station's remnants at Avasaa-Aa-Tej. Thy House I seek what little remains - and in return, I shall share what I have built."`
 			`	"A bold trade, yet an unbalanced one. Thou would'st offer scraps of wisdom in exchange for what is ours by right? The station, the yield within-House Seineq hath laid claim since time immemorial.`
-			`	"Yet..." The scion's skin ripples with reluctant violet, their arms coiling in contemplation. "None but thee have braved the storm's heart and returned to speak of it. Our own ships falter where thine endures." A pause, their chromatophores flickering with grudging amber acknowledgment. "If any hand may reclaim what was lost, 'tis thine." The guard shifts uneasily, their metallic bands clinking softly as the scion continues: "Thus we grant thee passage - but mark this well: what is retrieved comes first to Seineq's vaults. Prove thy worth in this, and then... perhaps some portion may be allotted to thy engineer's ambitions."`
+			`	"Yet..." Seineq Veythiq's skin ripples with reluctant violet, their arms coiling in contemplation. "None but thee have braved the storm's heart and returned to speak of it. Our own ships falter where thine endures." A pause, their chromatophores flickering with grudging amber acknowledgment. "If any hand may reclaim what was lost, 'tis thine." The guard shifts uneasily, their metallic bands clinking softly as the scion continues: "Thus we grant thee passage - but mark this well: what is retrieved comes first to Seineq's vaults. Prove thy worth in this, and then... perhaps some portion may be allotted to thy engineer's ambitions."`
 			`The guard steps forward, extending a data-sphere that glows faint blue. "These codes grant passage," they rumble. "But know this - I shall accompany thee not as escort, but as warden. What is retrieved comes first to House Seineq. Only then shall we consider its disposition."`
 			`Taaquvaleq's skin flickers yellow-green - nervous hope. "The prototype requires but a fraction of the isotopes. Surely-"`
 			`The scion raises a limb, cutting them off. "No bargains ere the property is secured. The guard shall record all findings. Once the haul is weighed and catalogued in our vaults... then we may speak of shares."`
@@ -511,11 +511,11 @@ mission "Successors: Gas Station 6"
 	on complete
 		conversation
 			`As you land at the grand estate of House Seineq, the station's atmosphere feels tense yet expectant. The Seineq Guard disembarks first, striding ahead to announce your arrival. Taaquvaleq follows, their chromatophores flickering between anxious blues and cautious greens.`
-			`Once more, you are led through ornate halls, their towering columns shimmering under the glow of bioluminescent engravings. At the far end of the chamber, the Scion of House Seineq awaits, adorned in elaborate metallic bands that signal both power and tradition.`
+			`Once more, you are led through ornate halls, their towering columns shimmering under the glow of bioluminescent engravings. At the far end of the chamber, the Seineq Veythiq awaits, adorned in elaborate metallic bands that signal both power and tradition.`
 			`The Scion of House Seineq extends a limb, their chromatophores shifting to deep violet as they study the recovered isotopes. "Thou return'st, and with that which was promised." The words carry the weight of solemn approval. "A task well-wrought, and well-received."`
-			`Their gaze drifts to Taaquvaleq, whose skin flashes bright green-elation-before settling into respectful indigo. "House Seineq doth honor its word. Thee shall have two weight of the isotopes recovered-no more, no less." The Scion's voice turns precise, each syllable measured. "'Tis enough to complete thy craft, yet scarce enough to tempt folly."`
+			`Their gaze drifts to Taaquvaleq, whose skin flashes bright green-elation-before settling into respectful indigo. "House Seineq doth honor its word. Thee shall have two weight of the isotopes recovered-no more, no less." Veythiq's voice turns precise, each syllable measured. "'Tis enough to complete thy craft, yet scarce enough to tempt folly."`
 			`"Thy House is most generous," Taaquvaleq murmurs, their limbs curling in a gesture of gratitude. "With but this fraction, I may weave anew what was once lost."`
-			`A sudden tension fills the chamber as the Scion steps forward, their chromatophores darkening like storm clouds. "Now, mark this well, travelers." The air grows heavy with unspoken threat. "What thou hast seen, what thou hast taken-none but thee shall know. House Seineq grants thee this yield, but in return, we demand silence."`
+			`A sudden tension fills the chamber as Seineq Veythiq steps forward, their chromatophores darkening like storm clouds. "Now, mark this well, travelers." The air grows heavy with unspoken threat. "What thou hast seen, what thou hast taken-none but thee shall know. House Seineq grants thee this yield, but in return, we demand silence."`
 			`Behind them, the armored Seineq guard moves with deliberate menace, their segmented plates scraping against each other. "Swear it now," they rumble, the sound vibrating through the damp air, "before the House, before the void itself. No record, no tale, no whispered word beyond these halls."`
 			`The Scion's skin ripples black at the edges-a final warning. "The secrets of Avasaa-Aa-Tej are not for the tongues of lesser minds. Speak naught of what transpired, nor of what was found..." They let the pause stretch, their meaning clear. "...lest thou invite ruin upon thine own house."`
 			`As you prepare to depart, Taaquvaleq draws near, "If thy curiosity yet lingers, traveler... meet me upon O-Vasa-Oa. The final threads are almost woven. None else shall test it. If thou wouldst see what hath become of our labor... come."`
@@ -717,7 +717,7 @@ mission "Successors: Gas Station 9"
 		conversation
 			`O-Vasa-Oa feels different this time. The once-busy landing pads of the workshop are quiet. The humming of engines and the chatter of artisans are gone-replaced with a strange, watchful stillness.`
 			`No one comes to greet you, so you make your way toward the engineering facility where Taaquvaleq once welcomed you. But the doors are sealed. A single message blinks on the console: "ACCESS REVOKED."`
-			`A voice calls your name from the far side of the platform. You turn to see a familiar figure-the Scion of House Seineq. Flanked by two guards, they stride toward you, their chromatophores unreadable in the harsh light.`
+			`A voice calls your name from the far side of the platform. You turn to see a familiar figure - Seineq Veythiq, Scion of House Seineq. Flanked by two guards, they stride toward you, their chromatophores unreadable in the harsh light.`
 			`"We were told thou wouldst return," they say, voice low and guarded.`
 				goto questions
 			
@@ -730,7 +730,7 @@ mission "Successors: Gas Station 9"
 			
 			label confrontation
 			`You recount what Zaathiq revealed: that the Quick Drive was not built from parts, but recovered. Restored. A Predecessor Point Drive brought back to life. You describe the matching schematics, the isotopic configuration, the catalytic chamber drawn from the bones of a long-dead engine.`
-			`The Scion listens without interruption, though their chromatophores ripple in slow, unsettled hues.`
+			`Seineq Veythiq listens without interruption, though their chromatophores ripple in slow, unsettled hues.`
 			`Their gaze lingers on the sealed doors ahead. "We thought we shaped the future... but we stirred the ash of our own ruin."`
 			action
 				set "Successors: revealed"
@@ -768,4 +768,4 @@ mission "Successors: Gas Station 9"
 				clear "Successors: revealed"
 				clear "Successors: taaquvaleq"
 	on complete
-		log "Confronted House Seineq at O-Vasa-Oa. Taaquvaleq vanished before their secrets could be questioned. The Scion acknowledged the Quick Drive's origin, but denied intent. Now, the burden of truth is yours to carry."
+		log "Confronted House Seineq at O-Vasa-Oa. Taaquvaleq vanished before their secrets could be questioned. Seineq Veythiq acknowledged the Quick Drive's origin, but denied intent of their House. Now, the burden of truth is yours to carry."
