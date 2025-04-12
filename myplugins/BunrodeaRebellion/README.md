@@ -1,3 +1,3 @@
-Bunrodea Rebellion
-
-The Megasa had enough of the Tyrant Queen. It is time for war. Which side will you support?
+Add a mission that triggers the start of the civil war.
+You can choose which side to pick.
+All bunrodea planets are now dominatable. do this to get acces to their outfitters and shipyards

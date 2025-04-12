@@ -1,6 +1,3 @@
-Unused Vanilla Content
-
-This plugin adds a ton of things:
 1. Added unused vanilla ships to the game, you will see a lot more pirate fleet variants: Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
 2. This plugin contains Kestrel.Unlocks from zuckung
 3. Made New Tibet and Girtarb Tributable

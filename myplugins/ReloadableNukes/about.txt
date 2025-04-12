@@ -1,3 +1,1 @@
-Reloadable Nukes
-
-Adds a normal functioning human nuke launcher and nuclear missile ammunition. The vanilla one time use nuke is unchanged.
+Ever wanted one of those Person ships like the modified osprey, or the maurauder vanguard. This plugins reuses unused vanilla content and adds it properly.

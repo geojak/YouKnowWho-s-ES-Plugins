@@ -1,3 +1,1 @@
-Remnant Swan
-
-Adds the Swan to the remants and the Inhibitor Turret, reusing assets from vanilla. Rebalanced by me.
+Adds the Swan, the images have been unused in the game files for years, now its finally ingame.

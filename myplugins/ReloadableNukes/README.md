@@ -1,3 +1,3 @@
-Reloadable Nukes
+Stats original by Zitchas, rebalanced by me.
 
-Adds a normal functioning human nuke launcher and nuclear missile ammunition. The vanilla one time use nuke is unchanged.
+Also made the Inhibitor Turret, which is in the game files avialable (also rebalanced)

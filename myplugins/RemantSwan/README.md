@@ -1,3 +1,3 @@
-Remnant Swan
+Stats original by Zitchas, rebalanced by me.
 
-Adds the Swan to the remants and the Inhibitor Turret, reusing assets from vanilla. Rebalanced by me.
+Also made the Inhibitor Turret, which is in the game files avialable (also rebalanced)
