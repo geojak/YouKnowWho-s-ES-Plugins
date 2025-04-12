@@ -39,36 +39,37 @@ mission "Successors: Gas Station 2 Deadend House Aqrabe"
 				`	(No.)`
 					defer
 				`	(Yes.)`
+			label ask
+			action
+				log "People" "Aqrabe Zaathiq" "Aqrabe Zaathiq is a Successor First Archivar in the vaults of the noble House Aqrabe. They keep records about our Predecessors' history."
 			`	Determined to seek answers, you move through the hushed halls of House Aqrabe's archives. Unlike the grand libraries of other Houses, Aqrabe's records are kept in plain, unadorned vaults.`
 			`	Many Successors ignore you entirely, yet, after persistent inquiry, a robed attendant finally acknowledges your presence.`
 			`	"If thou dost seek history, seek first one who may grant it." Their voice is steady, but distant. "First Archivar Aqrabe Zaathiq holds such knowledge, but whether they shall bestow it is another matter."`
 			`	You are led deeper into the archives, where a lone figure glides between tall, water-stained tablets, their chromatophores dimmed in thought.`
 			`	At the mention of your request, they turn sharply, their elongated form leaning forward, arms folding neatly. "Thou seek'st knowledge not meant for thee."`
-		action
-			log "People" "Aqrabe Zaathiq" "Aqrabe Zaathiq is a Successor First Archivar in the vaults of the noble House Aqrabe. They keep records about our Predecessors' history."
-		choice
-			`	"I only wish to understand the stations history."`
-				goto insist
-			`	"Then I won't trouble you further."`
-				fail
-		label insist
-		`	Zaathiq's chromatophores flicker yellow, their voice measured but firm. "Understanding? Curiosity oft leadeth the mind where wisdom would not tread."`
-		`	They study you for a long moment, then shake their head. "The station is locked for good reason. Seek not that which should remain unseen."`
-		choice
-			`	"At the very least, can you tell me what the station was used for?"`
-				goto purpose
-			`	"I won't press further."`
-				fail
-		label purpose
-		`	Zaathiq exhales, a slow and deliberate motion. "Long ago, it served its purpose. Now, 'tis but a husk - an empty shell, unworthy of further pursuit."`
-		choice
-			`	"An empty shell? Then why are you so reluctant to speak of the station past?"`
-				goto deny
-			`	"I see. Thank you for your time."`
-				fail
-		label deny
-		`	Their chromatophores shimmer black for an instant-a warning. "Not all that is forgotten is truly gone. Let it rest."`
-			fail
+			choice
+				`	"I only wish to understand the stations history."`
+					goto insist
+				`	"Then I won't trouble you further."`
+					decline
+			label insist
+			`	Zaathiq's chromatophores flicker yellow, their voice measured but firm. "Understanding? Curiosity oft leadeth the mind where wisdom would not tread."`
+			`	They study you for a long moment, then shake their head. "The station is locked for good reason. Seek not that which should remain unseen."`
+			choice
+				`	"At the very least, can you tell me what the station was used for?"`
+					goto purpose
+				`	"I won't press further."`
+					decline
+			label purpose
+			`	Zaathiq exhales, a slow and deliberate motion. "Long ago, it served its purpose. Now, 'tis but a husk - an empty shell, unworthy of further pursuit."`
+			choice
+				`	"An empty shell? Then why are you so reluctant to speak of the station past?"`
+					goto deny
+				`	"I see. Thank you for your time."`
+					decline
+			label deny
+			`	Their chromatophores shimmer black for an instant-a warning. "Not all that is forgotten is truly gone. Let it rest."`
+				decline
 				
 mission "Successors: Gas Station 2 Deadend House Chydiyi"
 	minor
@@ -90,24 +91,24 @@ mission "Successors: Gas Station 2 Deadend House Chydiyi"
 			choice
 				`	(No.)`
 					defer
-				`	(Yes.)`			
+				`	(Yes.)`
 			`	You make your way through House Chydiyi's central bastion. After asking around, you are eventually directed to an administrative hall, where a Chydiyi records officer oversees the maintenance of historical archives and military reports. The officer stands waiting as you arrive, their posture rigid; a finely inscribed bronze sigil is clasped to their chest.`
 			`	"Thou seek'st records beyond thine authority," they state, voice clipped. "House Chydiyi is not permitted to share such knowledge."`
-		choice
-			`	"Who forbids it?"`
-				goto orders
-			`	"Then I won't press the matter."`
-				fail
-		label orders
-		`	The officer's chromatophores flicker, their tone unwavering. "The treaties of old bind our tongues. The station is not thine concern. These are the orders we obey."`
-		choice
-			`	"Surely someone can make an exception."`
-				goto deny
-			`	"Understood."`
-				fail
-		label deny
-		`	"Exceptions are for fools and the dead." They incline their head. "I bid thee a swift departure."`
-			fail
+			choice
+				`	"Who forbids it?"`
+					goto orders
+				`	"Then I won't press the matter."`
+					decline
+			label orders
+			`	The officer's chromatophores flicker, their tone unwavering. "The treaties of old bind our tongues. The station is not thine concern. These are the orders we obey."`
+			choice
+				`	"Surely someone can make an exception."`
+					goto deny
+				`	"Understood."`
+					decline
+			label deny
+			`	"Exceptions are for fools and the dead." They incline their head. "I bid thee a swift departure."`
+				decline
 				
 mission "Successors: Gas Station 2 Deadend House Myurej"
 	minor
@@ -133,21 +134,21 @@ mission "Successors: Gas Station 2 Deadend House Myurej"
 			`	Seeking answers, you step into House Myurej's opulent halls, a vast atrium of polished stone and cascading water. The air is thick with rich incense, carrying a scent both foreign and intoxicating.`
 			`	As you make inquiries, a finely adorned attendant eyes you from afar, their chromatophores shifting through hues of intrigue and amusement. Eventually, they glide closer, speaking in a tone that is both warm and distant.`
 			`	"Ah. A traveler seeks whispers of the past?" Their chromatophores ripple with faint amusement. "How quaint."`
-		choice
-			`	"It is more than a curiosity."`
-				goto insist
-			`	"If you won't help, I'll go."`
-				fail
-		label insist
-		`	"Perhaps to thee." They exhale in a slow, theatrical sigh. "But not all knowledge is for all eyes; some things belong only to those who understand their worth."`
-		choice
-			`	"Then tell me what it is worth."`
-				goto deny
-			`	"Fine. Keep your secrets."`
-				fail
-		label deny
-		`	They chuckle, a shimmering pulse of condescension crossing their skin. "Oh, traveler. If thou must ask, thou shall never know."`
-			fail
+			choice
+				`	"It is more than a curiosity."`
+					goto insist
+				`	"If you won't help, I'll go."`
+					decline
+			label insist
+			`	"Perhaps to thee." They exhale in a slow, theatrical sigh. "But not all knowledge is for all eyes; some things belong only to those who understand their worth."`
+			choice
+				`	"Then tell me what it is worth."`
+					goto deny
+				`	"Fine. Keep your secrets."`
+					decline
+			label deny
+			`	They chuckle, a shimmering pulse of condescension crossing their skin. "Oh, traveler. If thou must ask, thou shall never know."`
+				decline
 				
 mission "Successors: Gas Station 2 Deadend House Sioeora"
 	minor
@@ -175,7 +176,7 @@ mission "Successors: Gas Station 2 Deadend House Sioeora"
 			`	Sieasej's skin shifts to a darker, more contemplative hue. "Avasaa-Aa-Tej... 'Tis a name that stirs old memories. A place of industry, once, but now lost to the storms. What dost thou seek there, Captain?"`  
 			`	"I need access codes to enter the station. Do you know where I might find them?"`  
 			`	Sieasej hums thoughtfully, their skin flickering with patterns of uncertainty. "The station thou speak'st of lies under the dominion of House Seineq, and 'tis they who hold the keys to its secrets. Seek thy answers there, Captain, for I can tell thee no more."`  
-			fail
+				decline			
 			
 mission "Successors: Gas Station 2 Deadend House Kaatrij"
 	minor
@@ -203,11 +204,13 @@ mission "Successors: Gas Station 2 Deadend House Kaatrij"
 			`	"Thou should'st not seek such things," they whisper. "Some remnants are cursed. Some places, haunted."`
 			choice
 				`	"Haunted? By what?"`
-			`	"By that which should never wake again." The Successor's voice drops lower. "Leave it. Let the storm take it. Naught but ruin shall come of this."`
-				fail
+					goto what
 				`	"You are afraid."`
 			`	"Aye, and thou should'st be as well." The Successor turns away, unwilling to speak further.`
-				fail	
+				decline
+			label what
+			`	"By that which should never wake again." The Successor's voice drops lower. "Leave it. Let the storm take it. Naught but ruin shall come of this."`
+				decline
 
 mission "Successors: Gas Station 2 House Seineq"
 	minor
@@ -253,7 +256,7 @@ mission "Successors: Gas Station 2 House Seineq"
 					
 			`	Seeking out the uniformed Successor you spoke with before, you explain your desire to discuss Avasaa-Aa-Tej once more. This time, their skin shifts to a warm green-recognition-and they nod, their tone more open than before. "Thou hast earned some measure of trust among our people. I shall bring thee to one of our house's scions."`
 				to display
-					"Successors: asked about the gas station"
+					has "Successors: asked about the gas station"
 			
 			action
 				set "Successors: asked about the gas station"
@@ -340,8 +343,7 @@ mission "Successors: Gas Station 3"
 	to offer
 		has "Successors: Gas Station 2 House Seineq: done"
 	on offer
-		action
-			log "People" "Taaquvaleq" "Taaquvaleq is an artisan of engines, who describes themself as a 'weaver of motion.' They are the inventor of the Quick Drive Prototype."
+		log "People" "Taaquvaleq" "Taaquvaleq is an artisan of engines, who describes themself as a 'weaver of motion.' They are the inventor of the Quick Drive Prototype."
 		conversation	
 			`	As you step onto the landing pad, a Successor in deep-green engineering robes approaches, chromatophores pulsing pink; a sign of restrained excitement.`
 			`	"Hail, traveler. I am Taaquvaleq, artisan of engines, weaver of motion."`
@@ -625,8 +627,7 @@ mission "Successors: Gas Station 8"
 				`(Comply)`
 					goto escort
 				`(Refuse)`
-					`The nearest guard's armor plates shift with a metallic sigh as they close ranks around you. Before you can react, a powerful limb grips your shoulder, the pressure just shy of painful. "This is not a request," the archivist murmurs, their skin flashing admonishing violet.`
-					goto escort
+			`The nearest guard's armor plates shift with a metallic sigh as they close ranks around you. Before you can react, a powerful limb grips your shoulder, the pressure just shy of painful. "This is not a request," the archivist murmurs, their skin flashing admonishing violet.`
 			label escort
 			`They lead you through winding passages where ancient stone tablets line the walls, their carved histories glowing faintly in the dim light. The procession stops before a towering figure standing beneath a massive relief of the Predecessors' downfall. Zaathiq's chromatophores burn black with barely-contained fury as they turn to face you.`
 			`"Thou'rt a fool." The words land like a hammer blow. "A reckless, blind fool who hath unshackled the past." Their limbs tremble as crimson ripples across their skin. "Dost thou even comprehend what thou hast wrought with this... this Quick Drive abomination?"`
@@ -634,24 +635,29 @@ mission "Successors: Gas Station 8"
 				`"It's just an improved hyperspace system."`
 					goto explanation
 				`"I only did what House Seineq asked."`
-					`Zaathiq's skin flashes incredulous yellow. "Ah yes, the perfect servant! Tell me, when Seineq bids thee leap into a singularity, wilt thou ask how high?" The sarcasm drips like venom as they coil their limbs tightly. "Thou play'st at ignorance, yet that shall not spare thee from the consequences."`
-					goto explanation
+					goto servant
 				`"I don't answer to you."`
-					`The guards tense, but Zaathiq waves them back with a derisive flick. "Thine arrogance mirrors our Predecessors' in their final days. How fitting." Their chromatophores darken to stormy indigo. "Then hear this truth, traveler, and know it shall haunt thy steps henceforth."`
-					goto explanation
+			`The guards tense, but Zaathiq waves them back with a derisive flick. "Thine arrogance mirrors our Predecessors' in their final days. How fitting." Their chromatophores darken to stormy indigo. "Then hear this truth, traveler, and know it shall haunt thy steps henceforth."`
+				goto explanation
+			label servant
+			`Zaathiq's skin flashes incredulous yellow. "Ah yes, the perfect servant! Tell me, when Seineq bids thee leap into a singularity, wilt thou ask how high?" The sarcasm drips like venom as they coil their limbs tightly. "Thou play'st at ignorance, yet that shall not spare thee from the consequences."`
 			label explanation
 			`Zaathiq uncoils suddenly, knocking over a stand of ancient tablets that shatter against the floor. "The Quick Drive is no mere invention!" The outburst sends ripples through the gathered archivists. "It is not a recreation of the Point Drive, yet it shares the same fatal flaw - the isotopes powering it!" `
 			`They produce a holographic emitter, its flickering light revealing star maps torn asunder. "See here the Tangles - not natural formations, but scars from the Point Drive's ravages. The isotopes within thy drive's heart, the very same that powered our ancestors' ruin, should never have been disturbed again. They were used as fuel-stabilizing catalysts within our Predecessors' burning chambers, and their instability tore apart the fabric of space itself." Their skin pulses with grief-stricken blue. "Thanks to thee, they near their goal."`
 			choice
 				`"...That can't be true."`
-					`Zaathiq's laughter carries no mirth. "Denial suits thee poorly. The void keeps records even House Seineq cannot erase." They gesture to the ruined tablets. "Our histories are written in dead worlds."`
-					goto end
+					goto untrue
 				`"Why would Seineq hide this?"`
-					`"Power," Zaathiq spits, their skin flashing predatory red. "With the perfected drive, they could reshape the cluster to their whims. The other Houses? Mere obstacles to be... relocated." The final word hangs ominously.`
-					goto end
+					goto hidethis
 				`"What do you want me to do?"`
-					`Zaathiq's chromatophores swirl in conflicted patterns. "Understand this-House Seineq's ambitions are not thine own. The Quick Drive may be different from the Point Drive, but the danger remains the same. When the reckoning comes, remember-House Aqrabe warned thee."`
-					goto end
+			`Zaathiq's chromatophores swirl in conflicted patterns. "Understand this-House Seineq's ambitions are not thine own. The Quick Drive may be different from the Point Drive, but the danger remains the same. When the reckoning comes, remember-House Aqrabe warned thee."`
+				goto end
+			label untrue
+			`Zaathiq's laughter carries no mirth. "Denial suits thee poorly. The void keeps records even House Seineq cannot erase." They gesture to the ruined tablets. "Our histories are written in dead worlds."`
+				goto end
+			label hidethis
+			`"Power," Zaathiq spits, their skin flashing predatory red. "With the perfected drive, they could reshape the cluster to their whims. The other Houses? Mere obstacles to be... relocated." The final word hangs ominously.`
+				goto end
 			label end
 			action
 				log "House Aqrabe revealed the dark past of the Point Drive. The Predecessors fell not to war, but to their own hubris."
