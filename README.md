@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-11 | update: QuargPortals<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-12 | update: PredecessorGasGiant<br>
+2025-04-11 | update: QuargPortals<br>
 2025-04-11 | update: UnusedVanillaContent<br>
 2025-04-11 | update: PredecessorGasGiant<br>
 2025-04-11 | update: Pirate Start<br>
@@ -87,7 +88,7 @@ The Megasa had enough of the Tyrant Queen. It is time for war. Which side will y
 
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PredecessorGasGiant/PredecessorGasGiant.zip) | 320.19 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [1]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-PredecessorGasGiant/PredecessorGasGiant.zip) | 322.56 kb | 2025-04-12 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [1]<br>
 <br>
 >Predeceesor Gas Giant
 >
