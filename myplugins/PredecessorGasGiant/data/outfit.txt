@@ -26,7 +26,7 @@ outfit "Quick Drive"
 outfit "Unlocked Quick Drive"
 	category "Unique"
 	cost 690000
-	thumbnail "outfit/jump drive"
+	thumbnail "outfit/point drive"
 	"mass" 22
 	"outfit space" -22
 	"scram drive" .15
