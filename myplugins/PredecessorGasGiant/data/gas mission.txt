@@ -330,7 +330,8 @@ mission "Successors: Gas Station 2 House Seineq"
 				clear "Successors: asked about the gas station"
 				set "Successors: Gas Station 2 House Seineq: done"
 				log "House Seineq spoke of the station in Avasaa-Aa-Tej. They say it was once a refinery for isotopes used in the creation of advanced hyperdrives of our Predecessors. You can't shake the feeling that they are not telling you everything."
-
+				log "People" "Seineq Veythiq" "Seineq Veythiq is a Scion of House Seineq. They say to be Keeper of Avasaa-Aa-Tej's legacy"
+			
 mission "Successors: Gas Station 3"
 	name "Test the Quick Drive Prototype"
 	description `Install the Quick Drive Prototype and test fly it to Uuoru-Veldt-Stir in the Myruet-Kvelq System, then return your findings to Taaquvaleq at O-Vasa-Oa.`
