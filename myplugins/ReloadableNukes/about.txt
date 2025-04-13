@@ -1,1 +1,1 @@
-Ever wanted one of those Person ships like the modified osprey, or the maurauder vanguard. This plugins reuses unused vanilla content and adds it properly.
+Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
