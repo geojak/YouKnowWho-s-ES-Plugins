@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: EscapeVelocity<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: KorathInBunrodeaSpace<br>
+2025-04-13 | update: EscapeVelocity<br>
 2025-04-13 | update: HaiExtension<br>
 2025-04-12 | update: PredecessorGasGiant<br>
 2025-04-11 | update: QuargPortals<br>
@@ -19,6 +20,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="README.md#HaiExtension">HaiExtension</a><br>
 <a href="README.md#HumanExtension">HumanExtension</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
+<a href="README.md#KorathInBunrodeaSpace">KorathInBunrodeaSpace</a><br>
 <a href="README.md#PirateStart">PirateStart</a><br>
 <a href="README.md#PredecessorGasGiant">PredecessorGasGiant</a><br>
 <a href="README.md#PugGalaxyContent">PugGalaxyContent</a><br>
@@ -140,6 +142,28 @@ You will see more pirate fleet variants.
 
 
 !!This plugin contains zuckungs Kestrel.Unlocks!!
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
+### KorathInBunrodeaSpace
+
+<img src="myplugins/KorathInBunrodeaSpace/icon.png" height="100">
+
+[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 52.74 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
+<br>
+>Not even the Bunrodea are safe from Korath raids...
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>Adds minables to Eneva Katta and Genta Bo.
+
+Thshybo Le, Shini Bori, Genta Bo, and Eneva Katta are now frequented by the Korath.
+
+The more northern Bunrodea systems towards the core are not getting raided, due to the Archons blocking the way.
 </blockquote>
 </details>
 
