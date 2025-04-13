@@ -1,4 +1,9 @@
-Adds some shrouded systems
-A new hostile pug faction for you to farm, including its own Arfecta Gaurdian
-Adds the stranded, a group of wanderer that refused to go through the Eye millennia ago
-All stranded ships are vanilla graphics that had been unused but in he game for years
+New Systems
+Mego Pug: Hostile Pug stronghold with tributable planets (Hana Pug, Pugglijok)  
+Shrouded NGC Systems: Uninhabited belts, patrolled by Pincer Beasts
+Stranded Territories with new vanilla wanderer ships
+
+The Stranded Wanderers
+Hostile isolationist descendants of the Wanderers
+New wanderer ships made from unused vanilla assets: Squall, Hailstone, Winter Gale, Cool Breeze, Heavy Gust
+First Contact mission

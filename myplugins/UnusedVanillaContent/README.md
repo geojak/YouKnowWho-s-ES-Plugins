@@ -1,8 +1,9 @@
-1. Added unused vanilla ships to the game, you will see a lot more pirate fleet variants: Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
-2. This plugin contains Kestrel.Unlocks from zuckung
-3. Made New Tibet and Girtarb Tributable
-4. The unfettered hai start using their protye weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion
-5. This Plugin reenables Hai Reveal
-6. Unfettered start using the modified Ladybug during Hai Reveal
-7. You can steal a Unfettered ID by boarding them, which allows you to buy the new prototype weapons
-8. You can continue to trade jump drives to the Unfettered even after you helped the Wanderers
+Added unused vanilla ships to the game:
+Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
+You will see a more pirate fleet variants.
+
+This Plugin reenables Hai Reveal!
+Additionally the unfettered hai start using their prototye weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion. Unfettered start using the modified Ladybug during Hai Reveal.
+You can steal a Unfettered military ID by boarding unfettered hai ships in wanderer space or continue to trade jump drives to the Unfettered even after you have helped the Wanderers.
+ 
+!!This plugin contains zuckungs Kestrel.Unlocks!!

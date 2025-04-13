@@ -1,1 +1,1 @@
-Ever wanted one of those Person ships like the modified osprey, or the maurauder vanguard. This plugins reuses unused vanilla content and adds it properly.
+Collection of small improvements to the game, that are meant to fit into vanilla so seamlessly, you won't even notice.

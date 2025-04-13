@@ -1,3 +1,8 @@
-The vanilla one time use nuke stays unchanged. The reloadable launcher + 1 nuclear missile ammunition is identical to the vanilla one time use nuke.
-The reloadable nuke launcher comes available just like the vanilla one during the crossroads branch of the FW story. 
-A new nuclear missile container is available, with this you can shoot multiple salvos. More Launchers increase the fire rate.
+Vanilla One-Time-Use Nuke:
+Unchanged—functions identically to the original game.
+
+Reloadable Nuke Launcher:
+Identical stats to the vanilla nuke but can be reloaded.
+Unlocks during the Crossroads branch of the Free Worlds storyline (same trigger as the vanilla nuke).
+Nuclear Missile Container enables multi-salvo launches when paired with the reloadable launcher.
+Additional launchers increase fire rate (stackable effect).
