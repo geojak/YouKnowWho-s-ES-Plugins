@@ -80,16 +80,14 @@ All bunrodea planets are now dominatable. do this to get access to their outfitt
 
 [PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.66 kb | 2025-04-12 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
->Explore the secrets of the Pug Galaxy
+>Adds an ancient predecessor station in the clouds of a gas giant. Will you open pandoras box?S
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>Adds some shrouded systems
+<blockquote>Adds 1 new landable gas giant planet in the predecessor space.
 
-A new hostile pug faction for you to farm, including its own Arfecta Gaurdian
+9 new missions focus around it and the quick drive prototype.
 
-Adds the stranded, a group of wanderer that refused to go through the Eye millennia ago
-
-All stranded ships are vanilla graphics that had been unused but in he game for years
+Unlock a 'unique' jump drive variant at the end.
 </blockquote>
 </details>
 
@@ -150,15 +148,14 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 
 [ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-ReloadableNukes/ReloadableNukes.zip) | 106.31 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
->Ever wanted one of those Person ships like the modified osprey, or the maurauder vanguard. This plugins reuses unused vanilla content and adds it properly.
-
+>Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>Stats original by Zitchas, rebalanced by me.
+<blockquote>The vanilla one time use nuke stays unchanged. The reloadable launcher + 1 nuclear missile ammunition is identical to the vanilla one time use nuke.
 
+The reloadable nuke launcher comes available just like the vanilla one during the crossroads branch of the FW story. 
 
-
-Also made the Inhibitor Turret, which is in the game files available (also rebalanced)
+A new nuclear missile container is available, with this you can shoot multiple salvos. More Launchers increase the fire rate.
 </blockquote>
 </details>
 
