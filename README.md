@@ -7,7 +7,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 2025-04-11 | update: QuargPortals<br>
 2025-04-11 | update: UnusedVanillaContent<br>
 2025-04-11 | update: PredecessorGasGiant<br>
-2025-04-11 | update: Pirate Start<br>
+2025-04-11 | update: PirateStart<br>
 2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
 
