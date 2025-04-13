@@ -1,3 +1,4 @@
+HumanExtension|1.0.0
 PirateStart|1.0.0
 PredecessorGasGiant|1.0.4
 QuargPortals|1.0.1
