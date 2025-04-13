@@ -80,7 +80,7 @@ All bunrodea planets are now dominatable. do this to get access to their outfitt
 
 [PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.66 kb | 2025-04-12 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
->Adds an ancient predecessor station in the clouds of a gas giant. Will you open pandoras box?S
+>Adds an ancient predecessor station in the clouds of a gas giant. Will you open pandoras box?
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Adds 1 new landable gas giant planet in the predecessor space.
