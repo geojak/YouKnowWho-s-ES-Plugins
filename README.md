@@ -37,15 +37,16 @@ These plugins were made to continue MZ's original vision for the game. They are 
 
 [BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-BunrodeaRebellion/BunrodeaRebellion.zip) | 117.21 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
->The Megasa had enough of the Tyrant Queen. It is time for war. Which side will you support?
-
+>The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>Add a mission that triggers the start of the civil war.
+<blockquote>This plugin introduces a branching civil war event to the Bunrodea faction, where players must choose between supporting the rebel Megasa or the ruling Queen's forces.
 
-You can choose which side to pick.
+Rebel fleets spawn across 12 systems
 
-All bunrodea planets are now dominatable. do this to get access to their outfitters and shipyards
+Two possible outcomes: Rebel victory, partial Royalist suppression
+
+Dominate planets to unlock their outfitters and shipyards
 </blockquote>
 </details>
 
@@ -63,9 +64,27 @@ All bunrodea planets are now dominatable. do this to get access to their outfitt
 >Life in crime is tough, can you make it?
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>1. New Pirate Game Start
+<blockquote>Pirate Origin Story
 
-2. Pirate Rehab Mission chain and Fake Id, 2 ways out of crime
+- Start as a debt-ridden outlaw from collapsed CCOR space
+
+- $3M starting credits with crushing 0.5% daily interest loan
+
+- Pre-set negative reputations with lawful factions
+
+
+
+Escape Routes from Crime
+
+Path A: Free World Pirate Rehabilitation Program
+
+Path B: Acquire Fake ID 
+
+- availablefrom northern pirates after having finished the FW campaign
+
+- Trade a Jump Drive for complete identity wipe
+
+- Dangerous transaction with intercepting Alpha fleet
 </blockquote>
 </details>
 
@@ -80,14 +99,25 @@ All bunrodea planets are now dominatable. do this to get access to their outfitt
 
 [PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.66 kb | 2025-04-12 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
->Adds an ancient predecessor station in the clouds of a gas giant. Will you open pandoras box?
+>Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>Adds 1 new landable gas giant planet in the predecessor space.
+<blockquote>Adds a new narrative-driven storyline centered around a long-forgotten Predecessor refinery hidden deep within the storms of a gas giant. What begins as an ambitious technology experiment slowly unravels into a rediscovery of ancient danger.
 
-9 new missions focus around it and the quick drive prototype.
 
-Unlock a 'unique' jump drive variant at the end.
+
+Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscured by dense, unstable atmosphere.
+
+- Introduces 9 new story missions that follow your involvement with the Successors, a mysterious engineer, and the prototype of a next-generation hyperspace drive.
+
+- Encounter multiple Successor Houses, each with their own agendas, secrets, and roles in the restoration of ancient technology.
+
+- Uncover the true origin of the Quick Drive and the threat it poses to the galaxy.
+
+- Unlock a 'unique' jump drive variant at the story's conclusion, distinct in lore and design from standard models.
+
+
+
 </blockquote>
 </details>
 
@@ -102,16 +132,26 @@ Unlock a 'unique' jump drive variant at the end.
 
 [PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PugGalaxyContent/PugGalaxyContent.zip) | 594.7 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
->Explore the secrets of the Pug Galaxy
+>Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>Adds some shrouded systems
+<blockquote>New Systems
 
-A new hostile pug faction for you to farm, including its own Arfecta Gaurdian
+Mego Pug: Hostile Pug stronghold with tributable planets (Hana Pug, Pugglijok)  
 
-Adds the stranded, a group of wanderer that refused to go through the Eye millennia ago
+Shrouded NGC Systems: Uninhabited belts, patrolled by Pincer Beasts
 
-All stranded ships are vanilla graphics that had been unused but in he game for years
+Stranded Territories with new vanilla wanderer ships
+
+
+
+The Stranded Wanderers
+
+Hostile isolationist descendants of the Wanderers
+
+New wanderer ships made from unused vanilla assets: Squall, Hailstone, Winter Gale, Cool Breeze, Heavy Gust
+
+First Contact mission
 </blockquote>
 </details>
 
@@ -126,12 +166,16 @@ All stranded ships are vanilla graphics that had been unused but in he game for 
 
 [QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-QuargPortals/QuargPortals.zip) | 28.84 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
->Connects the fully completed Quarg Ringworlds via a portal, as described in MZ's lore document.
+>Adds a Quarg portal from and to other completed ringworlds in accorance with the original vision for ES.
+>
+>"More importantly, all Quarg ringworlds are joined by portals that allow individuals, cargo, and even entire ships to travel between them instantaneously. (These portals might one day become available to the player in a late stage of the game." (MZ, origina creator of the game, https://docs.google.com/document/d/1CpK_ol0E7a86LmEneFIJm1B9U-t357YQOZR-1OvYgcc/edit?tab=t.0)
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>This plugin adds a portal between the completed Quarg Ringworlds Hevru Hai and Giaru Gegno.
+<blockquote>Adds a portal between the completed Quarg Ringworlds Hevru Hai and Giaru Gegno.
 
-A Quarg Gatesyncher is required to use the portal and is sold by the Quarg for 90 million credits.
+The new Quarg Gatesyncher outfit is required to use this portal.
+
+You can buy the Gatesyncher for 90 million credits from completed Quarg Ringworlds.
 
 All vanilla Quarg ships come with a built-in Gatesyncher integrated into their hulls.
 </blockquote>
@@ -151,11 +195,21 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 >Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>The vanilla one time use nuke stays unchanged. The reloadable launcher + 1 nuclear missile ammunition is identical to the vanilla one time use nuke.
+<blockquote>Vanilla One-Time-Use Nuke:
 
-The reloadable nuke launcher comes available just like the vanilla one during the crossroads branch of the FW story. 
+Unchanged—functions identically to the original game.
 
-A new nuclear missile container is available, with this you can shoot multiple salvos. More Launchers increase the fire rate.
+
+
+Reloadable Nuke Launcher:
+
+Identical stats to the vanilla nuke but can be reloaded.
+
+Unlocks during the Crossroads branch of the Free Worlds storyline (same trigger as the vanilla nuke).
+
+Nuclear Missile Container enables multi-salvo launches when paired with the reloadable launcher.
+
+Additional launchers increase fire rate (stackable effect).
 </blockquote>
 </details>
 
@@ -170,14 +224,14 @@ A new nuclear missile container is available, with this you can shoot multiple s
 
 [RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.85 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
->Adds the Swan, the images have been unused in the game files for years, now its finally ingame.
+>Adds the Swan, a remnant mobile base utility ship.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>Stats original by Zitchas, rebalanced by me.
+<blockquote>Stats original by Zitchas, nerfed by me.
 
+Also included the Inhibitor Turret (vanilla outfit on the Heron but otherwise unavailable, slightly rebalanced by me)
 
-
-Also made the Inhibitor Turret, which is in the game files available (also rebalanced)
+The Swan and Inhibitor Turret become available after the tubfalet appearance.
 </blockquote>
 </details>
 
@@ -192,25 +246,26 @@ Also made the Inhibitor Turret, which is in the game files available (also rebal
 
 [UnusedVanillaContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-UnusedVanillaContent/UnusedVanillaContent.zip) | 421.95 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/UnusedVanillaContent/) | <a href="res/imagemd/UnusedVanillaContent.md">view images</a> [6]<br>
 <br>
->Ever wanted one of those Person ships like the modified osprey, or the maurauder vanguard. This plugins reuses unused vanilla content and adds it properly.
-
+>Collection of small improvements to the game, that are meant to fit into vanilla so seamlessly, you won't even notice.
 <details>
 <summary>:blue_book: Plugin readme</summary>
-<blockquote>1. Added unused vanilla ships to the game, you will see a lot more pirate fleet variants: Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
+<blockquote>Added unused vanilla ships to the game:
 
-2. This plugin contains Kestrel.Unlocks from zuckung
+Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
 
-3. Made New Tibet and Girtarb Tributable
+You will see a more pirate fleet variants.
 
-4. The unfettered hai start using their protye weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion
 
-5. This Plugin reenables Hai Reveal
 
-6. Unfettered start using the modified Ladybug during Hai Reveal
+This Plugin reenables Hai Reveal!
 
-7. You can steal a Unfettered ID by boarding them, which allows you to buy the new prototype weapons
+Additionally the unfettered hai start using their vanilla prototype weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion. Unfettered start using the modified Ladybug during Hai Reveal.
 
-8. You can continue to trade jump drives to the Unfettered even after you helped the Wanderers
+You can steal a Unfettered military ID by boarding unfettered hai ships in wanderer space or continue to trade jump drives to the Unfettered even after you have helped the Wanderers.
+
+ 
+
+!!This plugin contains zuckungs Kestrel.Unlocks!!
 </blockquote>
 </details>
 
