@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: HaiExtension<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: EscapeVelocity<br>
+2025-04-13 | update: HaiExtension<br>
 2025-04-12 | update: PredecessorGasGiant<br>
 2025-04-11 | update: QuargPortals<br>
 2025-04-11 | update: PredecessorGasGiant<br>
@@ -14,6 +15,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 ## Plugin List:<br>
 <table><tr valign="top"><td><img width="294" height="1"><br>
 <a href="README.md#BunrodeaRebellion">BunrodeaRebellion</a><br>
+<a href="README.md#EscapeVelocity">EscapeVelocity</a><br>
 <a href="README.md#HaiExtension">HaiExtension</a><br>
 <a href="README.md#HumanExtension">HumanExtension</a><br>
 <img width="294" height="1"><br></td><td><img width="294" height="1"><br>
@@ -48,6 +50,48 @@ Rebel fleets spawn across 12 systems
 Two possible outcomes: Rebel victory, partial Royalist suppression
 
 Dominate planets to unlock their outfitters and shipyards
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
+### EscapeVelocity
+
+<img src="myplugins/EscapeVelocity/icon.png" height="100">
+
+[EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-EscapeVelocity/EscapeVelocity.zip) | 123.44 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
+<br>
+>Have you ever felt the game is a bit fast? You jump into a system and die in seconds, or you pick a fight only for more enemys to jump in?
+>This plugins fixes that!
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>In gamerules.txt the following settings are set:
+
+
+
+"system departure min" 4000.
+
+The minimum departure distance for all systems. A ship can only jump out of a system if it is further from the system center than the departure distance. If a system has a defined departure distance greater than this value, that value will be used instead.
+
+
+
+"system arrival min" 4500.
+
+The minimum arrival distance for all systems. Ships entering a system will exit hyperspace this distance away from their landing target, or the system center if no landing target is selected. If a system has a defined arrival distance greater than this value, that value will be used instead.
+
+
+
+"fleet multiplier" 0.75
+
+The global fleet spawn rate multiplier. A value of 2.0 means twice as many random fleets spawn in all systems, while a value of 0.5 means half as many fleets spawn.
+
+
+
+	
+
 </blockquote>
 </details>
 
