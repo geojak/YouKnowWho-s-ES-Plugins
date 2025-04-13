@@ -6,7 +6,6 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <table><tr><td><img width="882" height="1"><br>2025-04-13 | update: HaiExtension<br>
 2025-04-12 | update: PredecessorGasGiant<br>
 2025-04-11 | update: QuargPortals<br>
-2025-04-11 | update: UnusedVanillaContent<br>
 2025-04-11 | update: PredecessorGasGiant<br>
 2025-04-11 | update: PirateStart<br>
 2025-04-10 | initial repository setup<br>

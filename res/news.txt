@@ -1,7 +1,6 @@
 2025-04-13 | update: HaiExtension
 2025-04-12 | update: PredecessorGasGiant
 2025-04-11 | update: QuargPortals
-2025-04-11 | update: UnusedVanillaContent
 2025-04-11 | update: PredecessorGasGiant
 2025-04-11 | update: PirateStart
 2025-04-10 | initial repository setup
