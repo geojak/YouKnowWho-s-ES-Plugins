@@ -1,17 +1,30 @@
 event "rebellion starts"
+	government "Bunrodea (Guard)"
+		"attitude toward"
+			"Bunrodea (Megasa)" -.2
+	
+	government "Bunrodea (Megasa)"
+		"attitude toward"
+			"Bunrodea (Erabu)" -.2
+			"Bunrodea (Guard)" -.2
+	
+	government "Bunrodea (Erabu)"
+		"attitude toward"
+			"Bunrodea (Megasa)" -.2
+
 	fleet "Bunrodea Erabu Freight"
 		government "Bunrodea (Erabu)"
 
 	system "Mego Faro"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		add fleet "Bunrodea Rebels" 1000
 		
 	system "Mego Inito"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		add fleet "Bunrodea Rebels" 1500
 		
 	system "Mego Seo"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		add fleet "Bunrodea Rebels" 1500
 		
 	system "Jentu Centi"
@@ -46,52 +59,52 @@ event "rebellion starts"
 	
 event "rebellion complete"	
 	system "Jentu Centi"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 
 	system Piadenli
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 
 	system "Gento Ah"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 
 	system "Xutluno Rees"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 	
 	system "Ravu Kon"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 	
 	system "Kifrana Terberah"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 	
 	system "Urba Pest"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		
 	system "Sera Natta"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		
 event "rebellion crushed"	
 	system "Mego Inito"
-		government "Bunrodea"
+		government "Bunrodea (Guard)"
 		
 	system "Mego Seo"
-		government "Bunrodea"
+		government "Bunrodea (Guard)"
 		
 	system "Jentu Centi"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 
 	system Piadenli
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 
 	system "Gento Ah"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 
 	system "Xutluno Rees"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 	
 	system "Urba Pest"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		
 	system "Sera Natta"
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 	
 	

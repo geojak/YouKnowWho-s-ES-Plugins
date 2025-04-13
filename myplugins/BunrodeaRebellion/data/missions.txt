@@ -13,7 +13,7 @@ mission "bunrodea uprising 1"
 	stopover "Okoity"
 	
 	npc kill
-		government "Bunrodea"
+		government "Bunrodea (Guard)"
 		personality staying heroic
 		system "Mego Inito"
 		fleet
@@ -28,7 +28,7 @@ mission "bunrodea uprising 1"
 				"Kama" 2
 	
 	npc
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		personality heroic
 		fleet
 			names "bunrodea"
@@ -109,17 +109,16 @@ mission "bunrodea uprising 1"
 				decline
 	
 	on accept
-		"reputation: Bunrodea (Erabu)" <?= -1
-		"reputation: Bunrodea (Guard)" <?= -1
-		"reputation: Bunrodea" <?= -1		
-		"reputation: Bunrodea (Rebels)" >?= 10	
+		"reputation: Bunrodea (Erabu)" <?= -10000
+		"reputation: Bunrodea (Guard)" <?= -10000
+		"reputation: Bunrodea (Megasa)" >?= 10	
 		
 	on complete
 		event "rebellion complete"
 		payment 900000
 		
 	on decline
-		"reputation: Bunrodea (Rebels)" <?= 0	
+		"reputation: Bunrodea (Megasa)" <?= 0	
 		
 	on visit
 		dialog `You land on <planet> after defeating its defensive fleet. The planet is in a state of civil with Megasa on streets cheering for you.`
@@ -156,11 +155,9 @@ mission "bunrodea uprising 2"
 				decline
 
 	on accept
-		"reputation: Bunrodea (Rebels)" <?= -1	
-		"reputation: Bunrodea" += 10
+		"reputation: Bunrodea (Megasa)" <?= -1	
 		"reputation: Bunrodea (Erabu)" += 10
 		"reputation: Bunrodea (Guard)" += 10
-		"reputation: Bunrodea (Megasa)" += 10
 
 	npc kill
 		government "Bunrodea"
@@ -177,7 +174,7 @@ mission "bunrodea uprising 2"
 				"Kama" 2
 	
 	npc kill
-		government "Bunrodea (Rebels)"
+		government "Bunrodea (Megasa)"
 		personality staying heroic
 		system "Mego Inito"
 		fleet
@@ -192,10 +189,8 @@ mission "bunrodea uprising 2"
 		dialog `"With the last rebel ship disabled, silence falls over Angko. A transmission crackles through: "Excellent work, Captain. The Queen's will is upheld. Order is restored."`
 		event "rebellion crushed"
 		payment 900000
-		"reputation: Bunrodea" += 10
 		"reputation: Bunrodea (Erabu)" += 10
 		"reputation: Bunrodea (Guard)" += 10
-		"reputation: Bunrodea (Megasa)" += 10
 
 	on visit
 		dialog `You arrive at <planet>. Local authorities, loyal to the Queen, greet you with cautious approval as Guard troops march through the streets to secure the area.`

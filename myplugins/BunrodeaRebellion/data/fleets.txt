@@ -1,5 +1,27 @@
+fleet "Bunrodea Large Defense"
+	government "Bunrodea"
+	names "bunrodea"
+	personality
+		heroic
+	variant 20
+		"Sasumata"
+		"Kaiken" 4
+	variant 10
+		"Sasumata"
+		"Kaiken" 4
+		"Tekkan" 2
+	variant 10
+		"Sasumata" 2
+		"Kaiken" 8
+		"Kama" 2
+	variant 1
+		"Sasumata"
+		"Chigiriki"
+		"Ararebo" 2
+		"Kaiken" 20
+
 fleet "Bunrodea Rebels"
-	government "Bunrodea (Rebels)"
+	government "Bunrodea (Megasa)"
 	names "bunrodea"
 	personality
 		timid vindictive unconstrained
