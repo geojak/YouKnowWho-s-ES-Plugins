@@ -137,7 +137,7 @@ You can steal a Unfettered military ID by boarding unfettered hai ships in wande
 <img src="myplugins/HumanExtension/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HumanExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-HumanExtension/HumanExtension.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
+[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
 <br>
 >Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.
 <details>
@@ -164,7 +164,7 @@ You will see more pirate fleet variants.
 <img src="myplugins/KorathInBunrodeaSpace/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/KorathInBunrodeaSpace.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
+[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 52.74 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
 <br>
 >Not even the Bunrodea are safe from Korath raids...
 <details>
