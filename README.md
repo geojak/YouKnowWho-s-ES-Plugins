@@ -1,6 +1,8 @@
 # **YouKnowWhos colletion of endless-sky-plugins**
 
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
+<a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/total"></a>
+<a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
 <table><tr><td><img width="882" height="1"><br>2025-04-13 | update: BunrodeaRebellion<br>
@@ -40,8 +42,9 @@ These plugins were made to continue MZ's original vision for the game. They are 
 ### BunrodeaRebellion
 
 <img src="myplugins/BunrodeaRebellion/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/BunrodeaRebellion.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-BunrodeaRebellion/BunrodeaRebellion.zip) | 116.94 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
+[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-BunrodeaRebellion/BunrodeaRebellion.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
 >The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 <details>
@@ -64,6 +67,7 @@ Dominate planets to unlock their outfitters and shipyards
 ### EscapeVelocity
 
 <img src="myplugins/EscapeVelocity/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/EscapeVelocity.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-EscapeVelocity/EscapeVelocity.zip) | 123.44 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
 <br>
@@ -106,6 +110,7 @@ The global fleet spawn rate multiplier. A value of 2.0 means twice as many rando
 ### HaiExtension
 
 <img src="myplugins/HaiExtension/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HaiExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [HaiExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-HaiExtension/HaiExtension.zip) | 117.42 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HaiExtension/) | <a href="res/imagemd/HaiExtension.md">view images</a> [2]<br>
 <br>
@@ -128,6 +133,7 @@ You can steal a Unfettered military ID by boarding unfettered hai ships in wande
 ### HumanExtension
 
 <img src="myplugins/HumanExtension/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HumanExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
 <br>
@@ -154,6 +160,7 @@ You will see more pirate fleet variants.
 ### KorathInBunrodeaSpace
 
 <img src="myplugins/KorathInBunrodeaSpace/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/KorathInBunrodeaSpace.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 52.74 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
 <br>
@@ -176,6 +183,7 @@ The more northern Bunrodea systems towards the core are not getting raided, due 
 ### PirateStart
 
 <img src="myplugins/PirateStart/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PirateStart.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PirateStart/PirateStart.zip) | 573.0 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
@@ -214,6 +222,7 @@ Path B: Acquire Fake ID
 ### PredecessorGasGiant
 
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PredecessorGasGiant.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.66 kb | 2025-04-12 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
@@ -247,6 +256,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 ### PugGalaxyContent
 
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PugGalaxyContent.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PugGalaxyContent/PugGalaxyContent.zip) | 594.7 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
@@ -281,6 +291,7 @@ First Contact mission
 ### QuargPortals
 
 <img src="myplugins/QuargPortals/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/QuargPortals.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-QuargPortals/QuargPortals.zip) | 28.84 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
@@ -307,6 +318,7 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 ### ReloadableNukes
 
 <img src="myplugins/ReloadableNukes/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/ReloadableNukes.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-ReloadableNukes/ReloadableNukes.zip) | 106.31 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
@@ -339,6 +351,7 @@ Additional launchers increase fire rate (stackable effect).
 ### RemantSwan
 
 <img src="myplugins/RemantSwan/icon.png" height="100">
+<img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
 [RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.85 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
