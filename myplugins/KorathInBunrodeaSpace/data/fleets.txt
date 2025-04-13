@@ -1,0 +1,16 @@
+system "Eneva Katta"
+	add minables copper 12 12
+	add minables tungsten 8 12
+	add fleet "Korath Miners" 7000
+	add fleet "Korath Raid" 11000
+	add fleet "Korath Large Raid" 17000
+system "Genta Bo"
+	add minables aluminum 11 10
+	add minables titanium 9 9
+	add fleet "Korath Miners" 11000
+	add fleet "Korath Raid" 9000
+	add fleet "Korath Large Raid" 17000
+system "Thshybo Le"
+	add fleet "Korath Large Raid" 11000
+system "Shini Bori"
+	add fleet "Korath Large Raid" 11000
