@@ -1,5 +1,5 @@
 BunrodeaRebellion|1.0.0
-EscapeVelocity|1.0.0
+EscapeVelocity|1.0.1
 HaiExtension|1.0.0
 KorathInBunrodeaSpace|1.0.0
 PirateStart|1.0.0

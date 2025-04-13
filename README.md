@@ -65,7 +65,7 @@ Dominate planets to unlock their outfitters and shipyards
 
 <img src="myplugins/EscapeVelocity/icon.png" height="100">
 
-[EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-EscapeVelocity/EscapeVelocity.zip) | 123.44 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
+[EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-EscapeVelocity/EscapeVelocity.zip) | 123.44 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
 <br>
 >Have you ever felt the game is a bit fast? You jump into a system and die in seconds, or you pick a fight only for more enemys to jump in?
 >This plugins fixes that!
