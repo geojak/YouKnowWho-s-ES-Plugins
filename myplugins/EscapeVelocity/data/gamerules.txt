@@ -1,5 +1,5 @@
 #These settings require Game Version v0.10.13 or more recent to take any effect!!
-
+gamerules
 	# The minimum departure distance for all systems. A ship can only jump out of a system if
 	# it is further from the system center than the departure distance. If a system has a
 	# defined departure distance greater than this value, that value will be used instead.
