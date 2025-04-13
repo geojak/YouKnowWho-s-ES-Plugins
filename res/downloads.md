@@ -15,6 +15,7 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?color=008000"></a><br>
 <br>
 DOWNLOADS FOR EACH RELEASE<br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.2-QuargPortals/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.1-EscapeVelocity/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.1-BunrodeaRebellion/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.0-KorathInBunrodeaSpace/total?color=008000"></a><br>
