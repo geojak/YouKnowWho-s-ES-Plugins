@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: BunrodeaRebellion<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: PredecessorGasGiant<br>
+2025-04-13 | update: BunrodeaRebellion<br>
 2025-04-13 | update: KorathInBunrodeaSpace<br>
 2025-04-13 | update: EscapeVelocity<br>
 2025-04-13 | update: HaiExtension<br>
@@ -225,7 +226,7 @@ Path B: Acquire Fake ID
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PredecessorGasGiant.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.66 kb | 2025-04-12 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.5-PredecessorGasGiant/PredecessorGasGiant.zip) | 167.03 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
 >Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
 <details>
@@ -259,7 +260,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PugGalaxyContent.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PugGalaxyContent/PugGalaxyContent.zip) | 594.7 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
+[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-PugGalaxyContent/PugGalaxyContent.zip) | 594.84 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
 <details>
@@ -321,7 +322,7 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 <img src="myplugins/ReloadableNukes/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/ReloadableNukes.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-ReloadableNukes/ReloadableNukes.zip) | 106.31 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
+[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-ReloadableNukes/ReloadableNukes.zip) | 106.45 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
 >Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
 <details>
@@ -354,7 +355,7 @@ Additional launchers increase fire rate (stackable effect).
 <img src="myplugins/RemantSwan/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.85 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
+[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.87 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
 >Adds the Swan, a remnant mobile base utility ship.
 <details>
