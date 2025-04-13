@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-12 | update: PredecessorGasGiant<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: HaiExtension<br>
+2025-04-12 | update: PredecessorGasGiant<br>
 2025-04-11 | update: QuargPortals<br>
 2025-04-11 | update: UnusedVanillaContent<br>
 2025-04-11 | update: PredecessorGasGiant<br>
@@ -14,15 +15,16 @@ These plugins were made to continue MZ's original vision for the game. They are 
 ## Plugin List:<br>
 <table><tr valign="top"><td><img width="294" height="1"><br>
 <a href="README.md#BunrodeaRebellion">BunrodeaRebellion</a><br>
+<a href="README.md#HaiExtension">HaiExtension</a><br>
+<a href="README.md#HumanExtension">HumanExtension</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#PirateStart">PirateStart</a><br>
 <a href="README.md#PredecessorGasGiant">PredecessorGasGiant</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#PugGalaxyContent">PugGalaxyContent</a><br>
+<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#QuargPortals">QuargPortals</a><br>
 <a href="README.md#ReloadableNukes">ReloadableNukes</a><br>
-<img width="294" height="1"><br></td><td><img width="294" height="1"><br>
 <a href="README.md#RemantSwan">RemantSwan</a><br>
-<a href="README.md#UnusedVanillaContent">UnusedVanillaContent</a><br>
 <img width="294" height="1"><br></td></tr></table>
 
 
@@ -47,6 +49,54 @@ Rebel fleets spawn across 12 systems
 Two possible outcomes: Rebel victory, partial Royalist suppression
 
 Dominate planets to unlock their outfitters and shipyards
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
+### HaiExtension
+
+<img src="myplugins/HaiExtension/icon.png" height="100">
+
+[HaiExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-HaiExtension/HaiExtension.zip) | 117.42 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HaiExtension/) | <a href="res/imagemd/HaiExtension.md">view images</a> [2]<br>
+<br>
+>Collection of small improvements to the hai, that are meant to fit into vanilla so seamlessly, you won't even notice.
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>This Plugin reenables Hai Reveal!
+
+Additionally the unfettered hai start using their vanilla prototype weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion. Unfettered start using the modified Ladybug during Hai Reveal.
+
+You can steal a Unfettered military ID by boarding unfettered hai ships in wanderer space or continue to trade jump drives to the Unfettered even after you have helped the Wanderers.
+</blockquote>
+</details>
+
+<br>
+
+
+---
+
+### HumanExtension
+
+<img src="myplugins/HumanExtension/icon.png" height="100">
+
+[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
+<br>
+>Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>Added unused vanilla ships to the game:
+
+Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
+
+You will see more pirate fleet variants.
+
+
+
+!!This plugin contains zuckungs Kestrel.Unlocks!!
 </blockquote>
 </details>
 
@@ -232,40 +282,6 @@ Additional launchers increase fire rate (stackable effect).
 Also included the Inhibitor Turret (vanilla outfit on the Heron but otherwise unavailable, slightly rebalanced by me)
 
 The Swan and Inhibitor Turret become available after the tubfalet appearance.
-</blockquote>
-</details>
-
-<br>
-
-
----
-
-### UnusedVanillaContent
-
-<img src="myplugins/UnusedVanillaContent/icon.png" height="100">
-
-[UnusedVanillaContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-UnusedVanillaContent/UnusedVanillaContent.zip) | 421.95 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/UnusedVanillaContent/) | <a href="res/imagemd/UnusedVanillaContent.md">view images</a> [6]<br>
-<br>
->Collection of small improvements to the game, that are meant to fit into vanilla so seamlessly, you won't even notice.
-<details>
-<summary>:blue_book: Plugin readme</summary>
-<blockquote>Added unused vanilla ships to the game:
-
-Nighthawk, Waverider, Valkyrie, Modified Osprey, Modified Vanguard
-
-You will see a more pirate fleet variants.
-
-
-
-This Plugin reenables Hai Reveal!
-
-Additionally the unfettered hai start using their vanilla prototype weapons Ionic Blaster, Ionic Turret and Ionic Shredder during the wanderer invasion. Unfettered start using the modified Ladybug during Hai Reveal.
-
-You can steal a Unfettered military ID by boarding unfettered hai ships in wanderer space or continue to trade jump drives to the Unfettered even after you have helped the Wanderers.
-
- 
-
-!!This plugin contains zuckungs Kestrel.Unlocks!!
 </blockquote>
 </details>
 
