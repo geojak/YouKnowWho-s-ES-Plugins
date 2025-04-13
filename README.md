@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: PirateStart<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: RemantSwan<br>
+2025-04-13 | update: PirateStart<br>
 2025-04-13 | update: PugGalaxyContent<br>
 2025-04-13 | update: BunrodeaRebellion<br>
 2025-04-13 | update: KorathInBunrodeaSpace<br>
@@ -15,7 +16,6 @@ These plugins were made to continue MZ's original vision for the game. They are 
 2025-04-12 | update: PredecessorGasGiant<br>
 2025-04-11 | update: QuargPortals<br>
 2025-04-11 | update: PredecessorGasGiant<br>
-2025-04-11 | update: PirateStart<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -295,7 +295,7 @@ First Contact mission
 <img src="myplugins/QuargPortals/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/QuargPortals.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-QuargPortals/QuargPortals.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
+[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1RemantSwan-QuargPortals/QuargPortals.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
 >Adds a Quarg portal from and to other completed ringworlds in accorance with the original vision for ES.
 >
@@ -322,7 +322,7 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 <img src="myplugins/ReloadableNukes/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/ReloadableNukes.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-ReloadableNukes/ReloadableNukes.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
+[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-ReloadableNukes/ReloadableNukes.zip) | 106.45 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
 >Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
 <details>
@@ -355,7 +355,7 @@ Additional launchers increase fire rate (stackable effect).
 <img src="myplugins/RemantSwan/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-RemantSwan/RemantSwan.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
+[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.87 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
 >Adds the Swan, a remnant mobile base utility ship.
 <details>
