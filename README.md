@@ -45,7 +45,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <img src="myplugins/BunrodeaRebellion/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/BunrodeaRebellion.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-BunrodeaRebellion/BunrodeaRebellion.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
+[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-BunrodeaRebellion/BunrodeaRebellion.zip) | 116.94 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
 >The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 <details>
