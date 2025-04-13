@@ -3,7 +3,8 @@
 These plugins were made to continue MZ's original vision for the game. They are designed to be as balanced as the vanilla content and integrate seamlessly with it.
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: KorathInBunrodeaSpace<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: BunrodeaRebellion<br>
+2025-04-13 | update: KorathInBunrodeaSpace<br>
 2025-04-13 | update: EscapeVelocity<br>
 2025-04-13 | update: HaiExtension<br>
 2025-04-12 | update: PredecessorGasGiant<br>
@@ -40,7 +41,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 
 <img src="myplugins/BunrodeaRebellion/icon.png" height="100">
 
-[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-BunrodeaRebellion/BunrodeaRebellion.zip) | 117.21 kb | 2025-04-11 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
+[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-BunrodeaRebellion/BunrodeaRebellion.zip) | 116.94 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
 >The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 <details>
