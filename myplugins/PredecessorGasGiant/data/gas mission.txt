@@ -314,7 +314,7 @@ mission "Successors: Gas Station 2 House Seineq"
 			label fate
 			action
 				set "Successors: fate"
-			`	"'Twas abandoned in the wake of the great collapse, like much of our old domains. But it endured, locked in the shroud of its birth, its seals unbroken." They exhale, a slow and deliberate sigh. "Many Houses would see it remain as such… doth fear the ripples its recovery may bring."`	
+			`	"'Twas abandoned in the wake of the great collapse, like much of our old domains. But it endured, locked in the shroud of its birth, its seals unbroken." They exhale, a slow and deliberate sigh. "Many Houses would see it remain as such.. doth fear the ripples its recovery may bring."`	
 				goto morechoices
 				
 			label tryagain
@@ -348,8 +348,8 @@ mission "Successors: Gas Station 3"
 		conversation	
 			`	As you step onto the landing pad, a Successor in deep-green engineering robes approaches, chromatophores pulsing pink; a sign of restrained excitement.`
 			`	"Hail, traveler. I am Taaquvaleq, artisan of engines, weaver of motion."`
-			`	They tilt their head slightly, studying you. "Our kin have have long sought mastery over the tides of the void. In ages past, our Predecessors wielded powers now lost, bending the great weave to their will. We… glimpse only fragments of such art."`
-			`	Their colors shift-pride and uncertainty interwoven. "Yet we have wrought something new. A device that may move as none before it. But to test it… that is another matter entirely."`
+			`	They tilt their head slightly, studying you. "Our kin have have long sought mastery over the tides of the void. In ages past, our Predecessors wielded powers now lost, bending the great weave to their will. We.. glimpse only fragments of such art."`
+			`	Their colors shift-pride and uncertainty interwoven. "Yet we have wrought something new. A device that may move as none before it. But to test it.. that is another matter entirely."`
 			choice
 				`	"What sort of device?"`
 					goto explain
@@ -359,21 +359,21 @@ mission "Successors: Gas Station 3"
 					decline
 			label explain
 			`	"It is a new drive, meant not to step through the void, but to hurl oneself into it unburdened by stillness. Unlike our lesser designs, it does not demand stillness before the leap."`
-			`	They hesitate, chromatophores dimming momentarily. "Yet, there are flaws. The flow of energy within is… erratic. Its grasp upon the unseen currents is incomplete. Thou art no stranger to the void's pathing-perhaps thy hands may guide its course where ours have failed."`
+			`	They hesitate, chromatophores dimming momentarily. "Yet, there are flaws. The flow of energy within is.. erratic. Its grasp upon the unseen currents is incomplete. Thou art no stranger to the void's pathing-perhaps thy hands may guide its course where ours have failed."`
 			choice
 				`	"What do you need me to do?"`
 					goto task
 				`	"I'm not risking my ship for an experiment."`
 					decline
 			label convince
-			`	Taaquvaleq's chromatophores ripple in a slow, deliberate greyish wave. "We do not ask lightly. But thou dost wander freely across the great dark. What might a swifter path be worth to thee?"`
+			`	Taaquvaleq's chromatophores ripple in a slow, deliberate grayish wave. "We do not ask lightly. But thou dost wander freely across the great dark. What might a swifter path be worth to thee?"`
 			choice
 				`	"Fine, I'll do it."`
 					goto task
 				`	Sorry, but you should find someone else."`
 					decline
 			label task
-			`	"Take this drive and set it within thy vessel. Then, venture to the system of Myruet-Kvelq, where the storms of hyperspace rage most fiercely. If the drive holds, then we shall have achieved a feat most rare. If it fails…" `
+			`	"Take this drive and set it within thy vessel. Then, venture to the system of Myruet-Kvelq, where the storms of hyperspace rage most fiercely. If the drive holds, then we shall have achieved a feat most rare. If it fails.." `
 			`	Taaquvaleq pauses, their chromatophores flickering with tension. "Then thou must learn why, and return with the knowing."`
 				accept
 	on accept
@@ -399,7 +399,7 @@ mission "Successors: Gas Station 3"
 		outfit "Prototype Quick Drive" -1
 		log "Tested House Seineq's experimental Quick Drive. Results indicate instability caused by high energy usage."
 		conversation
-			`	Taaquvaleq watches intently as you relay the results. "Hmm. The instability lingers, and the fuel draw… excessive. The weave of space does not yet heed our call as it once did in the age of our Predecessors."`
+			`	Taaquvaleq watches intently as you relay the results. "Hmm. The instability lingers, and the fuel draw.. excessive. The weave of space does not yet heed our call as it once did in the age of our Predecessors."`
 			`	They tilt their head slightly, considering. "Perhaps our failing is not in the craft, but in the materials. Our Predecessors drew power from sources we no longer wield. If such remnants still linger, they may grant us clarity." Their gaze fixes upon you once more. "But there is no place such relics may yet be found..."`
 			`	"Return to the spaceport when the knowing is made whole, and the echoes of the logs have stilled."`
 			
@@ -421,7 +421,7 @@ mission "Successors: Gas Station 4"
 			choice
 				`	(Tell Taaquvaleq about the refinery you discovered in the atmosphere of Avasaa-Aa-Tej owned by House Seineq.)`	
 			`You recount your journey through the storm of Avasaa-Aa-Tej, how within the swirling haze, a locked station endured, bearing the claim of House Seineq. At the mention, Taaquvaleq's chromatophores flicker-first amber, then an uneasy shade of blue.`
-			`"Avasaa-Aa-Tej? That place holds naught but ruin and shadow. Yet… thou say'st a refinery remains?" They fall silent, contemplation washing over them like a slow tide.`
+			`"Avasaa-Aa-Tej? That place holds naught but ruin and shadow. Yet.. thou say'st a refinery remains?" They fall silent, contemplation washing over them like a slow tide.`
 			`Finally, they exhale. "If what thou claim'st is true, then that which was lost may yet be reclaimed. The refinery that lingers there, sealed and forgotten, may still hold remnants of its old yield. If thou would'st recover these, we may yet tame the wild heart of our device."`
 			choice
 				`	"Then let us reclaim it."`
@@ -610,7 +610,7 @@ mission "Successors: Gas Station 7"
 					
 	on complete	
 		conversation
-			`	Taaquvaleq awaits as you return, their chromatophores dark with intrigue. "Thou didst return… yet not unscraped, I see."`
+			`	Taaquvaleq awaits as you return, their chromatophores dark with intrigue. "Thou didst return.. yet not unscraped, I see."`
 			`	You relay the attack. At the mention of the enemy's warning, their gaze sharpens.`
 			`	"Those who fear the past oft carry its sins. The Quick Drive is thine - the data is all I sought. But know this: if they move against thee once, they may do so again."`
 			choice
