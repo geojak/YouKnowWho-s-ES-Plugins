@@ -6,16 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: HumanExtension<br>
-2025-04-14 | update: PredecessorGasGiant<br>
-2025-04-13 | update: QuargPortals<br>
-2025-04-13 | update: RemantSwan<br>
-2025-04-13 | update: PirateStart<br>
-2025-04-13 | update: PugGalaxyContent<br>
-2025-04-13 | update: BunrodeaRebellion<br>
-2025-04-13 | update: KorathInBunrodeaSpace<br>
-2025-04-13 | update: EscapeVelocity<br>
-2025-04-13 | update: HaiExtension<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-14 | repository setup complete<br>
+2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
