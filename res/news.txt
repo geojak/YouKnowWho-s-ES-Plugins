@@ -1,15 +1,2 @@
-2025-04-14 | update: HumanExtension
-2025-04-14 | update: PredecessorGasGiant
-2025-04-13 | update: QuargPortals
-2025-04-13 | update: RemantSwan
-2025-04-13 | update: PirateStart
-2025-04-13 | update: PugGalaxyContent
-2025-04-13 | update: BunrodeaRebellion
-2025-04-13 | update: KorathInBunrodeaSpace
-2025-04-13 | update: EscapeVelocity
-2025-04-13 | update: HaiExtension
-2025-04-12 | update: PredecessorGasGiant
-2025-04-11 | update: QuargPortals
-2025-04-11 | update: PredecessorGasGiant
-2025-04-11 | update: PirateStart
+2025-04-14 | repository setup complete
 2025-04-10 | initial repository setup
