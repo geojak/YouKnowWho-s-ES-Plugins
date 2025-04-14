@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: PirateStart<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: QuargPortals<br>
+2025-04-14 | update: PirateStart<br>
 2025-04-14 | update: EscapeVelocity<br>
 2025-04-14 | repository setup complete<br>
 2025-04-10 | initial repository setup<br>
@@ -289,7 +290,7 @@ First Contact mission
 <img src="myplugins/QuargPortals/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/QuargPortals.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-QuargPortals/QuargPortals.zip) | 29.08 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
+[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-QuargPortals/QuargPortals.zip) | 30.11 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
 >Adds a Quarg portal from and to other completed ringworlds in accordance with the original vision for ES.
 >
