@@ -1,5 +1,3 @@
-2025-04-14 | update: ReloadableNukes
-2025-04-14 | update: PirateStart
-2025-04-14 | update: EscapeVelocity
+2025-04-14 | license and credits added to all plugins
 2025-04-14 | repository setup complete
 2025-04-10 | initial repository setup
