@@ -226,7 +226,7 @@ Path B: Acquire Fake ID
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PredecessorGasGiant.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.5-PredecessorGasGiant/PredecessorGasGiant.zip) | 167.02 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.6-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.97 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
 >Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
 <details>

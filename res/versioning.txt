@@ -3,7 +3,7 @@ EscapeVelocity|1.0.2
 HaiExtension|1.0.0
 KorathInBunrodeaSpace|1.0.1
 PirateStart|1.0.1
-PredecessorGasGiant|1.0.5
+PredecessorGasGiant|1.0.6
 PugGalaxyContent|1.0.0
 QuargPortals|1.0.3
 RemantSwan|1.0.0
