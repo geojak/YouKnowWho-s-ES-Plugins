@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: EscapeVelocity<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: KorathInBunrodeaSpace<br>
+2025-04-14 | update: EscapeVelocity<br>
 2025-04-14 | repository setup complete<br>
 2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
@@ -157,7 +158,7 @@ You will see more pirate fleet variants.
 <img src="myplugins/KorathInBunrodeaSpace/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/KorathInBunrodeaSpace.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 52.74 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
+[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 53.81 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
 <br>
 >Not even the Bunrodea are safe from Korath raids...
 <details>
