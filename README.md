@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-13 | update: QuargPortals<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: PredecessorGasGiant<br>
+2025-04-13 | update: QuargPortals<br>
 2025-04-13 | update: RemantSwan<br>
 2025-04-13 | update: PirateStart<br>
 2025-04-13 | update: PugGalaxyContent<br>
@@ -15,7 +16,6 @@ These plugins were made to continue MZ's original vision for the game. They are 
 2025-04-13 | update: EscapeVelocity<br>
 2025-04-13 | update: HaiExtension<br>
 2025-04-12 | update: PredecessorGasGiant<br>
-2025-04-11 | update: QuargPortals<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -226,7 +226,7 @@ Path B: Acquire Fake ID
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PredecessorGasGiant.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PredecessorGasGiant/PredecessorGasGiant.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.5-PredecessorGasGiant/PredecessorGasGiant.zip) | 167.02 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
 >Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
 <details>
