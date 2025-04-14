@@ -1,5 +1,5 @@
 BunrodeaRebellion|1.0.2
-EscapeVelocity|1.0.2
+EscapeVelocity|1.0.3
 HaiExtension|1.0.1
 HumanExtension|1.0.1
 KorathInBunrodeaSpace|1.0.2
