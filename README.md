@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: PredecessorGasGiant<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-14 | update: HumanExtension<br>
+2025-04-14 | update: PredecessorGasGiant<br>
 2025-04-13 | update: QuargPortals<br>
 2025-04-13 | update: RemantSwan<br>
 2025-04-13 | update: PirateStart<br>
@@ -15,7 +16,6 @@ These plugins were made to continue MZ's original vision for the game. They are 
 2025-04-13 | update: KorathInBunrodeaSpace<br>
 2025-04-13 | update: EscapeVelocity<br>
 2025-04-13 | update: HaiExtension<br>
-2025-04-12 | update: PredecessorGasGiant<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -46,7 +46,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <img src="myplugins/BunrodeaRebellion/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/BunrodeaRebellion.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-BunrodeaRebellion/BunrodeaRebellion.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
+[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-BunrodeaRebellion/BunrodeaRebellion.zip) | 116.94 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
 >The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 <details>
@@ -114,7 +114,7 @@ The global fleet spawn rate multiplier. A value of 2.0 means twice as many rando
 <img src="myplugins/HaiExtension/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HaiExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[HaiExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-HaiExtension/HaiExtension.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HaiExtension/) | <a href="res/imagemd/HaiExtension.md">view images</a> [2]<br>
+[HaiExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-HaiExtension/HaiExtension.zip) | 117.42 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HaiExtension/) | <a href="res/imagemd/HaiExtension.md">view images</a> [2]<br>
 <br>
 >Collection of small improvements to the hai, that are meant to fit into vanilla so seamlessly, you won't even notice.
 <details>
@@ -137,7 +137,7 @@ You can steal a Unfettered military ID by boarding unfettered hai ships in wande
 <img src="myplugins/HumanExtension/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HumanExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
+[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
 <br>
 >Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.
 <details>
@@ -164,7 +164,7 @@ You will see more pirate fleet variants.
 <img src="myplugins/KorathInBunrodeaSpace/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/KorathInBunrodeaSpace.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
+[KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 52.74 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
 <br>
 >Not even the Bunrodea are safe from Korath raids...
 <details>
@@ -260,7 +260,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PugGalaxyContent.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0-PugGalaxyContent/PugGalaxyContent.zip) | N/A | N/A | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
+[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-PugGalaxyContent/PugGalaxyContent.zip) | 594.84 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
 <details>
