@@ -36,7 +36,7 @@ def release_plugin(plugin):
     versioning(plugin, corrected)
     write_news(plugin)
     
-    # Return the generated tags for GitHub Actions
+    # Read the generated tags from GITHUB_ENV
     env_file = os.getenv('GITHUB_ENV')
     with open(env_file, "r") as f:
         env_vars = f.read()
@@ -66,15 +66,15 @@ def main():
     for plugin in plugins:
         try:
             tag, tag2 = release_plugin(plugin)
-            release_data.append((plugin, tag, tag2))
+            if tag and tag2:  # Only add if tags were generated
+                release_data.append(f"{plugin},{tag},{tag2}\n")
         except Exception as e:
             print(f"Error releasing {plugin}: {str(e)}")
             continue
     
-    # Write release data to file for GitHub Actions
-    with open('release_data.txt', 'w') as f:
-        for plugin, tag, tag2 in release_data:
-            f.write(f"{plugin},{tag},{tag2}\n")
+    # Write release data to file in the root directory
+    with open(REPO_ROOT / 'release_data.txt', 'w') as f:
+        f.writelines(release_data)
     
     print("\nAll plugins processed!")
 

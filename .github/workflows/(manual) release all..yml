@@ -20,12 +20,13 @@ jobs:
         run: python3 res/src/release_all.py
       - name: Create individual releases
         run: |
+          cd $GITHUB_WORKSPACE
           while IFS=, read -r plugin tag tag2; do
             echo "Creating release for $plugin"
             gh release create "$tag" \
               --title "$tag2" \
               --notes "Batch release of $plugin" \
-              versioning/"$plugin".zip
+              "versioning/${plugin}.zip" || echo "Failed to create release for $plugin"
           done < release_data.txt
       - name: Upload plugins to latest release
         uses: ncipollo/release-action@v1.11.1
