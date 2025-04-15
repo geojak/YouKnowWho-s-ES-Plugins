@@ -1,2 +1,0 @@
-Have you ever felt the game is a bit fast? You jump into a system and die in seconds, or you pick a fight only for more enemys to jump in?
-This plugins fixes that!

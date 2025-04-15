@@ -1,1 +1,0 @@
-Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.

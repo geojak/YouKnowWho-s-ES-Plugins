@@ -1,0 +1,2 @@
+name "PredecessorGasGiant"
+about "Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?"
