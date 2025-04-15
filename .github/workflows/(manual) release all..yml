@@ -16,16 +16,17 @@ jobs:
         run: |
           python3 -m pip install Pillow
       - name: Release all plugins
+        id: release
         run: python3 res/src/release_all.py
-      - name: Upload versioned plugins to releases
-        uses: ncipollo/release-action@v1.11.1
-        with:
-          name: "Batch Release - ${{ github.run_id }}"
-          tag: "batch-release-${{ github.run_id }}"
-          allowUpdates: true
-          replacesArtifacts: true
-          updateOnlyUnreleased: false
-          artifacts: "versioning/*.zip"
+      - name: Create individual releases
+        run: |
+          while IFS=, read -r plugin tag tag2; do
+            echo "Creating release for $plugin"
+            gh release create "$tag" \
+              --title "$tag2" \
+              --notes "Batch release of $plugin" \
+              versioning/"$plugin".zip
+          done < release_data.txt
       - name: Upload plugins to latest release
         uses: ncipollo/release-action@v1.11.1
         with:

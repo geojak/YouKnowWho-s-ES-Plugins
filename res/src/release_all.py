@@ -36,7 +36,20 @@ def release_plugin(plugin):
     versioning(plugin, corrected)
     write_news(plugin)
     
-    print(f"Successfully released {plugin}")
+    # Return the generated tags for GitHub Actions
+    env_file = os.getenv('GITHUB_ENV')
+    with open(env_file, "r") as f:
+        env_vars = f.read()
+    
+    update_tag = None
+    update_tag2 = None
+    for line in env_vars.split('\n'):
+        if line.startswith('UPDATE_TAG='):
+            update_tag = line.split('=')[1]
+        elif line.startswith('UPDATE_TAG2='):
+            update_tag2 = line.split('=')[1]
+    
+    return update_tag, update_tag2
 
 def main():
     """Main function to release all plugins"""
@@ -49,12 +62,19 @@ def main():
         print(f"{i}. {plugin}")
     
     print("\nStarting release process...")
+    release_data = []
     for plugin in plugins:
         try:
-            release_plugin(plugin)
+            tag, tag2 = release_plugin(plugin)
+            release_data.append((plugin, tag, tag2))
         except Exception as e:
             print(f"Error releasing {plugin}: {str(e)}")
             continue
+    
+    # Write release data to file for GitHub Actions
+    with open('release_data.txt', 'w') as f:
+        for plugin, tag, tag2 in release_data:
+            f.write(f"{plugin},{tag},{tag2}\n")
     
     print("\nAll plugins processed!")
 
