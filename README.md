@@ -42,6 +42,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 [BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-BunrodeaRebellion/BunrodeaRebellion.zip) | 116.94 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
 >The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>This plugin introduces a branching civil war event to the Bunrodea faction, where players must choose between supporting the rebel Megasa or the ruling Queen's forces.
@@ -66,8 +67,8 @@ Dominate planets to unlock their outfitters and shipyards
 
 [EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-EscapeVelocity/EscapeVelocity.zip) | 124.48 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
 <br>
->Have you ever felt the game is a bit fast? You jump into a system and die in seconds, or you pick a fight only for more enemys to jump in?
->This plugins fixes that!
+>Have you ever felt the game is a bit fast? You jump into a system and die in seconds, or you pick a fight only for more enemys to jump in? This plugins fixes that!
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>In gamerules.txt the following settings are set:
@@ -110,6 +111,7 @@ The global fleet spawn rate multiplier. A value of 2.0 means twice as many rando
 [HaiExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-HaiExtension/HaiExtension.zip) | 117.42 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HaiExtension/) | <a href="res/imagemd/HaiExtension.md">view images</a> [2]<br>
 <br>
 >Collection of small improvements to the hai, that are meant to fit into vanilla so seamlessly, you won't even notice.
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>This Plugin reenables Hai Reveal!
@@ -133,6 +135,7 @@ You can steal a Unfettered military ID by boarding unfettered hai ships in wande
 [HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
 <br>
 >Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Added unused vanilla ships to the game:
@@ -160,6 +163,7 @@ You will see more pirate fleet variants.
 [KorathInBunrodeaSpace.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-KorathInBunrodeaSpace/KorathInBunrodeaSpace.zip) | 52.74 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/KorathInBunrodeaSpace/) | <a href="res/imagemd/KorathInBunrodeaSpace.md">view images</a> [1]<br>
 <br>
 >Not even the Bunrodea are safe from Korath raids...
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Adds minables to Eneva Katta and Genta Bo.
@@ -183,6 +187,7 @@ The more northern Bunrodea systems towards the core are not getting raided, due 
 [PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-PirateStart/PirateStart.zip) | 574.19 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
 >Life in crime is tough, can you make it?
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Pirate Origin Story
@@ -222,6 +227,7 @@ Path B: Acquire Fake ID
 [PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.6-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.97 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
 >Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Adds a new narrative-driven storyline centered around a long-forgotten Predecessor refinery hidden deep within the storms of a gas giant. What begins as an ambitious technology experiment slowly unravels into a rediscovery of ancient danger.
@@ -256,6 +262,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 [PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-PugGalaxyContent/PugGalaxyContent.zip) | 594.84 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>New Systems
@@ -291,9 +298,7 @@ First Contact mission
 [QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-QuargPortals/QuargPortals.zip) | 29.08 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
 >Adds a Quarg portal from and to other completed ringworlds in accordance with the original vision for ES.
->
->"More importantly, all Quarg ringworlds are joined by portals that allow individuals, cargo, and even entire ships to travel between them instantaneously. (These portals might one day become available to the player in a late stage of the game."
->[MZ, original creator of the game, https://docs.google.com/document/d/1CpK_ol0E7a86LmEneFIJm1B9U-t357YQOZR-1OvYgcc/edit?tab=t.0]
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Adds a portal between the completed Quarg Ringworlds Hevru Hai and Giaru Gegno.
@@ -319,6 +324,7 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 [ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-ReloadableNukes/ReloadableNukes.zip) | 107.49 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
 >Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Vanilla One-Time-Use Nuke:
@@ -352,6 +358,7 @@ Additional launchers increase fire rate (stackable effect).
 [RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.87 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
 >Adds the Swan, a remnant mobile base utility ship.
+
 <details>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Stats original by Zitchas, nerfed by me.
