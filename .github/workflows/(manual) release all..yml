@@ -5,9 +5,11 @@ jobs:
   deploy:
     name: Release all plugins
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       contents: write
-      releases: write
+      packages: write
+      actions: write
+      statuses: write
     env:
       CUR_REPO: ${{ github.repository }}
     steps:
