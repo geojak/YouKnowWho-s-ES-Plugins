@@ -6,7 +6,7 @@ government "Unknown House"
 		Successor 1
 	"bribe" 0
 	language "Successor"
-	"friendly hail" "successor friendly hail"
+	"friendly hail" "high houses friendly hail"
 	"friendly disabled hail" "successor friendly disabled hail"
-	"hostile hail" "successor hostile hail"
-	"hostile disabled hail" "successor hostile disabled hail"
+	"hostile hail" "high houses hostile hail"
+	"hostile disabled hail" "high houses hostile disabled hail"
