@@ -65,22 +65,17 @@ def versioning(p, corrected):
 	os.chdir('../')
 
 def write_news(p):
-	# Skip news entry if running in "rerelease all"
-	if os.getenv('RERELEASE_ALL') == '1':
-		print('Skipping individual news entry for rerelease all.')
-		return
-
 	today = datetime.today().strftime('%Y-%m-%d')
 	news = [today + ' | update: ' + p + '\n']
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
 	double = False
-	for line in old:
+	for line in old: # check if today the same plugin got updated, and if so, don't add it again
 		if line == news[0]:
 			double = True
 			print('double entry! NOT adding to news!')
 			break
-	if not double:
+	if double == False: # if not, then write
 		with open('res/news.txt', 'w') as newsfile:
 			newsfile.writelines(news + old)
 
