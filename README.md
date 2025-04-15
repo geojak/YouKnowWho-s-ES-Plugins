@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: PugGalaxyContent<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: PirateStart<br>
+2025-04-15 | update: PugGalaxyContent<br>
 2025-04-15 | update: BunrodeaRebellion<br>
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
@@ -187,7 +188,7 @@ The more northern Bunrodea systems towards the core are not getting raided, due 
 <img src="myplugins/PirateStart/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PirateStart.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-PirateStart/PirateStart.zip) | 574.22 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
+[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PirateStart/PirateStart.zip) | 574.22 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
 >Life in crime is tough, can you make it?
 
