@@ -18,6 +18,7 @@ DOWNLOADS FOR EACH RELEASE<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.4-EscapeVelocity/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.3-PirateStart/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.3-HumanExtension/total?color=008000"></a><br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.2-ReloadableNukes/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.7-PredecessorGasGiant/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.6-PredecessorGasGiant/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.4-QuargPortals/total?color=008000"></a><br>
