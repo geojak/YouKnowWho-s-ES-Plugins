@@ -297,7 +297,7 @@ First Contact mission
 
 [QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-QuargPortals/QuargPortals.zip) | 29.08 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
->Adds a Quarg portal from and to other completed ringworlds in accordance with the original vision for ES.
+>Adds a Quarg portal from and to other completed ringworlds in accordance with the original vision for ES. 'More importantly, all Quarg ringworlds are joined by portals that allow individuals, cargo, and even entire ships to travel between them instantaneously. (These portals might one day become available to the player in a late stage of the game.' [MZ, original creator of the game, https://docs.google.com/document/d/1CpK_ol0E7a86LmEneFIJm1B9U-t357YQOZR-1OvYgcc/edit?tab=t.0]
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
