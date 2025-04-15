@@ -6,6 +6,6 @@ KorathInBunrodeaSpace|1.0.2
 PirateStart|1.0.6
 PredecessorGasGiant|1.0.8
 PugGalaxyContent|1.0.2
-QuargPortals|1.0.3
+QuargPortals|1.0.4
 ReloadableNukes|1.0.1
 RemantSwan|1.0.0
