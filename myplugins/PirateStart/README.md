@@ -6,6 +6,5 @@ Pirate Origin Story
 Escape Routes from Crime
 Path A: Free World Pirate Rehabilitation Program
 Path B: Acquire Fake ID 
-- availablefrom northern pirates after having finished the FW campaign
-- Trade a Jump Drive for complete identity wipe
+- available from northern pirates after having finished the FW campaign
 - Dangerous transaction with intercepting Alpha fleet
