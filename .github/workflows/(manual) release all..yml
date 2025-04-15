@@ -1,0 +1,50 @@
+ame: (manual) release all plugins
+on: 
+  workflow_dispatch:
+jobs:
+  deploy:
+    name: Release all plugins
+    runs-on: ubuntu-latest
+    permissions: write-all
+    env:
+      CUR_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: install libs
+        run: |
+          python3 -m pip install Pillow
+      - name: Release all plugins
+        run: python3 res/src/release_all.py
+      - name: Upload versioned plugins to releases
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: "Batch Release - ${{ github.run_id }}"
+          tag: "batch-release-${{ github.run_id }}"
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "versioning/*.zip"
+      - name: Upload plugins to latest release
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: Downloads
+          tag: Latest
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "*.zip"
+      - name: Make README.md
+        run: python res/src/makemd.py
+      - name: Commit file
+        run: |
+          git config user.name "geojak" 
+          git config user.email "jaikobblack@googlemail.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "README.md updated - batch release"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
