@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: BunrodeaRebellion<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: PugGalaxyContent<br>
+2025-04-15 | update: BunrodeaRebellion<br>
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
@@ -261,7 +262,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PugGalaxyContent.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-PugGalaxyContent/PugGalaxyContent.zip) | 594.84 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
+[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-PugGalaxyContent/PugGalaxyContent.zip) | 595.91 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
 
