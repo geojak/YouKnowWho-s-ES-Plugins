@@ -191,12 +191,27 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl):
 		if found == 0:
 			version_number = '1.0.0'
 		assetfiles = 'https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v' + version_number + '-' + withdots + '/'
-		# get description out of about.txt
-		with open(pathtoplugins + entry + '/about.txt' , 'r') as file1:
-			description_list = file1.readlines()
+		
+		# get description out of plugin.txt or about.txt (fallback)
 		description = ''
-		for line in description_list:
-			description = description + '>' + line	
+		description_file = pathtoplugins + entry + '/plugin.txt'
+		if not os.path.isfile(description_file):
+			description_file = pathtoplugins + entry + '/about.txt'  # fallback to about.txt if plugin.txt doesn't exist
+			
+		if os.path.isfile(description_file):
+			with open(description_file, 'r') as file1:
+				if description_file.endswith('plugin.txt'):
+					# For plugin.txt, we need to extract the about line
+					for line in file1.readlines():
+						if line.startswith('about "'):
+							description = '>' + line.split('about "')[1].rstrip('"\n') + '\n'
+							break
+				else:
+					# For about.txt, keep the existing behavior
+					description_list = file1.readlines()
+					for line in description_list:
+						description = description + '>' + line
+			
 		# get readme.md
 		with open(pathtoplugins + entry + '/README.md' , 'r') as file1:
 			readme_list = file1.readlines()
