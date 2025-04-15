@@ -6,8 +6,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: PirateStart<br>
-2025-04-15 | update: HumanExtension<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: BunrodeaRebellion<br>
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
@@ -42,7 +41,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <img src="myplugins/BunrodeaRebellion/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/BunrodeaRebellion.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-BunrodeaRebellion/BunrodeaRebellion.zip) | 116.94 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
+[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-BunrodeaRebellion/BunrodeaRebellion.zip) | 118.01 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
 >The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 

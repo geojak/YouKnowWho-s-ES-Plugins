@@ -1,4 +1,4 @@
-BunrodeaRebellion|1.0.2
+BunrodeaRebellion|1.0.3
 EscapeVelocity|1.0.3
 HaiExtension|1.0.1
 HumanExtension|1.0.2
