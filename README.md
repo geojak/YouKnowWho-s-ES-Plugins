@@ -6,8 +6,7 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: PirateStart<br>
-2025-04-15 | update: HumanExtension<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: PredecessorGasGiant<br>
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
@@ -227,7 +226,7 @@ Path B: Acquire Fake ID
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PredecessorGasGiant.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.6-PredecessorGasGiant/PredecessorGasGiant.zip) | 166.97 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.7-PredecessorGasGiant/PredecessorGasGiant.zip) | 168.06 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
 >Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
 
