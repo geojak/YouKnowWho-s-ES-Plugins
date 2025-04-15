@@ -81,12 +81,17 @@ def write_news(p):
 
 
 def main():
-	p = os.environ['INPUT_STORE'] # plugin.name
-	check_spelling(p)
-	corrected = correct_characters(p) # correct characters that get changed by guthub release
-	create_zip(p, corrected)
-	versioning(p, corrected)
-	write_news(p)
+    # Get plugin name from environment or None if not set
+    p = os.environ.get('INPUT_STORE')  # plugin.name
+    if p is None:
+        # If running from release_all.py, just define the functions
+        return
+    
+    check_spelling(p)
+    corrected = correct_characters(p) # correct characters that get changed by guthub release
+    create_zip(p, corrected)
+    versioning(p, corrected)
+    write_news(p)
 
 # run
 main()
