@@ -26,7 +26,7 @@ jobs:
         run: |
           while read plugin; do
             echo "Releasing: $plugin"
-            RERELEASE_ALL=1 INPUT_STORE="$plugin" python3 res/src/release.p
+            RERELEASE_ALL=1 INPUT_STORE="$plugin" python3 res/src/release.py
           done <<< "${{ steps.read_plugins.outputs.plugins }}"
 
       - name: Upload plugins to release (versioning)
