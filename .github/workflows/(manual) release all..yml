@@ -1,4 +1,4 @@
-ame: (manual) release all plugins
+name: (manual) release all plugins
 on: 
   workflow_dispatch:
 jobs:
