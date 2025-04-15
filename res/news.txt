@@ -1,6 +1,4 @@
-2025-04-15 | update: PirateStart
-2025-04-15 | update: PugGalaxyContent
-2025-04-15 | update: BunrodeaRebellion
+2025-04-15 | PredecessorGasGiant small fixes backported from the PR
 2025-04-15 | replaced about.txt with plugin.txt
 2025-04-14 | license and credits added to all plugins
 2025-04-14 | repository setup complete
