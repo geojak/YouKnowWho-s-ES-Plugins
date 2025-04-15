@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-14 | license and credits added to all plugins<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-15 | replaced about.txt with plugin.txt<br>
+2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
 2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
