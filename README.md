@@ -190,7 +190,7 @@ The more northern Bunrodea systems towards the core are not getting raided, due 
 <img src="myplugins/PirateStart/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PirateStart.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.5-PirateStart/PirateStart.zip) | 574.22 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
+[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.6-PirateStart/PirateStart.zip) | 574.18 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
 >Life in crime is tough, can you make it?
 
@@ -212,9 +212,7 @@ Path A: Free World Pirate Rehabilitation Program
 
 Path B: Acquire Fake ID 
 
-- availablefrom northern pirates after having finished the FW campaign
-
-- Trade a Jump Drive for complete identity wipe
+- available from northern pirates after having finished the FW campaign
 
 - Dangerous transaction with intercepting Alpha fleet
 </blockquote>
