@@ -1,69 +1,36 @@
-name: (manual) release all plugins
-on: 
-  workflow_dispatch:
+name: Release All Plugins
+on: workflow_dispatch
 jobs:
-  deploy:
-    name: Release all plugins
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      packages: write
-      actions: write
-      statuses: write
-    env:
-      CUR_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
       
-      - name: Install dependencies
-        run: |
-          python3 -m pip install Pillow
-          sudo apt-get install zip
+      - name: Install zip
+        run: sudo apt-get install zip
       
-      - name: Release all plugins
+      - name: Run release script
         run: |
           cd $GITHUB_WORKSPACE
           python3 res/src/release_all.py
       
-      - name: Verify files
-        run: |
-          echo "Generated files:"
-          ls -la *.zip
-          ls -la versioning/*.zip
-          echo "Release data:"
-          cat release_data.txt
-      
-      - name: Create individual releases
-        run: |
-          cd $GITHUB_WORKSPACE
-          while IFS=, read -r plugin tag tag2; do
-            echo "Creating release: $tag2 ($tag)"
-            gh release create "$tag" \
-              --title "$tag2" \
-              --notes "Automatic release" \
-              "versioning/${plugin}.zip"
-          done < release_data.txt
-      
-      - name: Update latest release
+      - name: Update Latest Release
         uses: ncipollo/release-action@v1.11.1
         with:
-          name: Downloads
-          tag: Latest
+          name: Latest Plugins
+          tag: latest
+          artifacts: "*.zip"
           allowUpdates: true
-          replacesArtifacts: true
-          artifacts: "${{ github.workspace }}/*.zip"
       
       - name: Update README
-        run: |
-          cd $GITHUB_WORKSPACE
-          python res/src/makemd.py
+        run: python res/src/makemd.py
       
       - name: Commit changes
         run: |
-          git config user.name "geojak" 
+          git config user.name "geojak"
           git config user.email "jaikobblack@googlemail.com"
           git add .
-          git diff-index --quiet HEAD || git commit -m "Batch release updates"
+          git commit -m "Update plugin zips" || echo "No changes"
           git push
