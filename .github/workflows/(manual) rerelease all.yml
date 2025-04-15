@@ -1,0 +1,71 @@
+name: (manual) rerelease all
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release-all:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Install dependencies
+        run: python3 -m pip install Pillow
+
+      - name: Read all plugins
+        id: read_plugins
+        run: |
+          echo "plugins<<EOF" >> $GITHUB_OUTPUT
+          awk -F'|' '{print $1}' res/versioning.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Run release.py on each plugin
+        run: |
+          while read plugin; do
+            echo "Releasing: $plugin"
+            RERELEASE_ALL=1 INPUT_STORE="$plugin" python3 res/src/release.p
+          done <<< "${{ steps.read_plugins.outputs.plugins }}"
+
+      - name: Upload plugins to release (versioning)
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: All Plugins Release
+          tag: all-plugins-$(date +'%Y%m%d')
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "versioning/*.zip"
+
+      - name: Upload plugins to release
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: Downloads
+          tag: Latest
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false
+          artifacts: "*.zip"
+
+      - name: Make README.md
+        run: python res/src/makemd.py
+
+      - name: Write release all to news.txt
+        run: |
+          today=$(date +'%Y-%m-%d')
+          echo "$today | released all plugins" | cat - res/news.txt > temp && mv temp res/news.txt
+
+      - name: Commit changes
+        run: |
+          git config user.name "geojak" 
+          git config user.email "jaikobblack@googlemail.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "released all plugins"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
