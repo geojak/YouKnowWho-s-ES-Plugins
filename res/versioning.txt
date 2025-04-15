@@ -1,6 +1,6 @@
 BunrodeaRebellion|1.0.2
 EscapeVelocity|1.0.3
-HaiExtension|1.0.1
+HaiExtension|1.0.2
 HumanExtension|1.0.2
 KorathInBunrodeaSpace|1.0.2
 PirateStart|1.0.3
