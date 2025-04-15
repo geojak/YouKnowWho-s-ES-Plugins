@@ -18,63 +18,56 @@ def get_all_plugins():
                 plugins.append(plugin_name)
     return plugins
 
+def create_zip(p, corrected):
+    """Create zip file in root directory"""
+    zip_path = REPO_ROOT / f"{corrected}.zip"
+    if zip_path.exists():
+        zip_path.unlink()
+    subprocess.run(["zip", "-r", str(zip_path), p], 
+                 cwd=REPO_ROOT / "myplugins",
+                 stdout=subprocess.DEVNULL)
+    return zip_path
+
 def release_plugin(plugin):
-    """Release a single plugin using existing functions"""
+    """Release a single plugin"""
     print(f"\nReleasing plugin: {plugin}")
     
-    # Import functions here to avoid path issues
-    from release import correct_characters, create_zip, versioning, write_news
+    from release import correct_characters, versioning, write_news
     
     corrected = correct_characters(plugin)
-    
-    # Change to myplugins directory for zipping
-    os.chdir(REPO_ROOT / 'myplugins')
     create_zip(plugin, corrected)
     
-    # Run versioning from repo root
     os.chdir(REPO_ROOT)
     versioning(plugin, corrected)
     write_news(plugin)
     
-    # Read the generated tags from GITHUB_ENV
-    env_file = os.getenv('GITHUB_ENV')
-    with open(env_file, "r") as f:
+    # Read generated tags
+    with open(os.getenv('GITHUB_ENV'), "r") as f:
         env_vars = f.read()
     
-    update_tag = None
-    update_tag2 = None
-    for line in env_vars.split('\n'):
-        if line.startswith('UPDATE_TAG='):
-            update_tag = line.split('=')[1]
-        elif line.startswith('UPDATE_TAG2='):
-            update_tag2 = line.split('=')[1]
+    update_tag = next(line.split('=')[1] for line in env_vars.split('\n') 
+                     if line.startswith('UPDATE_TAG='))
+    update_tag2 = next(line.split('=')[1] for line in env_vars.split('\n') 
+                      if line.startswith('UPDATE_TAG2='))
     
     return update_tag, update_tag2
 
 def main():
     """Main function to release all plugins"""
-    # Start from repo root
     os.chdir(REPO_ROOT)
     
     plugins = get_all_plugins()
     print(f"Found {len(plugins)} plugins to release:")
-    for i, plugin in enumerate(plugins, 1):
-        print(f"{i}. {plugin}")
     
-    print("\nStarting release process...")
     release_data = []
     for plugin in plugins:
         try:
             tag, tag2 = release_plugin(plugin)
-            if tag and tag2:  # Only add if tags were generated
-                release_data.append(f"{plugin},{tag},{tag2}\n")
+            release_data.append(f"{plugin},{tag},{tag2}\n")
+            print(f"Successfully processed {plugin}")
         except Exception as e:
             print(f"Error releasing {plugin}: {str(e)}")
             continue
-    
-    # Write release data to file in the root directory
-    with open(REPO_ROOT / 'release_data.txt', 'w') as f:
-        f.writelines(release_data)
     
     print("\nAll plugins processed!")
 

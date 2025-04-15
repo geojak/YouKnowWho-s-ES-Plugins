@@ -5,48 +5,63 @@ jobs:
   deploy:
     name: Release all plugins
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions: 
+      contents: write
+      releases: write
     env:
       CUR_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: install libs
+      
+      - name: Install dependencies
         run: |
           python3 -m pip install Pillow
+          sudo apt-get install zip
+      
       - name: Release all plugins
-        id: release
-        run: python3 res/src/release_all.py
+        run: |
+          cd $GITHUB_WORKSPACE
+          python3 res/src/release_all.py
+      
+      - name: Verify files
+        run: |
+          echo "Generated files:"
+          ls -la *.zip
+          ls -la versioning/*.zip
+          echo "Release data:"
+          cat release_data.txt
+      
       - name: Create individual releases
         run: |
           cd $GITHUB_WORKSPACE
           while IFS=, read -r plugin tag tag2; do
-            echo "Creating release for $plugin"
+            echo "Creating release: $tag2 ($tag)"
             gh release create "$tag" \
               --title "$tag2" \
-              --notes "Batch release of $plugin" \
-              "versioning/${plugin}.zip" || echo "Failed to create release for $plugin"
+              --notes "Automatic release" \
+              "versioning/${plugin}.zip"
           done < release_data.txt
-      - name: Upload plugins to latest release
+      
+      - name: Update latest release
         uses: ncipollo/release-action@v1.11.1
         with:
           name: Downloads
           tag: Latest
           allowUpdates: true
           replacesArtifacts: true
-          updateOnlyUnreleased: false
-          artifacts: "*.zip"
-      - name: Make README.md
-        run: python res/src/makemd.py
-      - name: Commit file
+          artifacts: "${{ github.workspace }}/*.zip"
+      
+      - name: Update README
+        run: |
+          cd $GITHUB_WORKSPACE
+          python res/src/makemd.py
+      
+      - name: Commit changes
         run: |
           git config user.name "geojak" 
           git config user.email "jaikobblack@googlemail.com"
           git add .
-          git diff-index --quiet HEAD || git commit -m "README.md updated - batch release"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
+          git diff-index --quiet HEAD || git commit -m "Batch release updates"
+          git push
