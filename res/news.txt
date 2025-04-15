@@ -1,3 +1,4 @@
+2025-04-15 | update: HumanExtension
 2025-04-15 | replaced about.txt with plugin.txt
 2025-04-14 | license and credits added to all plugins
 2025-04-14 | repository setup complete

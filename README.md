@@ -6,7 +6,8 @@ These plugins were made to continue MZ's original vision for the game. They are 
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-15 | replaced about.txt with plugin.txt<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-15 | update: HumanExtension<br>
+2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
 2025-04-10 | initial repository setup<br>
@@ -133,7 +134,7 @@ You can steal a Unfettered military ID by boarding unfettered hai ships in wande
 <img src="myplugins/HumanExtension/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HumanExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-HumanExtension/HumanExtension.zip) | 377.52 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
+[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-HumanExtension/HumanExtension.zip) | 378.58 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
 <br>
 >Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.
 
