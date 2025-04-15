@@ -27,7 +27,7 @@ conversation "ccor intro"
 		"reputation: Republic" <?= -1		
 		"reputation: Free Worlds" <?= -1	
 		"reputation: Militia" <?= -1
-		"reputation: Deep Security	" <?= -1	
+		"reputation: Deep Security" <?= -1	
 		"reputation: Pirate" >?= 1	
 	`You step into the grim lobby of the pirate warlord's makeshift finance center - a far cry from the faded glory of old banks. The walls, scarred by decades of neglect and bursts of violence, bear the defunct insignias of the Confederated Councils of the Outer Rim now smeared with the rebellious marks of rogue factions fighting for a foothold.`
 	`Inside, a burly loan broker clad in patchwork armor pores over tattered loan documents on a salvaged console. The buzz of clanking machinery and hushed, desperate negotiations fills the air-an unyielding reminder that in these dark times, power is seized by force rather than earned by credit.`
