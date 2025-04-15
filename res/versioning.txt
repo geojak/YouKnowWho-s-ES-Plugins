@@ -4,7 +4,7 @@ HaiExtension|1.0.1
 HumanExtension|1.0.2
 KorathInBunrodeaSpace|1.0.2
 PirateStart|1.0.5
-PredecessorGasGiant|1.0.7
+PredecessorGasGiant|1.0.8
 PugGalaxyContent|1.0.2
 QuargPortals|1.0.3
 ReloadableNukes|1.0.1
