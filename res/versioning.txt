@@ -8,4 +8,4 @@ PredecessorGasGiant|1.0.9
 PugGalaxyContent|1.0.2
 QuargPortals|1.0.4
 ReloadableNukes|1.0.1
-RemantSwan|1.0.0
+RemantSwan|1.0.1

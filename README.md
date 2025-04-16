@@ -8,7 +8,8 @@ Tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-16 | update: KorathInBunrodeaSpace<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-16 | update: RemantSwan<br>
+2025-04-16 | update: KorathInBunrodeaSpace<br>
 2025-04-16 | update: PredecessorGasGiant<br>
 2025-04-15 | update: QuargPortals<br>
 2025-04-15 | update: PredecessorGasGiant<br>
@@ -17,7 +18,6 @@ Tested with the continuous release from 13 April 2025.
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
-2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -362,7 +362,7 @@ Additional launchers increase fire rate (stackable effect).
 <img src="myplugins/RemantSwan/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.0-RemantSwan/RemantSwan.zip) | 59.87 kb | 2025-04-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
+[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-RemantSwan/RemantSwan.zip) | 60.92 kb | 2025-04-16 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
 >Adds the Swan, a remnant mobile base utility ship.
 
