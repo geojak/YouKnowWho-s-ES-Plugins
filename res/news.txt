@@ -1,8 +1,5 @@
-2025-04-16 | update: RemantSwan
-2025-04-16 | update: KorathInBunrodeaSpace
+2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT
 2025-04-16 | update: PredecessorGasGiant
-2025-04-15 | update: QuargPortals
-2025-04-15 | update: PredecessorGasGiant
 2025-04-15 | update: PirateStart
 2025-04-15 | PredecessorGasGiant small fixes backported from the PR
 2025-04-15 | replaced about.txt with plugin.txt
