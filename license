@@ -1,3 +1,5 @@
+The  following license provided applies only to the content outside of the myplugins folder.
+----------------------------------------------------
 MIT License
 
 Copyright (c) 2024 zuckung
@@ -19,3 +21,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+----------------------------------------------------
+For all content within the myplugins folder, each plugin is governed by its own individual license, as specified within their respective subfolders or files.
+
