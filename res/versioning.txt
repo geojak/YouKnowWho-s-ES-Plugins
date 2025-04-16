@@ -1,7 +1,7 @@
 BunrodeaRebellion|1.0.3
 EscapeVelocity|1.0.3
 HaiExtension|1.0.1
-HumanExtension|1.0.2
+HumanExtension|1.0.3
 KorathInBunrodeaSpace|1.0.2
 PirateStart|1.0.6
 PredecessorGasGiant|1.0.9

@@ -8,7 +8,8 @@ Tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-16 | update: PredecessorGasGiant<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-16 | update: HumanExtension<br>
+2025-04-16 | update: PredecessorGasGiant<br>
 2025-04-15 | update: QuargPortals<br>
 2025-04-15 | update: PredecessorGasGiant<br>
 2025-04-15 | update: PirateStart<br>
@@ -140,7 +141,7 @@ You can steal a Unfettered military ID by boarding unfettered hai ships in wande
 <img src="myplugins/HumanExtension/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/HumanExtension.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-HumanExtension/HumanExtension.zip) | 378.58 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
+[HumanExtension.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-HumanExtension/HumanExtension.zip) | 378.59 kb | 2025-04-16 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/HumanExtension/) | <a href="res/imagemd/HumanExtension.md">view images</a> [5]<br>
 <br>
 >Collection of small improvements to human space, that are meant to fit into vanilla so seamlessly, you won't even notice.
 
