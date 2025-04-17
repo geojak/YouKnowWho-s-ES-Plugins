@@ -1,5 +1,4 @@
 # government Pug (Rainbow)
-# mission Pug Warning Mego Pug
 # fleet Arfecta Pug (Rainbow)
 # fleet Small Pug (Rainbow)
 # fleet Large Pug (Rainbow)
@@ -19,16 +18,6 @@ government "Pug (Rainbow)"
 	"friendly disabled hail" "friendly disabled pug"
 	"hostile hail" "hostile pug"
 	"hostile disabled hail" "hostile pug"
-
-
-mission "Pug Warning Mego Pug"
-	landing
-	invisible
-	to complete
-		never
-	on enter "Mego Pug"
-		dialog `When you enter the Mego Pug system you receive a transmission: "Human, leave this system immediately or we will attack. You are not welcome here."`
-		fail
 
 fleet "Arfecta Pug (Rainbow)"
 	government "Pug (Rainbow)"
@@ -82,27 +71,3 @@ fleet "Large Pug (Rainbow)"
 		"Pug Maboro"
 		"Pug Enfolta"
 		"Pug Zibruka" 2
-		
-
-mission "Pug Angry at Being Farmed2"
-	landing
-	invisible
-	to offer
-		"reputation: Pug (Rainbow)" < -100
-	npc kill
-		government "Pug (Rainbow)"
-		personality nemesis unconstrained staying
-		system "Mego Pug"
-		ship "Pug Arfecta"
-		
-mission "Pug Angry at Being Farmed3"
-	landing
-	invisible
-	to offer
-		"reputation: Pug (Rainbow)" < -1000
-	npc kill
-		government "Pug (Rainbow)"
-		personality nemesis unconstrained staying
-		system "Mego Pug"
-		ship "Pug Arfecta"	
-		ship "Pug Arfecta"			

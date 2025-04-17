@@ -1,0 +1,110 @@
+mission "Wanderer in Pleiades Galaxy"
+	description "Ask the Wanderers about the familiar ships you encountered in the Pleiades Galaxy."
+	landing
+	destination "Vara K'chrai"
+	to offer
+		has "Discovered Wanderer Space: offered"
+	on enter "Jik'tha'ru"
+		log `You encountered a people in the Pleiades Galaxy which strongly resemble the Wanderer, who live in the Milky Ways north of Hai space.`
+		dialog `The Ships in this system strongly resemble those of the Wanderer in the Milky Way. Maybe they can tell you more about these people.`
+	to complete
+		has "language: Wanderer"
+	on complete
+		log "Factions" "Stranded" "The Stranded are Wanderers, although less friendly, who decided to stay behind when the rest of their kin traveled through the Eye to come to the Milky Ways."
+		conversation
+			`You have discovered a Civilization in the Pleiades Galaxy, which unmistakenly resemble the Wanderers. Do you want to ask the Wanderers about this?`
+			choice
+				`	(Yes.)`
+				`	(No.)`
+					decline
+			`	You stop a Wanderer passing by and explain that you encountered a people in the Pleiades Galaxy, that you suspect are some kind of Wanderer. They seem surprised by this information. "Yes, they were once our kin, but when the Eye called us forward, they [regrettably, deplorably] refused to follow".`
+			`	"They seem to be in peril. Their cities are falling apart from what I could tell from orbit."`
+			`	"That is the fate they chose. It is [unfortunate, sad], but the Wanderers do not look back." The Wanderer gestures to a nearby archive building. "Our archives contain ancient records about our time in the Pleiades, though few study it now. You may update your translation device there with the Old Tongue."`            
+			choice
+				`	(Update translator with ancient Wanderer data)`
+			`	"After updating your translator, the archive terminal flickers unnaturally, freezing for a moment as if remotely accessed, then resets without explanation."`
+		
+mission "Stranded: The Forgotten Watcher"
+	name "A Voice from the Other Side"
+	description "Travel to the Wanderer homeworld with your Stranded passanger from the Pleiades."
+	landing
+	source "Vek'ra Watcher"
+	destination "Vara K'chrai"
+	passengers 1
+	to offer
+		has "Wanderer in Pleiades Galaxy: done"
+		has "Wanderers Solifuge Recon 1: done"		
+	on offer
+		log "Factions" "Stranded" `The Stranded are kin of the Wanderers who never passed through the Eye. Unlike their evolved cousins in the Milky Way, the Stranded have remained unchanged for a thousand years. Their civilization is in decline.`
+		conversation
+			`Vek'ra Watcher is dark and silent when you arrive. The station shows signs of life, but only barely. Power is low, lights flicker, and the docking arms engage slowly. As you disembark, you begin calling out greetings using your Wanderer translation device updated with the ancient linguistic records. Your voice echoes through long, empty corridors. No one answers at first. You follow weak life signs deeper inside the station. Suddenly, a voice comes through a nearby speaker. 
+			`	"You are not... one of ours. But you speak our [tongue, way of speaking]." The voice is cautious. Slow. Surprised. You explain that you have met others like them. Wanderers who passed through the Eye and now live in the Milky Way. There is a pause. Then the voice responds. "They still [live, endure]? They have... [changed, transformed]?"`
+			choice
+				`	"They call it the Molt. It changed them."`
+				`	"They moved forward. You remained behind."`
+					goto remain
+
+			`	"The Molt..." The voice trails off. "It was spoken of, long ago. Before my time. They feared what it would demand. They chose to remain as they were. I was born into that choice. Raised in the shape they left behind. But I have only known the [decline, unraveling]."`
+
+			label remain
+			`	A nearby door grinds open. A figure steps into view. It is tall and thin. Its feathers are faded and dry. Its movements are slow and careful. It looks similar to the Wanderers you have seen before, but older. More rigid. Less vibrant. "We stayed behind. That is our history. I do not question the [intentions, beliefs] of those who came before. But the world they left us is [breaking, eroding]."`
+			`	It glances at the walls around you, then back at you. "Each year, there are fewer voices. More silence. We preserve the old forms, but the meaning behind them is... [unclear, fading]." After a long pause, it asks, "The others. The ones who left. What did they [become, choose]?"`
+			choice
+				`	"They adapted. They help others. They rebuild worlds."`
+				`	"They are different now, but they remember who they were."`
+
+			`	"So they moved forward. And we stood still." It turns slightly, looking out a nearby viewport at the stars. "What we tried to hold on to has faded anyway. And the rest of the galaxy has moved on."`
+			`	You begin to walk back toward your ship. The corridor is quiet. Then you hear soft footsteps behind you.`
+			`	"Wait." The figure has followed you. It stops just inside the hangar. "You have [spoken with, walked among] them. You have seen what they became."`
+			`	You nod.`
+			`	"I want to see it. If there is still a place for us, I must know. Will you take me to them?"`
+			choice
+				`	"Yes. Come aboard."`
+					accept
+				`	"I'm not sure they are ready."`
+					decline
+	on complete
+		conversation
+			`As your ship lands on Vara K'chrai, you notice a small group of Wanderers waiting at the edge of the spaceport. They watch silently as your passenger steps out beside you.`
+			`	Your passenger pauses, taking in the surroundings - the clean air, the vibrant structures, the subtle hum of technology. This place feels alive in a way Kort Vak'est never did.`
+			`	The Wanderers look at him closely. One of them finally speaks. "[You are, appear to be]... one of us."`
+			`	"I was told that once," the Stranded replies. "But I was born into what was left behind."`
+			`	Another Wanderer tilts her head. "[Your form, design] is... [old, unchanged]." They seem uncertain. Not alarmed, just curious.`
+			`	"It is what we kept. What we thought we were meant to be. But it did not carry us forward."`
+			`	There is a moment of silence. Then, a gentle nod from the group. One steps forward. "[You have, carry] memory. That is not without meaning."`
+			`	Your passenger says nothing more. Slowly, he walks forward and joins them as thy walk away together.`
+			`	No ceremony. No judgment. Just a quiet meeting after a long separation.`
+
+mission "Stranded: Pug Intervention"
+	name "Pug Intervention"
+	landing
+	destination "Hana Pug"
+	to offer
+		has "Stranded: The Forgotten Watcher: done"
+	on offer
+		conversation
+			`As you return to your ship, something is wrong. The main display is locked. Your controls are unresponsive. A moment later, your ship's systems flash a message you didn't authorize. Your translation matrix is bypassed. A message plays.`
+			`	"We require your presence. System: Hana Pug."`
+			`	No identification. No option to reply. A navigation lock is set. The display clears. Your ship comes back online.`
+				accept
+	on accept
+		"reputation: Pug (Rainbow)" >?= 1
+	on complete
+		"reputation: Pug (Rainbow)" <?= -1
+		conversation
+			`Your screen shuts off the moment you touch down. A Pug appears - not in person, but as a holographic projection. Their expression is flat.`
+			`	"You have taken actions that were not authorized. Contact between the Stranded and the Wanderers is not permitted. The separation exists for a reason. It will remain. This is not a warning. It is a statement of fact. If you interfere again, there will be consequences. You are no longer welcome in the Pleiades Galaxy."`
+			`	The holographic projection vanishes abruptly. Your ship's systems unlock. No further messages appear.`
+
+mission "Stranded: Pug Blockade"
+	landing
+	invisible
+	to offer
+		has "Stranded: Pug Intervention: done"
+	npc save
+		personality staying unconstrained nemesis
+		government "Pug (Rainbow)"
+		system "NGC 319"
+		ship "Pug Arfecta" "Prot Gred Tsoop"
+	to complete
+		never

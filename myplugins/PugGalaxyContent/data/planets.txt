@@ -2,6 +2,7 @@ planet "Hana Pug"
 	attributes pug
 	landscape land/bwerner5
 	description `Hana Pug is a Pug administration world, overseeing various alien matters and actively meddling in the affairs of other species.`
+	description `The Pug deny you entry to any of their facilities.`
 	spaceport `The Pug let you know that you aren't welcome here.`
 	bribe 0
 	security 0.9
@@ -15,6 +16,7 @@ planet "Pugglijok"
 	attributes pug
 	landscape land/valley15-harro
 	description `This planet has many Pug cities on it, which strongly resemble the ones you have seen on Pugglequat.`
+	description `The Pug deny you entry to any of their facilities.`
 	spaceport `The Pug let you know that you aren't welcome here.`
 	bribe 0
 	security 0.9

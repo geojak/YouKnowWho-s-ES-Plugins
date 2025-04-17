@@ -5,6 +5,7 @@ ship "Hailstone"
 		category "Fighter"
 		licenses
 			"Wanderer Military"
+		bunks 1
 		"cost" 990000
 		"hull" 1200
 		"shields" 3400
