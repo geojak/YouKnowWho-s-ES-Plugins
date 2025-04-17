@@ -2,3 +2,6 @@ EscapeVelocity
 author:
 	geojak/YouKnowWho
 	https://github.com/geojak/YouKnowWho-s-ES-Plugins
+images:
+	icon
+		created by Ambrosia Software, taken from https://en.wikipedia.org/wiki/Escape_Velocity_(video_game)
