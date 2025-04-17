@@ -10,3 +10,19 @@ government "Unknown House"
 	"friendly disabled hail" "successor friendly disabled hail"
 	"hostile hail" "high houses hostile hail"
 	"hostile disabled hail" "high houses hostile disabled hail"
+	
+government "Quarg"
+	add illegals
+		"Unlocked Quick Drive" 10000000
+government "Quarg (Hai)"
+	add illegals
+		"Unlocked Quick Drive" 10000000
+government "Quarg (Kor Efret)"
+	add illegals
+		"Unlocked Quick Drive" 10000000
+government "Quarg (Gegno)"
+	add illegals
+		"Unlocked Quick Drive" 10000000
+government "Quarg (Incipias)"
+	add illegals
+		"Unlocked Quick Drive" 10000000

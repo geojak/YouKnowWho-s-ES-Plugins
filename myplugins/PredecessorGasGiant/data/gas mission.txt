@@ -743,3 +743,36 @@ mission "Successors: Gas Station 9"
 				clear "Successors: taaquvaleq"
 	on complete
 		log "Confronted House Seineq at O-Vasa-Oa. Taaquvaleq vanished before their secrets could be questioned. Seineq Veythiq acknowledged the Quick Drive's origin, but denied intent of their House. Now, the burden of truth is yours to carry."
+
+mission "Successors: Unlocked Quick Drive Quarg Reaction"
+	invisible
+	landing
+	source
+		attributes "quarg"
+	to offer
+		has "outfit (installed): Unlocked Quick Drive"
+	on offer
+		conversation	
+			`As your ship settles onto the platform, you sense a subtle shift in the mood. Quarg nearby glance toward you, their expressions unreadable.`
+			`	Soon, a tall Quarg steps forward. Their voice is quiet, but unmistakably firm. "There is something aboard your vessel. Something that should not exist."`
+			choice
+				`	"What do you mean?"`
+				`	(Say nothing.)`
+			`The Quarg studies you for a long moment. "The signature your drive emits is familiar. We have seen this before, in the final days of a civilization that destroyed itself."`
+			`	"You call it a 'Quick Drive'. But we know what it is. A form of Point Drive, repaired from Predecessor wreckage. Its effects on the fabric of space are not theoretical."`
+			`	They glance toward your ship. "The Predecessors' Point Drives tore open the lanes of hyperspace. They created distortions that became unstable, then uncontainable. The scars they left still exist."`
+			choice
+				`	"We didn't mean any harm."`
+					goto warn
+				`	"I didn't know what it really was."`
+					goto warn
+				`	"It's not exactly the same."`
+					goto notsame
+			label warn
+			`	"That may be true. But intent is not the issue. The damage caused by that technology will not change because you meant well."`
+			label notsame
+			`	"Different or not, it uses the same core structure. The same isotopes. The same patterns. You are rebuilding something that was locked away for a reason."`
+			`	The Quarg's voice softens slightly. "This is not a formal accusation. But we are warning you. This technology is banned, not out of fear, but because we have seen what it does."`
+			`	"We will not stop you. But we are watching. And if this drive spreads... others may not be so patient."`
+			action
+				log "The Quarg recognized the signature of your Unlocked Quick Drive. Though they did not stop you, they warned that this technology is forbidden for a reason."
