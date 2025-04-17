@@ -8,7 +8,8 @@ Last tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: PredecessorGasGiant<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: PugGalaxyContent<br>
+2025-04-17 | update: PredecessorGasGiant<br>
 2025-04-17 | credits updated for images in PirateStart and EscapeVelocity<br>
 2025-04-17 | update: PredecessorGasGiant, new two epilogue encounters<br>
 2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT<br>
@@ -17,7 +18,6 @@ Last tested with the continuous release from 13 April 2025.
 2025-04-15 | PredecessorGasGiant small fixes backported from the PR<br>
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
-2025-04-14 | repository setup complete<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -266,7 +266,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 <img src="myplugins/PugGalaxyContent/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PugGalaxyContent.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-PugGalaxyContent/PugGalaxyContent.zip) | 595.91 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
+[PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-PugGalaxyContent/PugGalaxyContent.zip) | 598.37 kb | 2025-04-17 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
 >Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
 
@@ -288,7 +288,7 @@ Hostile isolationist descendants of the Wanderers
 
 New wanderer ships made from unused vanilla assets: Squall, Hailstone, Winter Gale, Cool Breeze, Heavy Gust
 
-First Contact mission
+3 missions ending with a pug intervention
 </blockquote>
 </details>
 
