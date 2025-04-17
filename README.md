@@ -8,7 +8,8 @@ Tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: PredecessorGasGiant<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: EscapeVelocity<br>
+2025-04-17 | update: PredecessorGasGiant<br>
 2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT<br>
 2025-04-16 | update: PredecessorGasGiant<br>
 2025-04-15 | update: PirateStart<br>
@@ -73,7 +74,7 @@ Dominate planets to unlock their outfitters and shipyards
 <img src="myplugins/EscapeVelocity/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/EscapeVelocity.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-EscapeVelocity/EscapeVelocity.zip) | 124.48 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
+[EscapeVelocity.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-EscapeVelocity/EscapeVelocity.zip) | 124.59 kb | 2025-04-17 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/EscapeVelocity/) | <a href="res/imagemd/EscapeVelocity.md">view images</a> [1]<br>
 <br>
 >Have you ever felt the game is a bit fast? You jump into a system and die in seconds, or you pick a fight only for more enemys to jump in? This plugins fixes that!
 
