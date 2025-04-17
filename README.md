@@ -8,7 +8,8 @@ Last tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | credits updated for images in PirateStart and EscapeVelocity<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: PredecessorGasGiant<br>
+2025-04-17 | credits updated for images in PirateStart and EscapeVelocity<br>
 2025-04-17 | update: PredecessorGasGiant, new two epilogue encounters<br>
 2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT<br>
 2025-04-16 | update: PredecessorGasGiant code style fixes from closed PR<br>
@@ -17,7 +18,6 @@ Last tested with the continuous release from 13 April 2025.
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
-2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -231,7 +231,7 @@ Path B: Acquire Fake ID
 <img src="myplugins/PredecessorGasGiant/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PredecessorGasGiant.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.11-PredecessorGasGiant/PredecessorGasGiant.zip) | 169.08 kb | 2025-04-17 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
+[PredecessorGasGiant.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.12-PredecessorGasGiant/PredecessorGasGiant.zip) | 169.14 kb | 2025-04-17 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PredecessorGasGiant/) | <a href="res/imagemd/PredecessorGasGiant.md">view images</a> [2]<br>
 <br>
 >Adds an ancient Predecessor station in the clouds of a gas giant. Will you open Pandora's box?
 

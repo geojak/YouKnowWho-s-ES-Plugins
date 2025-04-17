@@ -1,3 +1,4 @@
+2025-04-17 | update: PredecessorGasGiant
 2025-04-17 | credits updated for images in PirateStart and EscapeVelocity
 2025-04-17 | update: PredecessorGasGiant, new two epilogue encounters
 2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT
