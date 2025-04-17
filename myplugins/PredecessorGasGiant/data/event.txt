@@ -1,4 +1,9 @@
 event "successors: add spaceport to gas station"
 	planet Avasaa-Aa-Tej
 		spaceport `The interior of the station is a relic of a forgotten era. The air is stale, the walls frost-coated where life support systems struggle against decay. Massive processing units sit in silence, their purpose long abandoned. Dim emergency lights flicker along the halls, revealing storage containers - most emptied by time, but one still holding the precious isotopes that drew you here. The refinery breathes no more, yet its ancient machinery seems to whisper of a past not entirely lost.`
+
+event "successors: quick drive decay in Myruet-Kvelq"
+	system Myruet-Kvelq
+		add hazard "Predecessors Base Spatial Decay" 200
+		add hazard "Predecessors Spatial Rift Weak" 10000
 		

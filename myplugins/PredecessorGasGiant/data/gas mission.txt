@@ -776,3 +776,22 @@ mission "Successors: Unlocked Quick Drive Quarg Reaction"
 			`	"We will not stop you. But we are watching. And if this drive spreads... others may not be so patient."`
 			action
 				log "The Quarg recognized the signature of your Unlocked Quick Drive. Though they did not stop you, they warned that this technology is forbidden for a reason."
+
+mission "Successors: Quick Drive Anomaly"
+	repeat
+	invisible
+	to offer
+		random > 50
+		has "outfit (installed): Unlocked Quick Drive"
+	on enter "Myruet-Kvelq"
+		require "Unlocked Quick Drive"
+		conversation
+			`As you enter the system, something feels... off. The jump completes, but not cleanly. Your ship's systems stutter, the stars around you blur for half a second too long.`
+			`	Then, your navigation stabilizes - but your sensor console lights up in red. A distortion spike ripples outward from your jump vector.`
+			`	The Quick Drive hums with unfamiliar intensity. In the distance, a point in space flares - just for an instant - as if the void itself tore slightly, then healed.`
+			`	A warning blinks on your console: "LOCAL SUBSPACE INTEGRITY DECREASING."`
+		event "successors: quick drive decay in Myruet-Kvelq"
+		action
+			log "Your Quick Drive caused a spatial disturbance in Myruet-Kvelq. The system's subspace structure is beginning to degrade."
+	
+		
