@@ -26,7 +26,7 @@ mission "Wanderer in Pleiades Galaxy"
 		
 mission "Stranded: The Forgotten Watcher"
 	name "A Voice from the Other Side"
-	description "Travel to the Wanderer homeworld with your Stranded passanger from the Pleiades."
+	description "Travel to the Wanderer homeworld with your Stranded passenger from the Pleiades."
 	landing
 	source "Vek'ra Watcher"
 	destination "Vara K'chrai"
