@@ -37,7 +37,7 @@ mission "Stranded: The Forgotten Watcher"
 	on offer
 		log "Factions" "Stranded" `The Stranded are kin of the Wanderers who never passed through the Eye. Unlike their evolved cousins in the Milky Way, the Stranded have remained unchanged for a thousand years. Their civilization is in decline.`
 		conversation
-			`Vek'ra Watcher is dark and silent when you arrive. The station shows signs of life, but only barely. Power is low, lights flicker, and the docking arms engage slowly. As you disembark, you begin calling out greetings using your Wanderer translation device updated with the ancient linguistic records. Your voice echoes through long, empty corridors. No one answers at first. You follow weak life signs deeper inside the station. Suddenly, a voice comes through a nearby speaker. 
+			`Vek'ra Watcher is dark and silent when you arrive. The station shows signs of life, but only barely. Power is low, lights flicker, and the docking arms engage slowly. As you disembark, you begin calling out greetings using your Wanderer translation device updated with the ancient linguistic records. Your voice echoes through long, empty corridors. No one answers at first. You follow weak life signs deeper inside the station. Suddenly, a voice comes through a nearby speaker.` 
 			`	"You are not... one of ours. But you speak our [tongue, way of speaking]." The voice is cautious. Slow. Surprised. You explain that you have met others like them. Wanderers who passed through the Eye and now live in the Milky Way. There is a pause. Then the voice responds. "They still [live, endure]? They have... [changed, transformed]?"`
 			choice
 				`	"They call it the Molt. It changed them."`
