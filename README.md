@@ -8,7 +8,8 @@ Tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: EscapeVelocity<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: PirateStart<br>
+2025-04-17 | update: EscapeVelocity<br>
 2025-04-17 | update: PredecessorGasGiant<br>
 2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT<br>
 2025-04-16 | update: PredecessorGasGiant<br>
@@ -17,7 +18,6 @@ Tested with the continuous release from 13 April 2025.
 2025-04-15 | replaced about.txt with plugin.txt<br>
 2025-04-14 | license and credits added to all plugins<br>
 2025-04-14 | repository setup complete<br>
-2025-04-10 | initial repository setup<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -193,7 +193,7 @@ The more northern Bunrodea systems towards the core are not getting raided, due 
 <img src="myplugins/PirateStart/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PirateStart.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.6-PirateStart/PirateStart.zip) | 574.18 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
+[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.7-PirateStart/PirateStart.zip) | 574.23 kb | 2025-04-17 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
 >Life in crime is tough, can you make it?
 
