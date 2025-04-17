@@ -2,3 +2,6 @@ PredecessorGasGiant
 author:
 	geojak/YouKnowWho
 	https://github.com/geojak/YouKnowWho-s-ES-Plugins
+text:
+	conversations
+		contains AI-assisted dialogue contributions by ChatGPT and DeepSeek.
