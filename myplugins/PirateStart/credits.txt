@@ -2,3 +2,6 @@ PirateStart
 author:
 	geojak/YouKnowWho
 	https://github.com/geojak/YouKnowWho-s-ES-Plugins
+images:
+	scene
+		ai generated at https://chatgpt.com/
