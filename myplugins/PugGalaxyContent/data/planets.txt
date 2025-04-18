@@ -8,7 +8,7 @@ planet "Hana Pug"
 	security 0.9
 	tribute 1000
 		threshold 8000
-		fleet "Arfecta Pug (Rainbow)" 1
+		fleet "Arfecta Pug (Rainbow)" 3
 		fleet "Small Pug (Rainbow)" 6
 		fleet "Large Pug (Rainbow)" 9
 		
@@ -22,7 +22,8 @@ planet "Pugglijok"
 	security 0.9
 	tribute 400
 		threshold 6000
-		fleet "Arfecta Pug (Rainbow)" 2
+		fleet "Small Pug (Rainbow)" 9
+		fleet "Large Pug (Rainbow)" 9
 	
 planet "Kort Vak'est"
 	landscape land/sea16-harro

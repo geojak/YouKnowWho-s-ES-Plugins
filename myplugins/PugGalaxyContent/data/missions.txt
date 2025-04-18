@@ -96,15 +96,28 @@ mission "Stranded: Pug Intervention"
 			`	"You have taken actions that were not authorized. Contact between the Stranded and the Wanderers is not permitted. The separation exists for a reason. It will remain. This is not a warning. It is a statement of fact. If you interfere again, there will be consequences. You are no longer welcome in the Pleiades Galaxy."`
 			`	The holographic projection vanishes abruptly. Your ship's systems unlock. No further messages appear.`
 
-mission "Stranded: Pug Blockade"
+mission "Stranded: Pug Blockade 1"
 	landing
 	invisible
 	to offer
 		has "Stranded: Pug Intervention: done"
 	npc save
-		personality staying unconstrained nemesis
+		personality staying unconstrained uninterested
 		government "Pug (Rainbow)"
 		system "NGC 319"
 		ship "Pug Arfecta" "Prot Gred Tsoop"
+	to complete
+		never
+		
+mission "Stranded: Pug Blockade 2"
+	landing
+	invisible
+	to offer
+		has "Stranded: Pug Intervention: done"
+	npc save
+		personality staying unconstrained uninterested
+		government "Pug (Rainbow)"
+		system "NGC 319"
+		ship "Pug Arfecta" "Groip Marg Rep"
 	to complete
 		never

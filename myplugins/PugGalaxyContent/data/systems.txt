@@ -8,7 +8,6 @@ system "Mego Pug"
 	haze _menu/haze-blackbody
 	fleet "Small Pug (Rainbow)" 1000
 	fleet "Large Pug (Rainbow)" 2000
-	fleet "Arfecta Pug (Rainbow)" 15000
 	object
 		sprite star/a-supergiant
 		period 10
