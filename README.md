@@ -8,7 +8,8 @@ Last tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-17 | update: PugGalaxyContent<br>
+<table><tr><td><img width="882" height="1"><br>2025-04-18 | update: QuargPortals this is a test for news<br>
+2025-04-17 | update: PugGalaxyContent<br>
 2025-04-17 | update: PredecessorGasGiant<br>
 2025-04-17 | credits updated for images in PirateStart and EscapeVelocity<br>
 2025-04-17 | update: PredecessorGasGiant, new two epilogue encounters<br>
@@ -17,7 +18,6 @@ Last tested with the continuous release from 13 April 2025.
 2025-04-15 | update: PirateStart small bugfix<br>
 2025-04-15 | PredecessorGasGiant small fixes backported from the PR<br>
 2025-04-15 | replaced about.txt with plugin.txt<br>
-2025-04-14 | license and credits added to all plugins<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -302,7 +302,7 @@ New wanderer ships made from unused vanilla assets: Squall, Hailstone, Winter Ga
 <img src="myplugins/QuargPortals/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/QuargPortals.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-QuargPortals/QuargPortals.zip) | 30.13 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
+[QuargPortals.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.5-QuargPortals/QuargPortals.zip) | 30.14 kb | 2025-04-18 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/QuargPortals/) | <a href="res/imagemd/QuargPortals.md">view images</a> [2]<br>
 <br>
 >Adds a Quarg portal from and to other completed ringworlds in accordance with the original vision for ES. 'More importantly, all Quarg ringworlds are joined by portals that allow individuals, cargo, and even entire ships to travel between them instantaneously. (These portals might one day become available to the player in a late stage of the game).' [MZ, original creator of the game, https://docs.google.com/document/d/1CpK_ol0E7a86LmEneFIJm1B9U-t357YQOZR-1OvYgcc/edit?tab=t.0]
 
