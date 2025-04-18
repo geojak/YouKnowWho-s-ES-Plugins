@@ -6,6 +6,11 @@ on:
         description: 'which plugin?'
         required: true
         type: string
+      news:
+        description: 'news text? x for no news.'
+        required: false
+        default: 'update: PluginName'
+        type: string
 jobs:
   deploy:
     name: First job

@@ -5,7 +5,7 @@ from datetime import datetime
 
 def check_spelling(plugin):
 	if not os.path.isdir('myplugins/' + plugin + '/'):
-		print('There is no plugin: ' + plugin)
+		print('There is no plugin: "' + plugin + '"')
 		print('failing workflow now!')
 		fail_workflow
 
@@ -64,29 +64,29 @@ def versioning(p, corrected):
 		myfile.write("UPDATE_TAG2="+ corrected + '-v' + new_version + '\n')
 	os.chdir('../')
 
-def write_news(p):
+def write_news(p, inputnews):
 	today = datetime.today().strftime('%Y-%m-%d')
-	news = [today + ' | update: ' + p + '\n']
 	with open('res/news.txt') as newsfile:
 		old = newsfile.readlines()
-	double = False
-	for line in old: # check if today the same plugin got updated, and if so, don't add it again
-		if line == news[0]:
-			double = True
-			print('double entry! NOT adding to news!')
-			break
-	if double == False: # if not, then write
+	if inputnews == 'x':
+		news = ''
+	else:
+		news = [today + ' | ' + inputnews.replace('PluginName', p) + '\n']
+	if news != '':
 		with open('res/news.txt', 'w') as newsfile:
 			newsfile.writelines(news + old)
 
 
-def main():
+def run():
 	p = os.environ['INPUT_STORE'] # plugin.name
+	inputnews = os.environ['INPUT_STORE2'] # news format
 	check_spelling(p)
-	corrected = correct_characters(p) # correct characters that get changed by guthub release
+	corrected = correct_characters(p) # correct characters that get changed by github release
 	create_zip(p, corrected)
 	versioning(p, corrected)
-	write_news(p)
+	write_news(p, inputnews)
 
-# run
-main()
+if __name__ == "__main__":
+	run()
+
+
