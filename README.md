@@ -328,7 +328,7 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 <img src="myplugins/ReloadableNukes/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/ReloadableNukes.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-ReloadableNukes/ReloadableNukes.zip) | 107.49 kb | 2025-04-14 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
+[ReloadableNukes.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-ReloadableNukes/ReloadableNukes.zip) | 107.52 kb | 2025-05-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/ReloadableNukes/) | <a href="res/imagemd/ReloadableNukes.md">view images</a> [3]<br>
 <br>
 >Vanilla Human Nukes are one time use guns, this adds a reloadable human nuclear missile launcher.
 
