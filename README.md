@@ -48,9 +48,9 @@ Last tested with the continuous release from 13 April 2025.
 <img src="myplugins/BunrodeaRebellion/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/BunrodeaRebellion.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.3-BunrodeaRebellion/BunrodeaRebellion.zip) | 118.01 kb | 2025-04-15 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
+[BunrodeaRebellion.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-BunrodeaRebellion/BunrodeaRebellion.zip) | 118.0 kb | 2025-05-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/BunrodeaRebellion/) | <a href="res/imagemd/BunrodeaRebellion.md">view images</a> [1]<br>
 <br>
->The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars—will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
+>The Megasa have endured oppression under the Tyrant Queen for too long. Now, rebellion burns across the stars. Will you fight for freedom or uphold the throne? Choose your side in the Bunrodea Civil War.
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -268,7 +268,7 @@ Adds 1 new landable gas giant (Avasaa-Aa-Tej) in Predecessor space, long obscure
 
 [PugGalaxyContent.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.4-PugGalaxyContent/PugGalaxyContent.zip) | 598.39 kb | 2025-04-18 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PugGalaxyContent/) | <a href="res/imagemd/PugGalaxyContent.md">view images</a> [4]<br>
 <br>
->Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?
+>Will you uncover the secrets of the Stranded or become another casualty of the Pug's meddeling?
 
 <details>
 <summary>:blue_book: Plugin readme</summary>
@@ -336,7 +336,7 @@ All vanilla Quarg ships come with a built-in Gatesyncher integrated into their h
 <summary>:blue_book: Plugin readme</summary>
 <blockquote>Vanilla One-Time-Use Nuke:
 
-Unchanged—functions identically to the original game.
+Unchanged, functions identically to the original game.
 
 
 
