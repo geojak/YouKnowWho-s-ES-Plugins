@@ -8,7 +8,8 @@ Last tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-04-18 | update: QuargPortals this is a test for news<br>
+<table><tr><td><img width="882" height="1"><br>2025-05-13 | Minor text improvements, reducing - usage<br>
+2025-04-18 | update: QuargPortals this is a test for news<br>
 2025-04-17 | update: PugGalaxyContent<br>
 2025-04-17 | update: PredecessorGasGiant<br>
 2025-04-17 | credits updated for images in PirateStart and EscapeVelocity<br>
@@ -17,7 +18,6 @@ Last tested with the continuous release from 13 April 2025.
 2025-04-16 | update: PredecessorGasGiant code style fixes from closed PR<br>
 2025-04-15 | update: PirateStart small bugfix<br>
 2025-04-15 | PredecessorGasGiant small fixes backported from the PR<br>
-2025-04-15 | replaced about.txt with plugin.txt<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
@@ -362,7 +362,7 @@ Additional launchers increase fire rate (stackable effect).
 <img src="myplugins/RemantSwan/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.1-RemantSwan/RemantSwan.zip) | 60.92 kb | 2025-04-16 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
+[RemantSwan.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.2-RemantSwan/RemantSwan.zip) | 60.92 kb | 2025-05-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/RemantSwan/) | <a href="res/imagemd/RemantSwan.md">view images</a> [1]<br>
 <br>
 >Adds the Swan, a remnant mobile base utility ship.
 

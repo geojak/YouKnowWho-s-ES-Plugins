@@ -1,3 +1,4 @@
+2025-05-13 | Minor text improvements, reducing - usage
 2025-04-18 | update: QuargPortals this is a test for news
 2025-04-17 | update: PugGalaxyContent
 2025-04-17 | update: PredecessorGasGiant
