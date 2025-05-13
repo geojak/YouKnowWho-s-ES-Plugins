@@ -28,8 +28,8 @@ planet "Pugglijok"
 planet "Kort Vak'est"
 	landscape land/sea16-harro
 	attributes urban
-	description `Kort Vak'est the twilight jewel of the Stranded, is a planet of sprawling, decaying megacities wrapped in a perpetual haze. Once a beacon of progress, its towering arcologies now crumble under the weight of time, their luminous spires flickering like dying embers. The Stranded, remnants of a once-nomadic species, linger in fractured societies—some clinging to fading traditions, others scavenging among the ruins for a future that never came.`
-	spaceport `The main spaceport of Kort Vak'est is a massive, crumbling relic of a once-thriving civilization. Ships come and go, but the port itself remains frozen in time—a monument to a people stranded in their own home.`
+	description `Kort Vak'est the twilight jewel of the Stranded, is a planet of sprawling, decaying megacities wrapped in a perpetual haze. Once a beacon of progress, its towering arcologies now crumble under the weight of time, their luminous spires flickering like dying embers. The Stranded, remnants of a once nomadic species, linger in fractured societies, some clinging to fading traditions, others scavenging among the ruins for a future that never came.`
+	spaceport `The main spaceport of Kort Vak'est is a massive, crumbling relic of a once thriving civilization. Ships come and go, but the port itself remains frozen in time, a monument to a people stranded in their own home.`
 	shipyard "Wanderer Advanced"
 	outfitter "Wanderer Advanced"
 	bribe 0

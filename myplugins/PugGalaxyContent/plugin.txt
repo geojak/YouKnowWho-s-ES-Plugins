@@ -1,2 +1,2 @@
 name "PugGalaxyContent"
-about "Will you uncover the secrets of the Stranded-or become another casualty of the Pug's meddeling?"
+about "Will you uncover the secrets of the Stranded or become another casualty of the Pug's meddeling?"

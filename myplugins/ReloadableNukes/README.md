@@ -1,5 +1,5 @@
 Vanilla One-Time-Use Nuke:
-Unchanged—functions identically to the original game.
+Unchanged, functions identically to the original game.
 
 Reloadable Nuke Launcher:
 Identical stats to the vanilla nuke but can be reloaded.

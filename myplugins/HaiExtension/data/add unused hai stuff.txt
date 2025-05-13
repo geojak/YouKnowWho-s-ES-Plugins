@@ -84,7 +84,7 @@ mission "Unfettered Jump Drive X"
 					goto cargo
 				`	(Try to refuse again.)`
 				
-			`	The Unfettered warriors glare at you in disbelief. Murmurs ripple through the crowd, quickly turning to shouts of anger. Before you can react, the first shot rings out—then another. The world erupts in searing pain as pulse rifles rip through you. You collapse to the ground, your vision fading as the mob swarms forward. The last thing you hear is a triumphant cheer as darkness takes you.`
+			`	The Unfettered warriors glare at you in disbelief. Murmurs ripple through the crowd, quickly turning to shouts of anger. Before you can react, the first shot rings out, then another. The world erupts in searing pain as pulse rifles rip through you. You collapse to the ground, your vision fading as the mob swarms forward. The last thing you hear is a triumphant cheer as darkness takes you.`
 				die
 				
 			label end

@@ -70,7 +70,7 @@ mission "bunrodea uprising 1"
 			`"Then I have risked everything for nothing." The Megasa turns to leave, but pauses. "But I believe you are not like her. Not like them."`
 				goto continue
 			label continue
-			`"We have waited for a sign, for an opening. The Queen's attention is divided now. And with your strength, your ship, your influence—" it lowers its voice, "we might stand a chance."`
+			`"We have waited for a sign, for an opening. The Queen's attention is divided now. And with your strength, your ship, your influence-" it lowers its voice, "we might stand a chance."`
 			choice
 				`	"What exactly are you asking me to do?"`
 					goto ask
@@ -79,10 +79,10 @@ mission "bunrodea uprising 1"
 				`	"This sounds suicidal."`
 					goto risk
 			label help
-			`"Yes. The Queen watches us, controls where we go, what we say. But she cannot yet control what you do. If you aid us, even in small ways—moving supplies, relaying messages, sabotaging key defenses—it could shift the balance."`
+			`"Yes. The Queen watches us, controls where we go, what we say. But she cannot yet control what you do. If you aid us, even in small ways - moving supplies, relaying messages, sabotaging key defenses - it could shift the balance."`
 				goto ask
 			label coup
-			`"Not just the Queen. The entire caste system. We want to build a new order—one where all Bunrodea are free, equal. No more Erabu palaces. No more Guards with unchecked power. Just a people rebuilding themselves from the ashes of tyranny."`
+			`"Not just the Queen. The entire caste system. We want to build a new order, one where all Bunrodea are free, equal. No more Erabu palaces. No more Guards with unchecked power. Just a people rebuilding themselves from the ashes of tyranny."`
 				goto ask
 			label none
 			`The Megasa's shoulders slump. "Then you are like the others. You see injustice and turn away. I will not stop fighting, even if I must die alone."`
@@ -97,7 +97,7 @@ mission "bunrodea uprising 1"
 				`	"No. This is not my fight."`
 					goto no
 			label yes
-			`"Then you are a friend of the Megasa. I will send word. Expect contact soon." The Megasa bows slightly, then vanishes down a narrow alley. The translation device remains in your hand, quietly blinking—a symbol of what's to come.`
+			`"Then you are a friend of the Megasa. I will send word. Expect contact soon." The Megasa bows slightly, then vanishes down a narrow alley. The translation device remains in your hand, quietly blinking, a symbol of what's to come.`
 				accept
 			label no
 			`"Then leave, outsider. Our blood will water the roots of freedom without you." The Megasa turns and vanishes without another word.`
@@ -140,7 +140,7 @@ mission "bunrodea uprising 2"
 		conversation
 			`A message pings your ship's comms. It's encoded with Bunrodea military protocol. When you accept it, the face of a stern-looking Guard officer fills the screen.`
 			`"We are aware of your recent contact with the traitorous Megasa faction. That you chose not to aid them speaks well of your judgment."`
-			`"A rebellion has broken out in Angko. The insurgents have seized several outlying stations and are threatening major trade corridors. The Queen has authorized limited operations to reestablish control—swiftly and efficiently."`
+			`"A rebellion has broken out in Angko. The insurgents have seized several outlying stations and are threatening major trade corridors. The Queen has authorized limited operations to reestablish control, swiftly and efficiently."`
 			`The officer leans forward slightly. "You have proven capable. We would see that capability put to use. Help us restore order, and you will be rewarded accordingly."`
 			choice
 				`"I accept. Let's put an end to this."`

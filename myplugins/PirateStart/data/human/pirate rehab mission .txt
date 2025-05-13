@@ -47,7 +47,7 @@ mission "Pirate Rehab Program 2"
 			`	A few scoffs and murmurs ripple through the crowd, but no one dares speak up.`
 			`	"Let’s be clear," he continues. "Normal life isn’t easy. It’s hard labor. No looting, no raiding, no stealing from others just to survive. The Free Worlds believe in second chances, but you have to earn them. You’re used to taking what you want. Now you’re going to learn how to work for it."`
 			`	He lets those words sink in before stepping aside, revealing a screen behind him that flickers to life with a display of asteroid fields.`
-			`	"To prepare you for a lawful existence, we’re starting you with honest work. You will mine lead asteroids. You will be given equipment and assigned quotas. You will be monitored. You will be expected to follow orders. Anyone who refuses to cooperate can leave—but don’t expect to be welcomed back into civilized space if you do. You got 30 days to finish the job."`
+			`	"To prepare you for a lawful existence, we’re starting you with honest work. You will mine lead asteroids. You will be given equipment and assigned quotas. You will be monitored. You will be expected to follow orders. Anyone who refuses to cooperate can leave, but don’t expect to be welcomed back into civilized space if you do. You got 30 days to finish the job."`
 			`	You were assigned an asteroid scanner, you should probably go to an outfitter and install it.`
 				accept
 		
@@ -86,5 +86,5 @@ mission "Pirate Rehab Program 3"
 			`	You made your quota," he says, nodding in reluctant approval. "Not bad. But don’t think you’re done yet. Real work doesn’t end when you fill a cargo hold."`
 			`	He taps a few buttons, and another set of coordinates appears on the screen behind him. A planet blinks into view: Rust. You know the name. An industrial world on the far end of Free Worlds space, known for the factories and labs of Kraz Cybernetics.`
 			`	"Your final assignment is simple," he continues. "Deliver that lead to Rust. On time. No detours, no funny business. You prove you can handle an honest haul, and maybe, just maybe, you’ve got a shot at making this life work."`
-			`	You glance at the coordinates, then back at your ship. You’ve hauled cargo before—stolen, mostly. But this time, the challenge isn’t outrunning the law. It’s following it.`
+			`	You glance at the coordinates, then back at your ship. You’ve hauled cargo before, stolen mostly. But this time, the challenge isn’t outrunning the law. It’s following it.`
 				accept
