@@ -1,14 +1,13 @@
-2025-05-13 | Minor text improvements, reducing - usage
-2025-04-18 | update: QuargPortals this is a test for news
+2025-05-13 | update: Minor text improvements for multiple plugins, reducing - usage
 2025-04-17 | update: PugGalaxyContent
 2025-04-17 | update: PredecessorGasGiant
-2025-04-17 | credits updated for images in PirateStart and EscapeVelocity
-2025-04-17 | update: PredecessorGasGiant, new two epilogue encounters
-2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT
+2025-04-17 | credits: updated for images in PirateStart and EscapeVelocity
+2025-04-17 | update: PredecessorGasGiant, two new epilogue encounters
+2025-04-16 | licenses: updated, notably PredecessorGasGiant is not MIT
 2025-04-16 | update: PredecessorGasGiant code style fixes from closed PR
 2025-04-15 | update: PirateStart small bugfix
 2025-04-15 | PredecessorGasGiant small fixes backported from the PR
-2025-04-15 | replaced about.txt with plugin.txt
-2025-04-14 | license and credits added to all plugins
+2025-04-15 | replaced all about.txt with plugin.txt
+2025-04-14 | license and credits: added to all plugins
 2025-04-14 | repository setup complete
 2025-04-10 | initial repository setup
