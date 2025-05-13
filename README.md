@@ -8,16 +8,16 @@ Last tested with the continuous release from 13 April 2025.
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/directory-file-count/geojak/YouKnowWho-s-ES-Plugins/myplugins?label=plugins"></a>
 
 ## Latest News:
-<table><tr><td><img width="882" height="1"><br>2025-05-13 | Minor text improvements, reducing - usage<br>
-2025-04-18 | update: QuargPortals this is a test for news<br>
+<table><tr><td><img width="882" height="1"><br>2025-05-13 | update: Minor text improvements for multiple plugins, reducing - usage<br>
 2025-04-17 | update: PugGalaxyContent<br>
 2025-04-17 | update: PredecessorGasGiant<br>
-2025-04-17 | credits updated for images in PirateStart and EscapeVelocity<br>
-2025-04-17 | update: PredecessorGasGiant, new two epilogue encounters<br>
-2025-04-16 | licenses updated, notably PredecessorGasGiant is not MIT<br>
+2025-04-17 | credits: updated for images in PirateStart and EscapeVelocity<br>
+2025-04-17 | update: PredecessorGasGiant, two new epilogue encounters<br>
+2025-04-16 | licenses: updated, notably PredecessorGasGiant is not MIT<br>
 2025-04-16 | update: PredecessorGasGiant code style fixes from closed PR<br>
 2025-04-15 | update: PirateStart small bugfix<br>
 2025-04-15 | PredecessorGasGiant small fixes backported from the PR<br>
+2025-04-15 | replaced all about.txt with plugin.txt<br>
 <img width="882" height="1"><br></td></tr></table>
 
 ## Plugin List:<br>
