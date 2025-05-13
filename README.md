@@ -193,7 +193,7 @@ The more northern Bunrodea systems towards the core are not getting raided, due 
 <img src="myplugins/PirateStart/icon.png" height="100">
 <img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PirateStart.zip?label=downloads%3A&labelColor=black&color=black"><br>
 
-[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.8-PirateStart/PirateStart.zip) | 574.23 kb | 2025-04-18 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
+[PirateStart.zip](https://github.com/geojak/YouKnowWho-s-ES-Plugins/releases/download/v1.0.9-PirateStart/PirateStart.zip) | 574.23 kb | 2025-05-13 | [view files](https://github.com/geojak/YouKnowWho-s-ES-Plugins/tree/main/myplugins/PirateStart/) | <a href="res/imagemd/PirateStart.md">view images</a> [2]<br>
 <br>
 >Life in crime is tough, can you make it?
 
