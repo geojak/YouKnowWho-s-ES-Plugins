@@ -12,9 +12,10 @@ TOTAL DOWNLOADS FOR EACH PLUGIN<br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/PugGalaxyContent.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/QuargPortals.zip?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/ReloadableNukes.zip?color=008000"></a><br>
-  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemantSwan.zip?color=008000"></a><br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/RemnantSwan.zip?color=008000"></a><br>
 <br>
 DOWNLOADS FOR EACH RELEASE<br>
+  <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.0-RemnantSwan/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.9-PirateStart/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.5-PugGalaxyContent/total?color=008000"></a><br>
   <a href="https://img.shields.io/"><img src="https://img.shields.io/github/downloads/geojak/YouKnowWho-s-ES-Plugins/v1.0.2-RemantSwan/total?color=008000"></a><br>

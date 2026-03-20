@@ -9,3 +9,4 @@ PugGalaxyContent|1.0.4
 QuargPortals|1.0.5
 ReloadableNukes|1.0.2
 RemantSwan|1.0.2
+RemnantSwan|1.0.0

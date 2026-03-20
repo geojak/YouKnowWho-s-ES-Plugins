@@ -1,3 +1,4 @@
+2026-03-20 | update: RemnantSwan
 2025-05-13 | update: Minor text improvements for multiple plugins, reducing - usage
 2025-04-17 | update: PugGalaxyContent
 2025-04-17 | update: PredecessorGasGiant
