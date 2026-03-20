@@ -17,12 +17,12 @@ start "pirate start"
 	set "license: Pilot's"
 	set "species: human"
 	set "human space start"
+	set "start: CCOR"
 
 conversation "ccor intro"
 	scene "scene/piratelobby"
 	action
 		give ship "Scrapper" "Old Bucket"
-		event "not from boston" 0
 		"reputation: Merchant" <?= -1
 		"reputation: Republic" <?= -1		
 		"reputation: Free Worlds" <?= -1	
@@ -35,4 +35,11 @@ conversation "ccor intro"
 	name
 	`With every stroke of ink on the legal papers, you commit to a grim fate - a crippling daily repayment that underscores the peril and promise of your new life as a pirate captain. Once your signature is complete, a rickety, timeworn elevator shuttles you back to the lobby, where the pulsing chaos of the spaceport calls you to leave Gagarin's decay behind and embrace the uncertain freedom of the stars.`
 	
+substitutions
+	# Substitutions for homeworlds. Defaults to New Boston.
+	"<home planet>" "Gagarin"
+		has "start: CCOR"
+	# Substitutions for home systems. Defaults to Rutilicus.
+	"<home system>" "Belenos"
+		has "start: CCOR"
 
