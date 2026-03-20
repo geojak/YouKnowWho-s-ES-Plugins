@@ -1,2 +1,2 @@
-name "RemantSwan"
+name "RemnantSwan"
 about "Adds the Swan, a remnant mobile base utility ship."
